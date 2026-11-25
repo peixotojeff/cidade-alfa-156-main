@@ -1,47 +1,48 @@
 servico,status,aberta_em,finalizada_em,servico_sp156,logradouro,numero,distrito,subprefeitura,latitude,longitude,trimestre
 arvore,resolvida,2026-01-02,2026-01-05,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Vicente Pinheiro,521,Campo Limpo,Campo Limpo,-23.645378,-46.772472,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-02,2026-03-23,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Sampaio Bueno,360,Jardim Helena,Sao Miguel,-23.482545,-46.426104,arquivo-final-1-trim-26
-calcada,resolvida,2026-01-03,2026-01-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tito Franco De Almeida,75,Ermelino Matarazzo,Ermelino Matarazzo,-23.496708,-46.486222,arquivo-final-1-trim-26
-calcada,em_atendimento,2026-01-03,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua André Mendes,61,Cursino,Ipiranga,-23.615249,-46.621123,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-03,2026-03-26,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Vitautas Losinskas,564,Sapopemba,Sapopemba,-23.596956,-46.532689,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-02,2026-01-02,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Maestro Cardim,1306,Bela Vista,Se,-23.572532,-46.642000,arquivo-final-1-trim-26
+calcada,resolvida,2026-01-03,2026-01-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tito Franco de Almeida,75,Ermelino Matarazzo,Ermelino Matarazzo,-23.496708,-46.486222,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-03,2026-01-03,Entulho e grandes objetos em via pública - solicitar remoção,Alameda Campinas,19,Bela Vista,Se,-23.562669,-46.649965,arquivo-final-1-trim-26
 via,resolvida,2026-01-03,2026-01-08,Tapa-buraco,Rua Carlos Maria Della Paolera,624,Cursino,Ipiranga,-23.622703,-46.624769,arquivo-final-1-trim-26
-residuos,resolvida,2026-01-05,2026-01-08,Entulho e grandes objetos em via pública - solicitar remoção,Rua Sebastião Muniz De Sousa,220,Jardim Sao Luis,M Boi Mirim,-23.665849,-46.749394,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-05,2026-01-08,Entulho e grandes objetos em via pública - solicitar remoção,Rua Sebastião Muniz de Sousa,220,Jardim Sao Luis,M Boi Mirim,-23.665849,-46.749394,arquivo-final-1-trim-26
+via,resolvida,2026-01-05,2026-01-26,Tapa-buraco,Rua Alagoa Nova,242,Perus,Perus-Anhanguera,-23.401898,-46.744033,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-06,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Pedro Talarico,1137,Vila Matilde,Penha,-23.547812,-46.506833,arquivo-final-1-trim-26
-via,resolvida,2026-01-06,2026-08-05,Tapa-buraco,Rua Mãe D'Água,21,Vila Curuca,Itaim Paulista,-23.514523,-46.429535,arquivo-final-1-trim-26
-via,resolvida,2026-01-06,2026-01-08,Tapa-buraco,Travessa Das Ondinas,263,Lajeado,Guaianases,-23.540738,-46.405980,arquivo-final-1-trim-26
-arvore,resolvida,2026-01-07,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Calixto De Almeida,695,Freguesia Do O,Freguesia-Brasilandia,-23.488713,-46.702004,arquivo-final-1-trim-26
-via,resolvida,2026-01-07,2026-01-08,Tapa-buraco,Rua Tristão Mariano,251,Cursino,Ipiranga,-23.612325,-46.626894,arquivo-final-1-trim-26
-arvore,recebida,2026-01-08,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Rudge,631,Santa Cecilia,Se,-23.522708,-46.651044,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-06,2026-01-09,Entulho e grandes objetos em via pública - solicitar remoção,Rua Rangel de Sousa,185,Parque do Carmo,Itaquera,-23.562141,-46.471616,arquivo-final-1-trim-26
+arvore,resolvida,2026-01-07,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Calixto de Almeida,695,Freguesia do O,Freguesia-Brasilandia,-23.488713,-46.702004,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-07,2026-01-07,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Almir Rodrigues,323,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.468468,-46.652994,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-07,2026-01-08,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Cásper Líbero,501,Republica,Se,-23.536956,-46.635885,arquivo-final-1-trim-26
+via,resolvida,2026-01-07,2026-01-07,Tapa-buraco,Rua Rodolfo Rivarola,273,Grajau,Capela do Socorro,-23.769012,-46.676028,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-08,2026-01-10,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Alexandrino Pedroso,32,Pari,Mooca,-23.532380,-46.623412,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-08,2026-01-31,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Amarante do Maranhão,212,Rio Pequeno,Butanta,-23.566389,-46.765179,arquivo-final-1-trim-26
+via,resolvida,2026-01-08,2026-01-12,Tapa-buraco,Avenida do Anastácio,613,Sao Domingos,Pirituba-Jaragua,-23.502910,-46.733504,arquivo-final-1-trim-26
+via,resolvida,2026-01-08,2026-01-09,Tapa-buraco,Rua Ipiranga,449,Campo Belo,Santo Amaro,-23.634875,-46.665123,arquivo-final-1-trim-26
+arvore,resolvida,2026-01-09,2026-01-30,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua José Correia Picanço,678,Perus,Perus-Anhanguera,-23.403245,-46.741833,arquivo-final-1-trim-26
+arvore,resolvida,2026-01-09,2026-01-12,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Adolfo Gordo,29,Santa Cecilia,Se,-23.534182,-46.649357,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-09,2026-01-11,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Doutor Guilherme Dumont Vilares,1139,Vila Sonia,Butanta,-23.613169,-46.740961,arquivo-final-1-trim-26
-residuos,resolvida,2026-01-09,2026-01-12,Entulho e grandes objetos em via pública - solicitar remoção,Rua Germino Gomes Da Silva,141,Sao Lucas,Vila Prudente,-23.582933,-46.535832,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-09,2026-04-08,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua General Lecor,367,Ipiranga,Ipiranga,-23.591345,-46.603316,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-09,2026-01-12,Entulho e grandes objetos em via pública - solicitar remoção,Rua Germino Gomes da Silva,141,Sao Lucas,Vila Prudente,-23.582933,-46.535832,arquivo-final-1-trim-26
 arvore,recebida,2026-01-10,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Juvenal Parada,57,Mooca,Mooca,-23.554441,-46.596559,arquivo-final-1-trim-26
 residuos,resolvida,2026-01-10,2026-01-14,Entulho e grandes objetos em via pública - solicitar remoção,Rua Maria Cortada Codorniz,160,Jardim Angela,M Boi Mirim,-23.687820,-46.765252,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-10,2026-03-26,Solicitar remoção de veículo/carcaça abandonado na via pública,Estrada Turística Do Jaraguá,493,Sao Domingos,Pirituba-Jaragua,-23.489494,-46.756007,arquivo-final-1-trim-26
 arvore,resolvida,2026-01-11,2026-03-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Gertrude Kappel,200,Cidade Ademar,Cidade Ademar,-23.683154,-46.658738,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-11,2026-01-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Miguel Frias E Vasconcelos,615,Jaguare,Lapa,-23.553460,-46.743278,arquivo-final-1-trim-26
-arvore,resolvida,2026-01-12,2026-05-09,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Manuel Pinheiro De Albuquerque,28,Cidade Lider,Itaquera,-23.555641,-46.497030,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-11,2026-01-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Miguel Frias e Vasconcelos,615,Jaguare,Lapa,-23.553460,-46.743278,arquivo-final-1-trim-26
 bueiro,resolvida,2026-01-12,2026-01-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Angélica,806,Santa Cecilia,Se,-23.539991,-46.655438,arquivo-final-1-trim-26
-via,resolvida,2026-01-12,2026-01-26,Tapa-buraco,Avenida Marginal,356,Cidade Dutra,Capela Do Socorro,-23.752258,-46.710659,arquivo-final-1-trim-26
+via,resolvida,2026-01-12,2026-01-26,Tapa-buraco,Avenida Marginal,356,Cidade Dutra,Capela do Socorro,-23.752258,-46.710659,arquivo-final-1-trim-26
 bueiro,resolvida,2026-01-13,2026-01-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Salassiê,05,Iguatemi,Sao Mateus,-23.605578,-46.449440,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-13,2026-01-30,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Major Sertório,379,Republica,Se,-23.545493,-46.647608,arquivo-final-1-trim-26
+veiculo,recebida,2026-01-13,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Guaripe,14,Saude,Vila Mariana,-23.621698,-46.630562,arquivo-final-1-trim-26
 via,resolvida,2026-01-13,2026-01-26,Tapa-buraco,Praça Horácio Sabino,112,Pinheiros,Pinheiros,-23.550305,-46.682768,arquivo-final-1-trim-26
-via,resolvida,2026-01-13,2026-01-13,Tapa-buraco,Rua Virgínia Torezin Forte,197,Jardim Sao Luis,M Boi Mirim,-23.683503,-46.739113,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-14,2026-01-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dom Luís Felipe De Orleans,879,Vila Maria,Vila Maria-Vila Guilherme,-23.518200,-46.587888,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-14,2026-01-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dom Luís Felipe de Orleans,879,Vila Maria,Vila Maria-Vila Guilherme,-23.518200,-46.587888,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-14,2026-01-15,Entulho e grandes objetos em via pública - solicitar remoção,Rua Francisco Álvares,65,Tucuruvi,Pirituba-Jaragua,-23.403681,-46.576476,arquivo-final-1-trim-26
 residuos,resolvida,2026-01-14,2026-01-14,Entulho e grandes objetos em via pública - solicitar remoção,Rua Palmeirina,273,Vila Matilde,Penha,-23.541972,-46.502491,arquivo-final-1-trim-26
-via,resolvida,2026-01-14,2026-01-28,Tapa-buraco,Avenida General Cavalcanti De Albuquerque,1010,Vila Sonia,Butanta,-23.610193,-46.741833,arquivo-final-1-trim-26
 arvore,resolvida,2026-01-15,2026-01-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Missionários,384,Santo Amaro,Santo Amaro,-23.641221,-46.717016,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-15,2026-01-15,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Doutor Moisés Kahan,47,Barra Funda,Lapa,-23.517998,-46.670524,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-15,2026-01-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Ponta Porã,272,Lapa,Lapa,-23.528730,-46.707450,arquivo-final-1-trim-26
 bueiro,resolvida,2026-01-15,2026-01-15,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Grisson,52,Capao Redondo,Campo Limpo,-23.656949,-46.767041,arquivo-final-1-trim-26
 via,resolvida,2026-01-15,2026-01-15,Tapa-buraco,Rua Paulo Arentino,1,Jaragua,Pirituba-Jaragua,-23.441275,-46.732450,arquivo-final-1-trim-26
-via,resolvida,2026-01-15,2026-01-15,Tapa-buraco,Rua Doutor Roberval Roche Moreira,100,Lajeado,Guaianases,-23.530258,-46.408563,arquivo-final-1-trim-26
 bueiro,resolvida,2026-01-16,2026-01-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Professor Roberto Mange,276,Cursino,Ipiranga,-23.627185,-46.626747,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-16,2026-01-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Raiz De Guiné,273,Cidade Dutra,Capela Do Socorro,-23.730411,-46.693609,arquivo-final-1-trim-26
-bueiro,recebida,2026-01-17,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Rio Encantado,58,Vila Jacui,Sao Miguel,-23.487151,-46.461098,arquivo-final-1-trim-26
-residuos,resolvida,2026-01-17,2026-01-19,Entulho e grandes objetos em via pública - solicitar remoção,Rua Pedro Serrano,49,Tremembe,Jacana-Tremembe,-23.447490,-46.587002,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-17,2026-01-21,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Antônio De Pinho De Azevedo,39,Jabaquara,Cidade Ademar,-23.665570,-46.653769,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-16,2026-01-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Raiz de Guiné,273,Cidade Dutra,Capela do Socorro,-23.730411,-46.693609,arquivo-final-1-trim-26
+veiculo,recebida,2026-01-16,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Eduardo Nascimento,19,Vila Medeiros,Vila Maria-Vila Guilherme,-23.490284,-46.579974,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-18,2026-01-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Praça São Vito,21,Se,Se,-23.542759,-46.628425,arquivo-final-1-trim-26
 residuos,resolvida,2026-01-18,2026-01-21,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Luís Gonçalves,78,Santana,Santana-Tucuruvi,-23.492553,-46.643271,arquivo-final-1-trim-26
 via,resolvida,2026-01-18,2026-03-26,Tapa-buraco,Rua Padre Paulo Lopes,3,Lajeado,Guaianases,-23.541268,-46.392237,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-19,2026-01-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Pires Do Rio,2009,Sao Miguel,Itaquera,-23.514359,-46.443708,arquivo-final-1-trim-26
 veiculo,recebida,2026-01-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Periatis,220,Cangaiba,Penha,-23.509569,-46.521476,arquivo-final-1-trim-26
 arvore,resolvida,2026-01-20,2026-02-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua João Millam,80,Rio Pequeno,Butanta,-23.585289,-46.758870,arquivo-final-1-trim-26
 arvore,recebida,2026-01-21,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Travessa Eugênio Hostos,99,Sapopemba,Sapopemba,-23.615700,-46.491402,arquivo-final-1-trim-26
@@ -49,553 +50,552 @@ veiculo,resolvida,2026-01-21,2026-07-30,Solicitar remoção de veículo/carcaça
 via,resolvida,2026-01-21,2026-04-14,Tapa-buraco,Avenida Deputado Cantídio Sampaio,3505,Brasilandia,Freguesia-Brasilandia,-23.455366,-46.694301,arquivo-final-1-trim-26
 via,resolvida,2026-01-21,2026-02-02,Tapa-buraco,Rua Glauco Velasquez,269,Limao,Casa Verde-Limao-Cachoeirinha,-23.500431,-46.666582,arquivo-final-1-trim-26
 via,resolvida,2026-01-21,2026-02-19,Tapa-buraco,Rua Doutor Teodoro Quartim Barbosa,3,Rio Pequeno,Butanta,-23.552844,-46.757197,arquivo-final-1-trim-26
-bueiro,recebida,2026-01-22,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Sernambitiba,98,Cidade Ademar,Cidade Ademar,-23.671759,-46.651330,arquivo-final-1-trim-26
+arvore,resolvida,2026-01-22,2026-03-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Senador Carlos Teixeira de Carvalho,671,Cambuci,Se,-23.569566,-46.620013,arquivo-final-1-trim-26
+calcada,recebida,2026-01-22,,"Guias, sarjetas e sarjetões - solicitar manutenção",Estrada do Rio Claro,6090,Sao Rafael,Sao Mateus,-23.622657,-46.450094,arquivo-final-1-trim-26
 bueiro,resolvida,2026-01-23,2026-01-23,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Manoel Ferreira Poças,202,Jose Bonifacio,Itaquera,-23.543912,-46.428519,arquivo-final-1-trim-26
-bueiro,recebida,2026-01-23,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Do Sossego,1,Pedreira,Cidade Ademar,-23.692950,-46.660728,arquivo-final-1-trim-26
-residuos,recebida,2026-01-23,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Eugênio Darodes,86,Itaim Paulista,Itaim Paulista,-23.507431,-46.381563,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-23,2026-02-06,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Gomes Cardim,657,Bras,Mooca,-23.546638,-46.611124,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-23,2026-01-27,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Afonso Braz,480,Moema,Vila Mariana,-23.595249,-46.668588,arquivo-final-1-trim-26
 veiculo,resolvida,2026-01-23,2026-05-28,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Damasceno Vieira,1065,Jabaquara,Jabaquara,-23.647862,-46.667809,arquivo-final-1-trim-26
 via,resolvida,2026-01-23,2026-01-26,Tapa-buraco,Rua General Sócrates,184,Penha,Penha,-23.528925,-46.549990,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-24,2026-01-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Ana Clara,320,Sao Lucas,Vila Prudente,-23.611168,-46.530260,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-24,2026-01-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Vitor Airosa,38,Bom Retiro,Se,-23.528337,-46.626244,arquivo-final-1-trim-26
 arvore,recebida,2026-01-25,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Cristiano Viana,897,Jardim Paulista,Pinheiros,-23.555585,-46.679858,arquivo-final-1-trim-26
-bueiro,recebida,2026-01-25,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Doutor Gabriel Piza,739,Santana,Santana-Tucuruvi,-23.501893,-46.618939,arquivo-final-1-trim-26
-bueiro,resolvida,2026-01-26,2026-02-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Jequiti,50,Sao Domingos,Pirituba-Jaragua,-23.477776,-46.765339,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-26,2026-05-29,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Avoante,83,Brasilandia,Freguesia-Brasilandia,-23.452032,-46.699541,arquivo-final-1-trim-26
-residuos,recebida,2026-01-26,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Cecília Calovini,286,Pirituba,Pirituba-Jaragua,-23.481014,-46.714786,arquivo-final-1-trim-26
-via,recebida,2026-01-26,,Tapa-buraco,Avenida General Asdrúbal Da Cunha,1648,Raposo Tavares,Butanta,-23.597877,-46.785087,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-26,2026-01-29,Entulho e grandes objetos em via pública - solicitar remoção,Rua Claudino José Branco,132,Socorro,Capela do Socorro,-23.682521,-46.702549,arquivo-final-1-trim-26
+via,recebida,2026-01-26,,Tapa-buraco,Avenida General Asdrúbal da Cunha,1648,Raposo Tavares,Butanta,-23.597877,-46.785087,arquivo-final-1-trim-26
+arvore,resolvida,2026-01-27,2026-03-11,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Cândido Dores,28,Vila Matilde,Penha,-23.543892,-46.506627,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-27,2026-02-06,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Vereador Abel Ferreira,1800,Agua Rasa,Mooca,-23.563804,-46.562209,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-27,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Jannart Moutinho Ribeiro,39,Sao Domingos,Pirituba-Jaragua,-23.488809,-46.748558,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-27,2026-02-13,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Comendador Sant'Anna,514,Capao Redondo,Campo Limpo,-23.671380,-46.773299,arquivo-final-1-trim-26
-residuos,resolvida,2026-01-27,2026-02-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Antônio Pedroso De Oliveira,128,Cidade Ademar,Cidade Ademar,-23.683321,-46.651580,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-27,2026-02-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Antônio Pedroso de Oliveira,128,Cidade Ademar,Cidade Ademar,-23.683321,-46.651580,arquivo-final-1-trim-26
 calcada,resolvida,2026-01-28,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Paulo Iv,55,Vila Andrade,Campo Limpo,-23.622195,-46.717509,arquivo-final-1-trim-26
-residuos,resolvida,2026-01-28,2026-01-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Coronel Otaviano Da Silveira,317,Vila Sonia,Butanta,-23.591312,-46.737214,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-28,2026-02-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Do Estado,6116,Cambuci,Se,-23.562317,-46.612790,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-28,2026-01-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Coronel Otaviano da Silveira,317,Vila Sonia,Butanta,-23.591312,-46.737214,arquivo-final-1-trim-26
 arvore,resolvida,2026-01-29,2026-05-23,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Líder,1663,Cidade Lider,Itaquera,-23.555741,-46.478423,arquivo-final-1-trim-26
-calcada,recebida,2026-01-29,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Nova Dos Portugueses,537,Santana,Santana-Tucuruvi,-23.493406,-46.641179,arquivo-final-1-trim-26
-veiculo,resolvida,2026-01-29,2026-03-05,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Fábia,77,Lapa,Lapa,-23.527343,-46.692030,arquivo-final-1-trim-26
+calcada,recebida,2026-01-29,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Nova dos Portugueses,537,Santana,Santana-Tucuruvi,-23.493406,-46.641179,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-29,2026-01-29,Entulho e grandes objetos em via pública - solicitar remoção,Rua Amélia Corrêa Fontes Guimarães,391,Morumbi,Butanta,-23.589374,-46.720159,arquivo-final-1-trim-26
+veiculo,recebida,2026-01-29,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Erwin Fuhrmann,14,Grajau,Capela do Socorro,-23.783697,-46.683899,arquivo-final-1-trim-26
 via,resolvida,2026-01-29,2026-01-30,Tapa-buraco,Avenida Ibirapuera,3502,Moema,Vila Mariana,-23.612503,-46.670756,arquivo-final-1-trim-26
-arvore,resolvida,2026-01-30,2026-01-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Fernando Pacheco Jordão,852,Itaim Paulista,Itaim Paulista,-23.500334,-46.381347,arquivo-final-1-trim-26
 arvore,resolvida,2026-01-30,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Sarandira,122,Jaguare,Lapa,-23.543178,-46.743363,arquivo-final-1-trim-26
+bueiro,resolvida,2026-01-30,2026-01-31,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Bertioga,311,Saude,Vila Mariana,-23.610896,-46.634255,arquivo-final-1-trim-26
+veiculo,recebida,2026-01-30,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Coriolano,1642,Lapa,Lapa,-23.525740,-46.701663,arquivo-final-1-trim-26
 via,resolvida,2026-01-30,2026-02-18,Tapa-buraco,Rua Professor João Gumercindo Guimarães,64,Campo Limpo,Campo Limpo,-23.641961,-46.784037,arquivo-final-1-trim-26
+residuos,resolvida,2026-01-31,2026-01-31,Entulho e grandes objetos em via pública - solicitar remoção,Rua Catuti,21,Vila Andrade,Campo Limpo,-23.637322,-46.737750,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-02,2026-02-13,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Aquidabã,23,Vila Leopoldina,Lapa,-23.527370,-46.724799,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-02,2026-03-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Antônio Domingues Da Silva,53,Campo Grande,Santo Amaro,-23.673704,-46.684022,arquivo-final-1-trim-26
-bueiro,resolvida,2026-02-02,2026-02-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Antonelo Da Messina,1526,Tremembe,Jacana-Tremembe,-23.444148,-46.590021,arquivo-final-1-trim-26
-bueiro,resolvida,2026-02-02,2026-02-02,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Satulnino De Oliveira,31,Jardim Sao Luis,M Boi Mirim,-23.652872,-46.733750,arquivo-final-1-trim-26
-bueiro,resolvida,2026-02-02,2026-02-02,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Elísia Gonçalves Barcelos,204,Grajau,Capela Do Socorro,-23.752728,-46.690226,arquivo-final-1-trim-26
-residuos,resolvida,2026-02-03,2026-02-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Mário Ribeiro Pinto,22,Jabaquara,Jabaquara,-23.646821,-46.649998,arquivo-final-1-trim-26
-residuos,recebida,2026-02-03,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Canário Belga,118,Grajau,Capela Do Socorro,-23.746927,-46.661156,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-04,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Soldado José Alves De Abreu,342,Vila Maria,Vila Maria-Vila Guilherme,-23.508744,-46.573323,arquivo-final-1-trim-26
-residuos,resolvida,2026-02-04,2026-02-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Sebastião Da Assunção,98,Ponte Rasa,Ermelino Matarazzo,-23.515812,-46.478577,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-02,2026-03-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Antônio Domingues da Silva,53,Campo Grande,Santo Amaro,-23.673704,-46.684022,arquivo-final-1-trim-26
+bueiro,resolvida,2026-02-02,2026-02-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Antonelo da Messina,1526,Tremembe,Jacana-Tremembe,-23.444148,-46.590021,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-03,2026-02-06,Entulho e grandes objetos em via pública - solicitar remoção,Rua Pietro Rafanelli,111,Jose Bonifacio,Itaquera,-23.551270,-46.434085,arquivo-final-1-trim-26
+residuos,recebida,2026-02-03,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Canário Belga,118,Grajau,Capela do Socorro,-23.746927,-46.661156,arquivo-final-1-trim-26
+via,resolvida,2026-02-03,2026-06-03,Tapa-buraco,Rua Alfredo Pujol,1700,Santana,Santana-Tucuruvi,-23.502702,-46.641717,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-04,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Soldado José Alves de Abreu,342,Vila Maria,Vila Maria-Vila Guilherme,-23.508744,-46.573323,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-04,2026-02-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Sebastião da Assunção,98,Ponte Rasa,Ermelino Matarazzo,-23.515812,-46.478577,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-06,2026-02-18,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Correia Salgado,646,Ipiranga,Ipiranga,-23.596913,-46.606468,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-06,2026-02-06,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Presidente Félix Paiva,640,Anhanguera,Perus-Anhanguera,-23.452869,-46.791779,arquivo-final-1-trim-26
-via,resolvida,2026-02-06,2026-03-26,Tapa-buraco,Avenida Pires Do Rio,4137,Itaquera,Itaquera,-23.529784,-46.451775,arquivo-final-1-trim-26
-bueiro,recebida,2026-02-07,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida General Olímpio Da Silveira,159,Santa Cecilia,Se,-23.532523,-46.658113,arquivo-final-1-trim-26
-via,recebida,2026-02-07,,Tapa-buraco,Rua Dos Três Irmãos,221,Morumbi,Butanta,-23.586565,-46.717280,arquivo-final-1-trim-26
+via,resolvida,2026-02-06,2026-03-26,Tapa-buraco,Avenida Pires do Rio,4137,Itaquera,Itaquera,-23.529784,-46.451775,arquivo-final-1-trim-26
+bueiro,recebida,2026-02-07,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida General Olímpio da Silveira,159,Santa Cecilia,Se,-23.532523,-46.658113,arquivo-final-1-trim-26
+via,recebida,2026-02-07,,Tapa-buraco,Rua dos Três Irmãos,221,Morumbi,Butanta,-23.586565,-46.717280,arquivo-final-1-trim-26
 via,resolvida,2026-02-07,2026-02-20,Tapa-buraco,Praça Benedito Machado,2571,Vila Sonia,Butanta,-23.588968,-46.732487,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-09,2026-08-06,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Quirino Dos Santos,100,Barra Funda,Lapa,-23.523886,-46.664364,arquivo-final-1-trim-26
-veiculo,resolvida,2026-02-09,2026-03-05,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Coronel Botelho,51,Vila Leopoldina,Lapa,-23.521468,-46.726483,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-09,2026-08-06,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Quirino dos Santos,100,Barra Funda,Lapa,-23.523886,-46.664364,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-09,2026-02-16,Entulho e grandes objetos em via pública - solicitar remoção,Rua da Mooca,1300,Cambuci,Mooca,-23.555555,-46.612161,arquivo-final-1-trim-26
 via,resolvida,2026-02-09,2026-03-27,Tapa-buraco,Rua Doutor Guilherme Teles,20,Jacana,Jacana-Tremembe,-23.474245,-46.582836,arquivo-final-1-trim-26
-via,recebida,2026-02-09,,Tapa-buraco,Rua Igarapé Água Azul,173,Cidade Tiradentes,Cidade Tiradentes,-23.592938,-46.408536,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-10,2026-03-30,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua João Vieira Prioste,180,Carrao,Aricanduva-Formosa-Carrao,-23.550008,-46.545100,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-10,2026-03-04,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Laura Dos Anjos Ramos,229231,Campo Grande,Santo Amaro,-23.683649,-46.676091,arquivo-final-1-trim-26
-bueiro,recebida,2026-02-10,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Aroaba,463,Vila Leopoldina,Lapa,-23.535122,-46.733042,arquivo-final-1-trim-26
+calcada,recebida,2026-02-10,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Conselheiro Moreira de Barros,3527,Cachoeirinha,Santana-Tucuruvi,-23.478741,-46.651067,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-10,2026-02-13,Entulho e grandes objetos em via pública - solicitar remoção,Rua Ciporema,26,Guaianases,Guaianases,-23.552070,-46.412114,arquivo-final-1-trim-26
 veiculo,recebida,2026-02-10,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ercole Roberti,9,Mandaqui,Santana-Tucuruvi,-23.482434,-46.639019,arquivo-final-1-trim-26
 veiculo,resolvida,2026-02-10,2026-04-14,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dom Macário,1072,Cursino,Ipiranga,-23.619699,-46.616155,arquivo-final-1-trim-26
 via,resolvida,2026-02-10,2026-02-11,Tapa-buraco,Estrada Iguatemi,3967,Iguatemi,Cidade Tiradentes,-23.594050,-46.419408,arquivo-final-1-trim-26
-arvore,recebida,2026-02-11,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Professora Maria Rodrigues De Lima,110,Brasilandia,Freguesia-Brasilandia,-23.467677,-46.685190,arquivo-final-1-trim-26
-bueiro,recebida,2026-02-11,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Comendador Sant'Anna,1104,Jardim Angela,Campo Limpo,-23.676338,-46.774121,arquivo-final-1-trim-26
-calcada,resolvida,2026-02-11,2026-07-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Marim Dos Caetés,138,Vila Jacui,Sao Miguel,-23.510776,-46.472292,arquivo-final-1-trim-26
-bueiro,recebida,2026-02-12,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Do Lavapés,342,Liberdade,Se,-23.561391,-46.629291,arquivo-final-1-trim-26
-veiculo,resolvida,2026-02-13,2026-03-30,Solicitar remoção de veículo/carcaça abandonado na via pública,Travessa Sextilhas De Frei Antão,12,Tucuruvi,Santana-Tucuruvi,-23.481378,-46.590959,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-16,2026-02-20,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Major Lúcio Dias Ramos,30,Grajau,Capela Do Socorro,-23.763106,-46.695409,arquivo-final-1-trim-26
-calcada,recebida,2026-02-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Afonso De Sampaio E Sousa,394,Parque Do Carmo,Itaquera,-23.564058,-46.467127,arquivo-final-1-trim-26
-veiculo,resolvida,2026-02-16,2026-06-18,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ibitirama,2051,Vila Prudente,Vila Prudente,-23.598388,-46.576201,arquivo-final-1-trim-26
+arvore,recebida,2026-02-11,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Professora Maria Rodrigues de Lima,110,Brasilandia,Freguesia-Brasilandia,-23.467677,-46.685190,arquivo-final-1-trim-26
+calcada,resolvida,2026-02-11,2026-07-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Marim dos Caetés,138,Vila Jacui,Sao Miguel,-23.510776,-46.472292,arquivo-final-1-trim-26
+bueiro,resolvida,2026-02-12,2026-02-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Entre-Rios,641,Cangaiba,Penha,-23.508023,-46.518239,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-13,2026-05-29,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Redenção,549,Belem,Mooca,-23.541073,-46.585600,arquivo-final-1-trim-26
+bueiro,resolvida,2026-02-13,2026-02-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua José Fugulin,19,Campo Grande,Santo Amaro,-23.684541,-46.675510,arquivo-final-1-trim-26
+veiculo,resolvida,2026-02-13,2026-03-30,Solicitar remoção de veículo/carcaça abandonado na via pública,Travessa Sextilhas de Frei Antão,12,Tucuruvi,Santana-Tucuruvi,-23.481378,-46.590959,arquivo-final-1-trim-26
+veiculo,recebida,2026-02-13,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Simões Delgado,10,Sao Mateus,Sao Mateus,-23.587762,-46.484153,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-15,2026-02-16,Entulho e grandes objetos em via pública - solicitar remoção,Rua Professor Oswaldo Lacerda Gomes Cardim,36,Vila Mariana,Vila Mariana,-23.594873,-46.622946,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-16,2026-02-20,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Major Lúcio Dias Ramos,30,Grajau,Capela do Socorro,-23.763106,-46.695409,arquivo-final-1-trim-26
+calcada,recebida,2026-02-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Afonso de Sampaio e Sousa,394,Parque do Carmo,Itaquera,-23.564058,-46.467127,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-17,2026-03-18,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Badabuã,71,Cangaiba,Penha,-23.506497,-46.536930,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-17,2026-02-18,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Mofarrej,727,Vila Leopoldina,Lapa,-23.529245,-46.742161,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-18,2026-02-21,Entulho e grandes objetos em via pública - solicitar remoção,Rua Rio Amazonas,265,Sao Miguel,Sao Miguel,-23.521300,-46.443186,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-18,2026-02-21,Entulho e grandes objetos em via pública - solicitar remoção,Rua Maria Vicente Diório,17,Lajeado,Guaianases,-23.539811,-46.417094,arquivo-final-1-trim-26
 veiculo,resolvida,2026-02-18,2026-06-10,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Mário Sette,283,Sapopemba,Sapopemba,-23.592270,-46.522146,arquivo-final-1-trim-26
-veiculo,resolvida,2026-02-18,2026-06-23,Solicitar remoção de veículo/carcaça abandonado na via pública,Praça Capitão Valdomiro Cortez,57,Capao Redondo,Campo Limpo,-23.672730,-46.793831,arquivo-final-1-trim-26
-via,resolvida,2026-02-18,2026-03-26,Tapa-buraco,Avenida Antônio Estevão De Carvalho,88,Vila Matilde,Penha,-23.531864,-46.522080,arquivo-final-1-trim-26
+via,resolvida,2026-02-18,2026-03-26,Tapa-buraco,Avenida Antônio Estevão de Carvalho,88,Vila Matilde,Penha,-23.531864,-46.522080,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-19,2026-02-21,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Gameleira Branca,1373,Cidade Lider,Itaquera,-23.566665,-46.491496,arquivo-final-1-trim-26
-bueiro,resolvida,2026-02-21,2026-02-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada Da Barragem,5411,Parelheiros,Parelheiros,-23.862111,-46.691354,arquivo-final-1-trim-26
-residuos,recebida,2026-02-22,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Ielmo Marinho,25,Sao Lucas,Vila Prudente,-23.594662,-46.554366,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-23,2026-03-20,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Ponta Porã,812,Lapa,Lapa,-23.532794,-46.709535,arquivo-final-1-trim-26
 bueiro,resolvida,2026-02-23,2026-03-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Padre Leão Peruche,445,Tucuruvi,Santana-Tucuruvi,-23.476905,-46.601512,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-23,2026-02-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua Josefina Cinci Ragaini,7,Itaim Paulista,Itaim Paulista,-23.507900,-46.397179,arquivo-final-1-trim-26
-residuos,resolvida,2026-02-23,2026-02-24,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Manoel Vicente Da Silva Lima,11,Penha,Penha,-23.526913,-46.542569,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-23,2026-02-25,Entulho e grandes objetos em via pública - solicitar remoção,Rua Santa Gertrudes,35,Tatuape,Mooca,-23.548099,-46.557338,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-24,2026-02-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Porta De Almedina,28,Socorro,Capela Do Socorro,-23.668319,-46.720117,arquivo-final-1-trim-26
-calcada,resolvida,2026-02-24,2026-06-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Pires Do Rio,4489,Itaquera,Itaquera,-23.532292,-46.453310,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-24,2026-03-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Miguel Rodrigues,177,Alto de Pinheiros,Pinheiros,-23.548787,-46.697654,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-24,2026-03-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Artur Franco,139,Cidade Tiradentes,Cidade Tiradentes,-23.574475,-46.394501,arquivo-final-1-trim-26
+calcada,resolvida,2026-02-24,2026-06-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Pires do Rio,4489,Itaquera,Itaquera,-23.532292,-46.453310,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-24,2026-02-26,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Joaquim Valverde,365,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.466238,-46.649430,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-24,2026-02-25,Entulho e grandes objetos em via pública - solicitar remoção,Rua das Três Marias,1288,,,-23.701636,-46.791787,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-25,2026-03-02,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Edu Chaves,591,Jacana,Jacana-Tremembe,-23.472767,-46.571344,arquivo-final-1-trim-26
 bueiro,resolvida,2026-02-25,2026-02-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Costa Barros,3174,Sao Lucas,Vila Prudente,-23.606404,-46.544016,arquivo-final-1-trim-26
-residuos,resolvida,2026-02-25,2026-02-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Benedito De Barros,28,Capao Redondo,Campo Limpo,-23.684742,-46.785050,arquivo-final-1-trim-26
 veiculo,resolvida,2026-02-25,2026-03-19,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Mariano Ferreira,30,Sao Lucas,Vila Prudente,-23.588278,-46.546022,arquivo-final-1-trim-26
 via,recebida,2026-02-25,,Tapa-buraco,Rua Feres Bechara,300,Capao Redondo,Campo Limpo,-23.671445,-46.771475,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-26,2026-07-14,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Jorge Valim,688,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.494997,-46.648885,arquivo-final-1-trim-26
 arvore,resolvida,2026-02-26,2026-03-05,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua José Maria Lisboa,249,Jardim Paulista,Pinheiros,-23.570534,-46.655417,arquivo-final-1-trim-26
-arvore,resolvida,2026-02-26,2026-03-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rabindranat Tagore,217,Cidade Dutra,Capela Do Socorro,-23.736979,-46.711811,arquivo-final-1-trim-26
-veiculo,recebida,2026-02-27,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ilha De Bali,162,Anhanguera,Perus-Anhanguera,-23.417424,-46.803863,arquivo-final-1-trim-26
+arvore,resolvida,2026-02-26,2026-03-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rabindranat Tagore,217,Cidade Dutra,Capela do Socorro,-23.736979,-46.711811,arquivo-final-1-trim-26
+bueiro,resolvida,2026-02-26,2026-02-27,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Doutor José de Moura Resende,266,Butanta,Butanta,-23.580985,-46.720765,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-27,2026-02-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Salinas de Mossoró,278,Jardim Helena,Sao Miguel,-23.484684,-46.391861,arquivo-final-1-trim-26
+veiculo,recebida,2026-02-27,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ilha de Bali,162,Anhanguera,Perus-Anhanguera,-23.417424,-46.803863,arquivo-final-1-trim-26
 residuos,resolvida,2026-02-28,2026-03-01,Entulho e grandes objetos em via pública - solicitar remoção,Avenida São João,360,Republica,Se,-23.543635,-46.637742,arquivo-final-1-trim-26
-via,recebida,2026-02-28,,Tapa-buraco,Rua Da Esperança,219,Tucuruvi,Santana-Tucuruvi,-23.482267,-46.595350,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-01,2026-04-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Laurindo De Brito,592,Lapa,Lapa,-23.521986,-46.717750,arquivo-final-1-trim-26
+residuos,resolvida,2026-02-28,2026-03-01,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Um Violeiro Toca,100,Iguatemi,Sao Mateus,-23.604598,-46.445398,arquivo-final-1-trim-26
+via,recebida,2026-02-28,,Tapa-buraco,Rua da Esperança,219,Tucuruvi,Santana-Tucuruvi,-23.482267,-46.595350,arquivo-final-1-trim-26
+calcada,resolvida,2026-03-01,2026-04-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Laurindo de Brito,592,Lapa,Lapa,-23.521986,-46.717750,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-01,2026-03-01,Entulho e grandes objetos em via pública - solicitar remoção,Rua Mateus Nogueira,30,Santo Amaro,Santo Amaro,-23.645062,-46.712637,arquivo-final-1-trim-26
-via,resolvida,2026-03-01,2026-03-02,Tapa-buraco,Rua Arcangélica,2,Pirituba,Pirituba-Jaragua,-23.486341,-46.727433,arquivo-final-1-trim-26
 via,resolvida,2026-03-01,2026-03-27,Tapa-buraco,Rua Henry Joly,139,Artur Alvim,Penha,-23.531391,-46.481891,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-02,2026-03-10,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rio Castelo,157,Vila Jacui,Sao Miguel,-23.487891,-46.461004,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-02,2026-04-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Paranhos Pederneiras,163,Vila Guilherme,Vila Maria-Vila Guilherme,-23.501738,-46.594609,arquivo-final-1-trim-26
 calcada,recebida,2026-03-02,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Divinópolis,665,Cursino,Ipiranga,-23.624996,-46.619073,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-02,2026-03-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Edvard De Vita Godoy,65,Sao Domingos,Pirituba-Jaragua,-23.491636,-46.737736,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-02,2026-03-07,Entulho e grandes objetos em via pública - solicitar remoção,Rua Alziro Pinheiro Magalhães,562,Grajau,Capela Do Socorro,-23.756966,-46.684858,arquivo-final-1-trim-26
-veiculo,resolvida,2026-03-02,2026-04-09,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Jacob Daldão,97,Santana,Santana-Tucuruvi,-23.498556,-46.630933,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-02,2026-03-03,Entulho e grandes objetos em via pública - solicitar remoção,Rua dos Salmistas,127,Perus,Perus-Anhanguera,-23.414792,-46.748811,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-02,2026-03-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Edvard de Vita Godoy,65,Sao Domingos,Pirituba-Jaragua,-23.491636,-46.737736,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-02,2026-03-07,Entulho e grandes objetos em via pública - solicitar remoção,Rua Alziro Pinheiro Magalhães,562,Grajau,Capela do Socorro,-23.756966,-46.684858,arquivo-final-1-trim-26
 calcada,resolvida,2026-03-03,2026-03-19,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Comendador Ângelo Rinaldi,255,Campo Limpo,Campo Limpo,-23.624607,-46.766259,arquivo-final-1-trim-26
 via,resolvida,2026-03-03,2026-03-03,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Rua Enta,148,Mooca,Mooca,-23.569417,-46.582380,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-04,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Lucas De Leyde,291,Rio Pequeno,Butanta,-23.578007,-46.765780,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-04,2026-03-05,Entulho e grandes objetos em via pública - solicitar remoção,Rua Tobias Barreto,1048,Belem,Mooca,-23.549446,-46.587545,arquivo-final-1-trim-26
-veiculo,resolvida,2026-03-04,2026-04-14,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dona Albertina Domingos,71,Vila Maria,Vila Maria-Vila Guilherme,-23.505152,-46.587148,arquivo-final-1-trim-26
+calcada,resolvida,2026-03-04,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Lucas de Leyde,291,Rio Pequeno,Butanta,-23.578007,-46.765780,arquivo-final-1-trim-26
 via,resolvida,2026-03-04,2026-03-27,Tapa-buraco,Avenida Conceição,4765,Vila Medeiros,Vila Maria-Vila Guilherme,-23.499154,-46.572945,arquivo-final-1-trim-26
+via,resolvida,2026-03-04,2026-03-27,Tapa-buraco,Avenida Caporanga,22,Jardim Angela,M Boi Mirim,-23.721665,-46.759018,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-05,2026-04-17,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Vissosa,71,Sao Domingos,Pirituba-Jaragua,-23.479487,-46.759837,arquivo-final-1-trim-26
 veiculo,recebida,2026-03-05,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Josephina Gianinni Elias-Dona Bimba,612,Pedreira,Cidade Ademar,-23.707988,-46.632510,arquivo-final-1-trim-26
 arvore,recebida,2026-03-06,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Humberto I,27,Vila Mariana,Vila Mariana,-23.580356,-46.642950,arquivo-final-1-trim-26
 calcada,resolvida,2026-03-06,2026-03-27,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Major Baracca,1294,Jacana,Jacana-Tremembe,-23.474619,-46.565814,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-06,2026-03-09,Entulho e grandes objetos em via pública - solicitar remoção,Rua Dona Ana Araújo De Paula,302,Agua Rasa,Mooca,-23.577858,-46.558876,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-06,2026-03-09,Entulho e grandes objetos em via pública - solicitar remoção,Rua Dona Ana Araújo de Paula,302,Agua Rasa,Mooca,-23.577858,-46.558876,arquivo-final-1-trim-26
+veiculo,recebida,2026-03-06,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Engardo Gengo,105,Campo Grande,Santo Amaro,-23.685052,-46.679885,arquivo-final-1-trim-26
 bueiro,recebida,2026-03-07,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Carlos Buzzi,63,Itaim Bibi,Pinheiros,-23.622357,-46.692478,arquivo-final-1-trim-26
-arvore,resolvida,2026-03-08,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Santa Catarina,136,Campo Belo,Santo Amaro,-23.638457,-46.670723,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-09,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Bertioga,316,Saude,Vila Mariana,-23.610994,-46.634410,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-09,2026-03-11,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Estevão Reimondo,71,Jabaquara,Jabaquara,-23.658121,-46.639314,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-10,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Bom Jardim,251,Pari,Mooca,-23.525425,-46.614286,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-10,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Maria Marcolina,444,Bras,Mooca,-23.538057,-46.616088,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-10,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Gandavo,117,Vila Mariana,Vila Mariana,-23.592223,-46.640558,arquivo-final-1-trim-26
-calcada,recebida,2026-03-10,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Nossa Senhora Do Ó,1344,Limao,Casa Verde-Cachoeirinha,-23.504366,-46.686377,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-09,2026-03-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Ribeiro dos Santos,262,Sao Miguel,Sao Miguel,-23.492793,-46.434923,arquivo-final-1-trim-26
+bueiro,resolvida,2026-03-10,2026-03-10,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Praça Haroldo Daltro,160,Carrao,Aricanduva-Formosa-Carrao,-23.548623,-46.532416,arquivo-final-1-trim-26
+calcada,recebida,2026-03-10,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Nossa Senhora do Ó,1344,Limao,Casa Verde-Cachoeirinha,-23.504366,-46.686377,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-10,2026-03-12,Entulho e grandes objetos em via pública - solicitar remoção,Rua São Paulo,13,Liberdade,Se,-23.556992,-46.632859,arquivo-final-1-trim-26
 arvore,recebida,2026-03-11,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Manoel Campos,8,Cidade Tiradentes,Cidade Tiradentes,-23.601816,-46.401096,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-11,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Da Consolação,1319,Consolacao,Se,-23.550057,-46.653720,arquivo-final-1-trim-26
-bueiro,resolvida,2026-03-11,2026-03-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Riacho Dos Machados,408,Sao Mateus,Sao Mateus,-23.598857,-46.493454,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-11,2026-04-14,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Salvador Balbino De Matos,211,Itaim Paulista,Itaim Paulista,-23.494454,-46.393315,arquivo-final-1-trim-26
+bueiro,recebida,2026-03-11,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua da Consolação,1319,Consolacao,Se,-23.550057,-46.653720,arquivo-final-1-trim-26
+bueiro,resolvida,2026-03-11,2026-03-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Riacho dos Machados,408,Sao Mateus,Sao Mateus,-23.598857,-46.493454,arquivo-final-1-trim-26
 calcada,recebida,2026-03-11,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Gameleira Branca,37,Cidade Lider,Itaquera,-23.559488,-46.488706,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-11,2026-03-11,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Luis Martins,59,Tremembe,Jacana-Tremembe,-23.440998,-46.577183,arquivo-final-1-trim-26
-arvore,recebida,2026-03-12,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Acuruí,1,Vila Formosa,Mooca,-23.556012,-46.554074,arquivo-final-1-trim-26
-arvore,resolvida,2026-03-12,2026-05-05,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Alameda Dos Guaramomis,930,Moema,Vila Mariana,-23.613015,-46.659255,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-12,2026-05-05,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Alameda dos Guaramomis,930,Moema,Vila Mariana,-23.613015,-46.659255,arquivo-final-1-trim-26
+bueiro,resolvida,2026-03-12,2026-03-12,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Mestre João,278,Aricanduva,Aricanduva-Formosa-Carrao,-23.571691,-46.526594,arquivo-final-1-trim-26
 calcada,recebida,2026-03-12,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Ellis Maas,59,Capao Redondo,Campo Limpo,-23.661195,-46.768228,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-12,2026-03-13,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Dois,150,Jaragua,Pirituba-Jaragua,-23.445469,-46.733557,arquivo-final-1-trim-26
 arvore,resolvida,2026-03-13,2026-03-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rodolfo Cavinato,42,Tremembe,Jacana-Tremembe,-23.462300,-46.601622,arquivo-final-1-trim-26
 arvore,resolvida,2026-03-13,2026-03-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Miguel Teles Júnior,334,Liberdade,Se,-23.565864,-46.624107,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-13,2026-04-06,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tabapuã,1560,Itaim Bibi,Pinheiros,-23.585778,-46.685751,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-13,2026-03-13,Entulho e grandes objetos em via pública - solicitar remoção,Rua Roberto Lanari,17,Jacana,Jacana-Tremembe,-23.449625,-46.575402,arquivo-final-1-trim-26
-residuos,resolvida,2026-03-13,2026-03-13,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Mata De Cajueiros,10,Belem,Mooca,-23.533931,-46.601959,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-13,2026-03-13,Entulho e grandes objetos em via pública - solicitar remoção,Travessa Mata de Cajueiros,10,Belem,Mooca,-23.533931,-46.601959,arquivo-final-1-trim-26
 bueiro,resolvida,2026-03-14,2026-03-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Gonçalves Dias,417,Belem,Mooca,-23.534674,-46.603595,arquivo-final-1-trim-26
-via,resolvida,2026-03-14,2026-04-23,Tapa-buraco,Rua Dos Três Irmãos,293,Morumbi,Butanta,-23.587080,-46.716890,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-16,2026-03-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Da Goiabeira Serrana,220,Jardim Helena,Sao Miguel,-23.481697,-46.411019,arquivo-final-1-trim-26
+via,resolvida,2026-03-14,2026-04-23,Tapa-buraco,Rua dos Três Irmãos,293,Morumbi,Butanta,-23.587080,-46.716890,arquivo-final-1-trim-26
+bueiro,resolvida,2026-03-16,2026-03-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Deputado João Sussumu Hirata,615,Vila Andrade,Campo Limpo,-23.627926,-46.732644,arquivo-final-1-trim-26
+calcada,resolvida,2026-03-16,2026-03-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua da Goiabeira Serrana,220,Jardim Helena,Sao Miguel,-23.481697,-46.411019,arquivo-final-1-trim-26
 calcada,recebida,2026-03-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Iguatemi,462,Itaim Bibi,Pinheiros,-23.582532,-46.683293,arquivo-final-1-trim-26
+calcada,recebida,2026-03-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua 16 de Dezembro,69,Ipiranga,Ipiranga,-23.602547,-46.597086,arquivo-final-1-trim-26
+calcada,resolvida,2026-03-16,2026-03-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Padre Lorenzo Rossi,15,Sao Mateus,Sao Mateus,-23.608117,-46.474366,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-16,2026-03-18,Entulho e grandes objetos em via pública - solicitar remoção,Rua Alves Machado,4,Cangaiba,Penha,-23.506126,-46.513076,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-16,2026-03-16,Denunciar descarte irregular de entulho e outros resíduos em área pública,Avenida Carlos Caldeira Filho,3000,Capao Redondo,Campo Limpo,-23.651213,-46.759564,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-17,2026-03-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Gabriel Carozza,4,Jardim Angela,M Boi Mirim,-23.690148,-46.781297,arquivo-final-1-trim-26
+via,resolvida,2026-03-16,2026-05-21,Tapa-buraco,Avenida Rangel Pestana,1154,Bras,Se,-23.546742,-46.623017,arquivo-final-1-trim-26
+via,resolvida,2026-03-16,2026-04-09,Tapa-buraco,Avenida Kenkiti Simomoto,95,Jaguare,Lapa,-23.549931,-46.741319,arquivo-final-1-trim-26
 calcada,resolvida,2026-03-17,2026-05-04,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Mário Wilches,17,Parelheiros,Parelheiros,-23.770100,-46.715257,arquivo-final-1-trim-26
-via,resolvida,2026-03-17,2026-03-27,Tapa-buraco,Rua Jales Rodrigues Da Silva,318,Ponte Rasa,Ermelino Matarazzo,-23.511429,-46.488151,arquivo-final-1-trim-26
+via,resolvida,2026-03-17,2026-03-27,Tapa-buraco,Rua Jales Rodrigues da Silva,318,Ponte Rasa,Ermelino Matarazzo,-23.511429,-46.488151,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-18,2026-07-16,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Oagy Kalile,376,Vila Andrade,Campo Limpo,-23.623535,-46.718242,arquivo-final-1-trim-26
 calcada,resolvida,2026-03-18,2026-04-07,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua João Fernandes Camisa Nova Júnior,153,Jardim Sao Luis,M Boi Mirim,-23.650466,-46.741332,arquivo-final-1-trim-26
-via,recebida,2026-03-18,,Tapa-buraco,Rua Jacinto De Melo,3,Sao Miguel,Sao Miguel,-23.498891,-46.433695,arquivo-final-1-trim-26
-via,recebida,2026-03-18,,Tapa-buraco,Rua Das Guassatungas,109,Jabaquara,Jabaquara,-23.658242,-46.644418,arquivo-final-1-trim-26
-arvore,resolvida,2026-03-19,2026-05-25,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Crisandálias,133,Itaim Bibi,Pinheiros,-23.624609,-46.688365,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-18,2026-03-19,Entulho e grandes objetos em via pública - solicitar remoção,Rua Soares de Avellar,142,Saude,Vila Mariana,-23.628903,-46.642160,arquivo-final-1-trim-26
+via,recebida,2026-03-18,,Tapa-buraco,Rua Jacinto de Melo,3,Sao Miguel,Sao Miguel,-23.498891,-46.433695,arquivo-final-1-trim-26
+via,recebida,2026-03-18,,Tapa-buraco,Rua das Guassatungas,109,Jabaquara,Jabaquara,-23.658242,-46.644418,arquivo-final-1-trim-26
+calcada,recebida,2026-03-19,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Olympia Semeraro,671,Sacoma,Ipiranga,-23.644137,-46.596077,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-19,2026-03-19,Entulho e grandes objetos em via pública - solicitar remoção,Rua Pará,115,Consolacao,Se,-23.549337,-46.659030,arquivo-final-1-trim-26
+veiculo,recebida,2026-03-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua São João do Cariri,168,Itaquera,Itaquera,-23.526590,-46.448375,arquivo-final-1-trim-26
+veiculo,recebida,2026-03-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Olímpio de Campos,672,Aricanduva,Aricanduva-Formosa-Carrao,-23.566689,-46.522872,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-20,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Jornalista Octávio Ribeiro - Pena Branca,8,Cachoeirinha,Casa Verde-Cachoeirinha,-23.464149,-46.659244,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-20,2026-03-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Edmundo Juventino Fuentes,160,Sao Lucas,Vila Prudente,-23.584584,-46.536407,arquivo-final-1-trim-26
+residuos,resolvida,2026-03-20,2026-03-20,Entulho e grandes objetos em via pública - solicitar remoção,Rua Itamonte,1318,Vila Medeiros,Vila Maria-Vila Guilherme,-23.487201,-46.575370,arquivo-final-1-trim-26
 veiculo,recebida,2026-03-20,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Itaquera,2902,Cidade Lider,Itaquera,-23.551865,-46.495476,arquivo-final-1-trim-26
 calcada,resolvida,2026-03-21,2026-03-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua São Diogo,416,Cangaiba,Penha,-23.509124,-46.522591,arquivo-final-1-trim-26
+via,resolvida,2026-03-22,2026-03-26,Tapa-buraco,Rua da Baracela,457,Vila Maria,Vila Maria-Vila Guilherme,-23.508575,-46.560212,arquivo-final-1-trim-26
+via,resolvida,2026-03-22,2026-03-26,Tapa-buraco,Ponte João Dias,2476,Santo Amaro,Santo Amaro,-23.645037,-46.724808,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-23,2026-03-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua Manuel Ribeiro Rosa,420,Pirituba,Pirituba-Jaragua,-23.480488,-46.723265,arquivo-final-1-trim-26
 veiculo,resolvida,2026-03-23,2026-05-29,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Vítor Dubugras,51,Vila Mariana,Vila Mariana,-23.584734,-46.626273,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-24,2026-03-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Neves de Carvalho,90,Bom Retiro,Se,-23.524299,-46.646444,arquivo-final-1-trim-26
 arvore,recebida,2026-03-24,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Luís Pinto Serva,58,Rio Pequeno,Butanta,-23.559041,-46.751785,arquivo-final-1-trim-26
 arvore,resolvida,2026-03-24,2026-06-30,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Sapopemba,2936,Agua Rasa,Mooca,-23.573199,-46.560757,arquivo-final-1-trim-26
-veiculo,resolvida,2026-03-24,2026-05-13,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Afonso Lopes De Baião,161,Vila Jacui,Sao Miguel,-23.498246,-46.450439,arquivo-final-1-trim-26
-via,resolvida,2026-03-24,2026-07-02,Tapa-buraco,Rua Guaçui,78,Mooca,Mooca,-23.552511,-46.586834,arquivo-final-1-trim-26
+veiculo,resolvida,2026-03-24,2026-05-13,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Afonso Lopes de Baião,161,Vila Jacui,Sao Miguel,-23.498246,-46.450439,arquivo-final-1-trim-26
 via,resolvida,2026-03-24,2026-03-30,Tapa-buraco,Ponte Engenheiro Ari Torres,23,Itaim Bibi,Pinheiros,-23.596151,-46.692196,arquivo-final-1-trim-26
-via,resolvida,2026-03-24,2026-04-06,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Rua Comendador Elias Jafet,3,Morumbi,Butanta,-23.601902,-46.713532,arquivo-final-1-trim-26
-arvore,resolvida,2026-03-25,2026-03-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Lourenço Sgarbi,39,Campo Grande,Santo Amaro,-23.656811,-46.683344,arquivo-final-1-trim-26
-bueiro,resolvida,2026-03-25,2026-03-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dos Macunis,392,Pinheiros,Pinheiros,-23.557112,-46.697972,arquivo-final-1-trim-26
+arvore,resolvida,2026-03-25,2026-06-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Mandacaia,107,Itaquera,Itaquera,-23.533901,-46.471820,arquivo-final-1-trim-26
+bueiro,resolvida,2026-03-25,2026-03-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua dos Macunis,392,Pinheiros,Pinheiros,-23.557112,-46.697972,arquivo-final-1-trim-26
+calcada,recebida,2026-03-25,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Hermann Teles Ribeiro,368,Agua Rasa,Mooca,-23.566689,-46.562602,arquivo-final-1-trim-26
+veiculo,recebida,2026-03-25,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Gustavo Adolfo,905,Tucuruvi,Santana-Tucuruvi,-23.481913,-46.590645,arquivo-final-1-trim-26
 bueiro,resolvida,2026-03-26,2026-03-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Jornalista Roberto Marinho,228,Campo Belo,Santo Amaro,-23.630035,-46.672687,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-26,2026-07-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua De Taipas,3784,Jaragua,Pirituba-Jaragua,-23.446292,-46.731197,arquivo-final-1-trim-26
-veiculo,resolvida,2026-03-26,2026-05-05,Solicitar remoção de veículo/carcaça abandonado na via pública,Alameda Dos Maracatins,1144,Moema,Vila Mariana,-23.609598,-46.663844,arquivo-final-1-trim-26
+calcada,resolvida,2026-03-26,2026-07-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua de Taipas,3784,Jaragua,Pirituba-Jaragua,-23.446292,-46.731197,arquivo-final-1-trim-26
+veiculo,resolvida,2026-03-26,2026-05-05,Solicitar remoção de veículo/carcaça abandonado na via pública,Alameda dos Maracatins,1144,Moema,Vila Mariana,-23.609598,-46.663844,arquivo-final-1-trim-26
 residuos,resolvida,2026-03-27,2026-03-27,Entulho e grandes objetos em via pública - solicitar remoção,Rua Acruás,239,Campo Belo,Santo Amaro,-23.622641,-46.665240,arquivo-final-1-trim-26
 veiculo,resolvida,2026-03-27,2026-08-03,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Sebastião Barbosa,172,Agua Rasa,Mooca,-23.553759,-46.574099,arquivo-final-1-trim-26
-bueiro,recebida,2026-03-29,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Mesquita,242,Cambuci,Se,-23.576065,-46.621259,arquivo-final-1-trim-26
-arvore,resolvida,2026-03-30,2026-04-22,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Antônio Camardo,670,Tatuape,Mooca,-23.549103,-46.561639,arquivo-final-1-trim-26
-calcada,resolvida,2026-03-30,2026-03-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Engenheiro Heitor Antônio Eiras Garcia,4449,Raposo Tavares,Butanta,-23.589935,-46.770178,arquivo-final-1-trim-26
+calcada,recebida,2026-03-30,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua General Sócrates,183,Penha,Penha,-23.528756,-46.549909,arquivo-final-1-trim-26
 veiculo,recebida,2026-03-30,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Gervásio Botelho,325,Jabaquara,Jabaquara,-23.671579,-46.634526,arquivo-final-1-trim-26
-residuos,resolvida,2026-04-01,2026-04-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Terra Brasileira,292,Itaquera,Itaquera,-23.523124,-46.469217,arquivo-final-2-trim-26
-bueiro,resolvida,2026-04-02,2026-04-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Frutos De Maio,1,Sao Rafael,Sao Mateus,-23.615254,-46.454421,arquivo-final-2-trim-26
-calcada,resolvida,2026-04-02,2026-04-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Dos Piemonteses,100,Raposo Tavares,Butanta,-23.582475,-46.783233,arquivo-final-2-trim-26
+veiculo,recebida,2026-03-31,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Diamantino,18,Belem,Mooca,-23.548538,-46.589035,arquivo-final-1-trim-26
+bueiro,resolvida,2026-04-02,2026-04-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Frutos de Maio,1,Sao Rafael,Sao Mateus,-23.615254,-46.454421,arquivo-final-2-trim-26
+calcada,resolvida,2026-04-02,2026-04-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua dos Piemonteses,100,Raposo Tavares,Butanta,-23.582475,-46.783233,arquivo-final-2-trim-26
 residuos,resolvida,2026-04-02,2026-04-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Rishin Matsuda,12,Jabaquara,Jabaquara,-23.645683,-46.656371,arquivo-final-2-trim-26
 veiculo,recebida,2026-04-02,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Zacarias Dias Cortes,362,Campo Limpo,Campo Limpo,-23.636159,-46.752914,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-03,2026-06-01,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Do Oratório,4330,Sao Lucas,Vila Prudente,-23.601918,-46.532553,arquivo-final-2-trim-26
+via,resolvida,2026-04-02,2026-04-10,Tapa-buraco,Rua Alto Rio Novo,119,Agua Rasa,Mooca,-23.568941,-46.573162,arquivo-final-2-trim-26
 via,recebida,2026-04-03,,Tapa-buraco,Rua Anoriaçu,2,Jacana,Jacana-Tremembe,-23.460322,-46.570984,arquivo-final-2-trim-26
-bueiro,recebida,2026-04-04,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Manuel Veloso Da Costa,20,Sao Rafael,Sao Mateus,-23.611995,-46.454517,arquivo-final-2-trim-26
+via,resolvida,2026-04-04,2026-04-07,Tapa-buraco,Rua Orfanato,106,Vila Prudente,Vila Prudente,-23.581054,-46.584166,arquivo-final-2-trim-26
 via,resolvida,2026-04-04,2026-05-29,Tapa-buraco,Rua Capitão Cavalcanti,227,Vila Mariana,Vila Mariana,-23.588984,-46.637511,arquivo-final-2-trim-26
-bueiro,recebida,2026-04-05,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Doutora Ruth Cardoso,7885,Pinheiros,Superintendencia Das Usinas De Asfalto,-23.570427,-46.700933,arquivo-final-2-trim-26
 veiculo,recebida,2026-04-05,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Guateque,36,Capao Redondo,Campo Limpo,-23.659950,-46.771835,arquivo-final-2-trim-26
+veiculo,recebida,2026-04-05,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida do Paiol,170,Parelheiros,Parelheiros,-23.783839,-46.758056,arquivo-final-2-trim-26
 arvore,resolvida,2026-04-06,2026-04-23,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Presidente Juscelino Kubitschek,1463,Itaim Bibi,Pinheiros,-23.591232,-46.683267,arquivo-final-2-trim-26
+bueiro,resolvida,2026-04-06,2026-05-05,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Guaratimbó,24,Cidade Lider,Itaquera,-23.558889,-46.497197,arquivo-final-2-trim-26
 residuos,resolvida,2026-04-06,2026-04-11,Entulho e grandes objetos em via pública - solicitar remoção,Avenida José Higino Neves,1728,Cidade Tiradentes,Cidade Tiradentes,-23.569581,-46.398213,arquivo-final-2-trim-26
-arvore,recebida,2026-04-07,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Ernâni Da Gama Corrêa,945,Butanta,Butanta,-23.576573,-46.728453,arquivo-final-2-trim-26
+residuos,resolvida,2026-04-06,2026-04-07,Entulho e grandes objetos em via pública - solicitar remoção,Avenida dos Imarés,678,Moema,Vila Mariana,-23.614566,-46.663693,arquivo-final-2-trim-26
+arvore,recebida,2026-04-07,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Ernâni da Gama Corrêa,945,Butanta,Butanta,-23.576573,-46.728453,arquivo-final-2-trim-26
 bueiro,resolvida,2026-04-07,2026-04-07,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Aldo Gianini,746,Vila Curuca,Itaim Paulista,-23.518512,-46.428416,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-07,2026-05-15,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Elizabeth Barbegian Baldinato,231,Vila Sonia,Butanta,-23.613791,-46.739397,arquivo-final-2-trim-26
-arvore,resolvida,2026-04-08,2026-08-06,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Antônio Inácio De Mendonça,263,Mandaqui,Santana-Tucuruvi,-23.481298,-46.633861,arquivo-final-2-trim-26
+bueiro,resolvida,2026-04-07,2026-04-08,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Leonor Monteiro da Silva,41,Vila Prudente,Vila Prudente,-23.589593,-46.587516,arquivo-final-2-trim-26
+arvore,resolvida,2026-04-08,2026-08-06,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Antônio Inácio de Mendonça,263,Mandaqui,Santana-Tucuruvi,-23.481298,-46.633861,arquivo-final-2-trim-26
 arvore,resolvida,2026-04-08,2026-06-08,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Cachoeira Acará,24,Capao Redondo,Campo Limpo,-23.671297,-46.785085,arquivo-final-2-trim-26
-calcada,recebida,2026-04-08,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tomé De Almeida E Oliveira,571,Pirituba,Pirituba-Jaragua,-23.472700,-46.714586,arquivo-final-2-trim-26
+calcada,recebida,2026-04-08,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tomé de Almeida e Oliveira,571,Pirituba,Pirituba-Jaragua,-23.472700,-46.714586,arquivo-final-2-trim-26
 via,resolvida,2026-04-08,2026-04-13,Tapa-buraco,Rua Antônio Marques Julião,464,Sao Lucas,Vila Prudente,-23.602151,-46.540773,arquivo-final-2-trim-26
 arvore,resolvida,2026-04-09,2026-07-21,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Mestre Jou,01,Vila Sonia,Butanta,-23.607071,-46.743561,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-09,2026-05-21,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel Pinheiro,29,Sao Domingos,Pirituba-Jaragua,-23.498932,-46.744147,arquivo-final-2-trim-26
 veiculo,recebida,2026-04-09,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Pontal,117,Artur Alvim,Penha,-23.541664,-46.494809,arquivo-final-2-trim-26
-residuos,resolvida,2026-04-10,2026-04-10,Entulho e grandes objetos em via pública - solicitar remoção,Rua Doutor João Augusto De Assunção,30,Penha,Penha,-23.516580,-46.546202,arquivo-final-2-trim-26
-arvore,resolvida,2026-04-11,2026-05-07,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Jequirana De Goiás,288,Vila Curuca,Itaim Paulista,-23.515610,-46.428676,arquivo-final-2-trim-26
-bueiro,recebida,2026-04-11,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Palestra Itália,225,Perdizes,Lapa,-23.528604,-46.679591,arquivo-final-2-trim-26
+residuos,resolvida,2026-04-10,2026-04-10,Entulho e grandes objetos em via pública - solicitar remoção,Rua Doutor João Augusto de Assunção,30,Penha,Penha,-23.516580,-46.546202,arquivo-final-2-trim-26
 bueiro,resolvida,2026-04-11,2026-04-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua São Cassiano,13,Morumbi,Butanta,-23.574090,-46.704503,arquivo-final-2-trim-26
 veiculo,resolvida,2026-04-11,2026-05-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Conceição,2910,Vila Maria,Vila Maria-Vila Guilherme,-23.498281,-46.587893,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-11,2026-05-28,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua General Carlos Cavalcanti,13,Carrao,Aricanduva-Formosa-Carrao,-23.552405,-46.521842,arquivo-final-2-trim-26
-bueiro,resolvida,2026-04-14,2026-04-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Pereira Da Silva,120,Mooca,Mooca,-23.551868,-46.604771,arquivo-final-2-trim-26
+bueiro,resolvida,2026-04-14,2026-04-14,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Pereira da Silva,120,Mooca,Mooca,-23.551868,-46.604771,arquivo-final-2-trim-26
+veiculo,recebida,2026-04-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Alberto de Melo,3,Itaim Paulista,Itaim Paulista,-23.514469,-46.389943,arquivo-final-2-trim-26
 veiculo,recebida,2026-04-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Cambará Branco,92,Jose Bonifacio,Penha,-23.584256,-46.423310,arquivo-final-2-trim-26
-arvore,recebida,2026-04-15,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Sebastião Da Silva Bueno,294,Ponte Rasa,Ermelino Matarazzo,-23.512850,-46.485337,arquivo-final-2-trim-26
-bueiro,recebida,2026-04-15,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dos Bandeirantes,383,Bom Retiro,Se,-23.527923,-46.635072,arquivo-final-2-trim-26
+arvore,recebida,2026-04-15,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Sebastião da Silva Bueno,294,Ponte Rasa,Ermelino Matarazzo,-23.512850,-46.485337,arquivo-final-2-trim-26
+bueiro,recebida,2026-04-15,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua dos Bandeirantes,383,Bom Retiro,Se,-23.527923,-46.635072,arquivo-final-2-trim-26
 via,recebida,2026-04-15,,Tapa-buraco,Travessa Angelina Del Grande Biancalana,49,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.478533,-46.657329,arquivo-final-2-trim-26
-via,recebida,2026-04-15,,Tapa-buraco,Rua Clodomiro De Oliveira,30,Campo Limpo,Campo Limpo,-23.628744,-46.744368,arquivo-final-2-trim-26
+via,recebida,2026-04-15,,Tapa-buraco,Rua Clodomiro de Oliveira,30,Campo Limpo,Campo Limpo,-23.628744,-46.744368,arquivo-final-2-trim-26
 arvore,resolvida,2026-04-16,2026-04-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Silvério Gonçalves,652,Limao,Casa Verde-Limao-Cachoeirinha,-23.487320,-46.680101,arquivo-final-2-trim-26
-arvore,resolvida,2026-04-16,2026-04-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Filinto De Almeida,69,Pinheiros,Pinheiros,-23.550943,-46.689160,arquivo-final-2-trim-26
-residuos,recebida,2026-04-16,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Doutor Pinto Nazário,17,Sacoma,Ipiranga,-23.635287,-46.605253,arquivo-final-2-trim-26
-calcada,resolvida,2026-04-17,2026-04-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Aspicuelta,672,Pinheiros,Pinheiros,-23.558622,-46.691578,arquivo-final-2-trim-26
-calcada,recebida,2026-04-20,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Dos Aniquis,3,Pedreira,Cidade Ademar,-23.697263,-46.648565,arquivo-final-2-trim-26
+arvore,resolvida,2026-04-16,2026-04-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Filinto de Almeida,69,Pinheiros,Pinheiros,-23.550943,-46.689160,arquivo-final-2-trim-26
+arvore,resolvida,2026-04-16,2026-05-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Ernâni da Gama Corrêa,492,Butanta,Butanta,-23.575128,-46.724285,arquivo-final-2-trim-26
+residuos,resolvida,2026-04-18,2026-04-18,Entulho e grandes objetos em via pública - solicitar remoção,Rua Soldado Pedro Graciano Moreira,101,Sapopemba,Sapopemba,-23.617631,-46.494226,arquivo-final-2-trim-26
+calcada,recebida,2026-04-20,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua dos Aniquis,3,Pedreira,Cidade Ademar,-23.697263,-46.648565,arquivo-final-2-trim-26
 calcada,resolvida,2026-04-22,2026-04-30,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua João Sbarai,211,Butanta,Butanta,-23.571972,-46.735472,arquivo-final-2-trim-26
-residuos,resolvida,2026-04-22,2026-04-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua São Roque Do Paraguaçu,122,Cidade Dutra,Capela Do Socorro,-23.743454,-46.703195,arquivo-final-2-trim-26
+residuos,resolvida,2026-04-22,2026-04-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua São Roque do Paraguaçu,122,Cidade Dutra,Capela do Socorro,-23.743454,-46.703195,arquivo-final-2-trim-26
+veiculo,recebida,2026-04-24,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Astolfo Vieira de Rezende,147,Cidade Dutra,Capela do Socorro,-23.705464,-46.686051,arquivo-final-2-trim-26
 bueiro,resolvida,2026-04-25,2026-06-01,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Judith Zumkeller,538,Mandaqui,Santana-Tucuruvi,-23.472589,-46.635345,arquivo-final-2-trim-26
 veiculo,recebida,2026-04-26,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Robertson,67,Liberdade,Se,-23.572759,-46.626250,arquivo-final-2-trim-26
 via,resolvida,2026-04-26,2026-04-28,Tapa-buraco,Rua Palmeira Bacabá,98,Sapopemba,Sapopemba,-23.615449,-46.511203,arquivo-final-2-trim-26
 calcada,recebida,2026-04-27,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Bicuana,31,Tremembe,Jacana-Tremembe,-23.448174,-46.592266,arquivo-final-2-trim-26
-calcada,recebida,2026-04-27,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Feliciano De Mendonça,502,Guaianases,Guaianases,-23.554305,-46.398489,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-28,2026-06-08,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Mutinga,4500,Jaguara,Lapa,-23.501440,-46.755617,arquivo-final-2-trim-26
-veiculo,resolvida,2026-04-28,2026-05-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Flávio De Melo,156,Vila Mariana,Vila Mariana,-23.589002,-46.626700,arquivo-final-2-trim-26
-bueiro,resolvida,2026-04-29,2026-05-22,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dos Filhos Da Terra,894,Tremembe,Jacana-Tremembe,-23.450427,-46.584651,arquivo-final-2-trim-26
-residuos,recebida,2026-04-29,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Entrudo,5,Vila Jacui,Sao Miguel,-23.512741,-46.444082,arquivo-final-2-trim-26
+calcada,recebida,2026-04-27,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Feliciano de Mendonça,502,Guaianases,Guaianases,-23.554305,-46.398489,arquivo-final-2-trim-26
+bueiro,resolvida,2026-04-29,2026-04-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada do Campo Limpo,5295,Campo Limpo,Campo Limpo,-23.621793,-46.758505,arquivo-final-2-trim-26
 residuos,resolvida,2026-04-29,2026-04-29,Entulho e grandes objetos em via pública - solicitar remoção,Rua Guido Oreggia,5,Rio Pequeno,Butanta,-23.582258,-46.752606,arquivo-final-2-trim-26
+veiculo,recebida,2026-04-29,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Doutor Armando Brandão,156,Vila Matilde,Penha,-23.534102,-46.524371,arquivo-final-2-trim-26
 via,recebida,2026-04-29,,Tapa-buraco,Avenida Doutor Assis Ribeiro,4998,Cangaiba,Ermelino Matarazzo,-23.493296,-46.506393,arquivo-final-2-trim-26
-residuos,recebida,2026-04-30,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Rio Tapacurá,15,Artur Alvim,Penha,-23.529191,-46.487324,arquivo-final-2-trim-26
+arvore,resolvida,2026-05-01,2026-06-03,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Iraí,2181,Saude,Vila Mariana,-23.620791,-46.650201,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-01,2026-05-06,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Bartholomeu do Canto,94,Limao,Casa Verde-Limao-Cachoeirinha,-23.502666,-46.684945,arquivo-final-2-trim-26
+arvore,resolvida,2026-05-02,2026-06-09,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Templários,259,Vila Formosa,Aricanduva-Formosa-Carrao,-23.565654,-46.556574,arquivo-final-2-trim-26
 calcada,recebida,2026-05-02,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Professor Aprígio Gonzaga,164,Saude,Vila Mariana,-23.624448,-46.638890,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-03,2026-05-26,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paracatu,216,Saude,Vila Mariana,-23.621777,-46.639489,arquivo-final-2-trim-26
 calcada,resolvida,2026-05-04,2026-05-09,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Isabel Schmidt,390,Santo Amaro,Santo Amaro,-23.652116,-46.702327,arquivo-final-2-trim-26
-veiculo,em_atendimento,2026-05-04,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,143,Raposo Tavares,Butanta,-23.589896,-46.762688,arquivo-final-2-trim-26
-arvore,resolvida,2026-05-05,2026-05-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Anísio De Abreu,29,Ermelino Matarazzo,Ermelino Matarazzo,-23.498133,-46.491746,arquivo-final-2-trim-26
-arvore,resolvida,2026-05-05,2026-05-08,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Europa,115,Pinheiros,Pinheiros,-23.572784,-46.675369,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-05,2026-07-29,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Maria Viêira,13,Sao Miguel,Sao Miguel,-23.502791,-46.444274,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-04,2026-05-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua dos Piemonteses,100,Raposo Tavares,Butanta,-23.582475,-46.783233,arquivo-final-2-trim-26
+arvore,resolvida,2026-05-05,2026-05-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Anísio de Abreu,29,Ermelino Matarazzo,Ermelino Matarazzo,-23.498133,-46.491746,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-05,2026-05-05,Entulho e grandes objetos em via pública - solicitar remoção,Rua Rodesia,500,Pinheiros,Pinheiros,-23.552779,-46.693346,arquivo-final-2-trim-26
 veiculo,recebida,2026-05-05,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida São Remo,491,Rio Pequeno,Butanta,-23.565754,-46.743136,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-05,2026-07-06,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Armando Vieira,80,Cidade Dutra,Capela Do Socorro,-23.704856,-46.685299,arquivo-final-2-trim-26
-arvore,recebida,2026-05-07,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Liguria,157,Campo Limpo,Campo Limpo,-23.652022,-46.772435,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-07,2026-05-12,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Doutor José Sílvio De Camargo,140,Pedreira,Cidade Ademar,-23.707961,-46.628999,arquivo-final-2-trim-26
-arvore,recebida,2026-05-11,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua General Lauro Cavalcanti De Farias,617,Sao Domingos,Pirituba-Jaragua,-23.488822,-46.747755,arquivo-final-2-trim-26
+veiculo,resolvida,2026-05-05,2026-07-06,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Armando Vieira,80,Cidade Dutra,Capela do Socorro,-23.704856,-46.685299,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-07,2026-05-07,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Onófrio Milano,559,Jaguare,Lapa,-23.544696,-46.740953,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-10,2026-05-11,Entulho e grandes objetos em via pública - solicitar remoção,Rua Diana,650,Perdizes,Lapa,-23.533842,-46.681898,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-11,2026-05-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Berna,313,Socorro,Capela do Socorro,-23.684018,-46.705357,arquivo-final-2-trim-26
 calcada,resolvida,2026-05-11,2026-06-26,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Ragueb Chohfi,5835,Iguatemi,Sao Mateus,-23.595120,-46.429961,arquivo-final-2-trim-26
 arvore,resolvida,2026-05-12,2026-05-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Carlos Pinto Alves,339,Campo Belo,Santo Amaro,-23.634754,-46.663062,arquivo-final-2-trim-26
 bueiro,resolvida,2026-05-12,2026-06-02,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Aline,82,Guaianases,Guaianases,-23.560725,-46.390056,arquivo-final-2-trim-26
-residuos,resolvida,2026-05-12,2026-05-14,Entulho e grandes objetos em via pública - solicitar remoção,Rua Waldemar Mancini,31,Itaquera,Itaquera,-23.547242,-46.460848,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-12,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Eduardo Saigh Filho,46,Morumbi,Butanta,-23.616906,-46.707505,arquivo-final-2-trim-26
 calcada,resolvida,2026-05-13,2026-06-24,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Pedra Bela,55,Limao,Casa Verde-Limao-Cachoeirinha,-23.500074,-46.684592,arquivo-final-2-trim-26
 arvore,resolvida,2026-05-14,2026-07-27,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Boa Sorte,92,Tatuape,Mooca,-23.541178,-46.569344,arquivo-final-2-trim-26
-residuos,resolvida,2026-05-14,2026-05-15,Entulho e grandes objetos em via pública - solicitar remoção,Rua Barra Do Jacaré,243,Pirituba,Freguesia-Brasilandia,-23.474172,-46.711348,arquivo-final-2-trim-26
-residuos,recebida,2026-05-15,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Morro Do Espia,78,Sao Mateus,Sao Mateus,-23.586152,-46.500856,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Mossoró,225,Sapopemba,Sapopemba,-23.592855,-46.531786,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Bandeira de Aracambi,242,Sao Rafael,Sao Mateus,-23.629976,-46.462023,arquivo-final-2-trim-26
 residuos,resolvida,2026-05-15,2026-05-16,Entulho e grandes objetos em via pública - solicitar remoção,Rua Dom Sebastião Tomás,312,Cursino,Ipiranga,-23.608622,-46.622599,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-15,2026-05-26,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,159,Raposo Tavares,Butanta,-23.589949,-46.762770,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-15,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Major Diogo,650,Bela Vista,Se,-23.556890,-46.642903,arquivo-final-2-trim-26
 via,recebida,2026-05-15,,Tapa-buraco,Avenida Myrim,138,Pirituba,Pirituba-Jaragua,-23.470018,-46.747371,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-16,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Xavier da Rocha,30,Vila Prudente,Vila Prudente,-23.585289,-46.577760,arquivo-final-2-trim-26
 arvore,resolvida,2026-05-17,2026-05-29,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Bela Cintra,413,Consolacao,Se,-23.553013,-46.656515,arquivo-final-2-trim-26
 bueiro,recebida,2026-05-17,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Celso Garcia,1364,Belem,Mooca,-23.538295,-46.599089,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-17,2026-05-29,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Rosalina De Faria Vita,33,Jardim Angela,M Boi Mirim,-23.700056,-46.785545,arquivo-final-2-trim-26
-residuos,recebida,2026-05-17,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Antônio Da Franca E Horta,35,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.457602,-46.658302,arquivo-final-2-trim-26
-residuos,recebida,2026-05-17,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Geraldo Do Brumado,696,Cidade Dutra,Capela Do Socorro,-23.737609,-46.708202,arquivo-final-2-trim-26
-bueiro,recebida,2026-05-18,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Giovanni Da Conegliano,622,Sacoma,Ipiranga,-23.652779,-46.601068,arquivo-final-2-trim-26
-residuos,recebida,2026-05-18,,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Lacerda Franco,1930,Vila Mariana,Vila Mariana,-23.579676,-46.625874,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-19,2026-06-09,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Comendador Sant'Anna,21,Jardim Angela,Campo Limpo,-23.676138,-46.774277,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-19,2026-06-18,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Professor Mario Degni,50,Freguesia Do O,Freguesia-Brasilandia,-23.505868,-46.699445,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-17,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Coronel Manuel Machado,196,Guaianases,Guaianases,-23.550518,-46.411280,arquivo-final-2-trim-26
+bueiro,recebida,2026-05-18,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Giovanni da Conegliano,622,Sacoma,Ipiranga,-23.652779,-46.601068,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-19,2026-05-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua da Independência,820,Cambuci,Se,-23.567582,-46.614500,arquivo-final-2-trim-26
 veiculo,recebida,2026-05-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Marginal Tietê,531,Bom Retiro,Se,-23.519144,-46.630070,arquivo-final-2-trim-26
 veiculo,recebida,2026-05-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Cuiabá,1012,Agua Rasa,Mooca,-23.562156,-46.587179,arquivo-final-2-trim-26
 veiculo,resolvida,2026-05-19,2026-07-06,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Frederico Guarinon,174,Vila Andrade,Campo Limpo,-23.624019,-46.730948,arquivo-final-2-trim-26
-via,resolvida,2026-05-19,2026-06-03,Tapa-buraco,Avenida João Maria De Almeida,406,Jabaquara,Jabaquara,-23.660064,-46.645366,arquivo-final-2-trim-26
-via,resolvida,2026-05-19,2026-05-20,Tapa-buraco,Rua Antônio Do Campo,417,Pedreira,Cidade Ademar,-23.692770,-46.673598,arquivo-final-2-trim-26
+via,resolvida,2026-05-19,2026-06-03,Tapa-buraco,Avenida João Maria de Almeida,406,Jabaquara,Jabaquara,-23.660064,-46.645366,arquivo-final-2-trim-26
+via,resolvida,2026-05-19,2026-05-20,Tapa-buraco,Rua Antônio do Campo,417,Pedreira,Cidade Ademar,-23.692770,-46.673598,arquivo-final-2-trim-26
+arvore,resolvida,2026-05-20,2026-06-17,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Geraldo Fraga de Oliveira,324,Jardim Sao Luis,M Boi Mirim,-23.653192,-46.737560,arquivo-final-2-trim-26
 residuos,resolvida,2026-05-20,2026-05-20,Entulho e grandes objetos em via pública - solicitar remoção,Rua Catarina Guimarães,53,Campo Limpo,Campo Limpo,-23.632121,-46.756950,arquivo-final-2-trim-26
 veiculo,recebida,2026-05-20,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Irapará,160,Vila Andrade,Campo Limpo,-23.622085,-46.724548,arquivo-final-2-trim-26
 veiculo,resolvida,2026-05-21,2026-05-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Antônio Sertório,1,Ponte Rasa,Ermelino Matarazzo,-23.514203,-46.495625,arquivo-final-2-trim-26
-via,resolvida,2026-05-21,2026-05-22,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Rua Laudelino Vieira De Campos,549,Pirituba,Pirituba-Jaragua,-23.492145,-46.722916,arquivo-final-2-trim-26
-bueiro,recebida,2026-05-22,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Carlo Coccia,59,Sapopemba,Sapopemba,-23.621692,-46.490197,arquivo-final-2-trim-26
-residuos,recebida,2026-05-22,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Hiran Leite De Abreu,168,Sao Rafael,Sao Mateus,-23.618100,-46.464087,arquivo-final-2-trim-26
+via,resolvida,2026-05-21,2026-05-22,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Rua Laudelino Vieira de Campos,549,Pirituba,Pirituba-Jaragua,-23.492145,-46.722916,arquivo-final-2-trim-26
 via,recebida,2026-05-22,,Tapa-buraco,Rua Francisco Tapajós,16,Cursino,Ipiranga,-23.625578,-46.628647,arquivo-final-2-trim-26
-bueiro,resolvida,2026-05-23,2026-05-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Bernardo José De Lorena,136,Perus,Perus-Anhanguera,-23.405980,-46.751004,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-23,2026-05-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Bernardo José de Lorena,136,Perus,Perus-Anhanguera,-23.405980,-46.751004,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-23,2026-05-27,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Maraial,121,Artur Alvim,Penha,-23.533291,-46.485378,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-23,2026-05-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Dona Ana,104,Vila Mariana,Vila Mariana,-23.586830,-46.630559,arquivo-final-2-trim-26
 veiculo,recebida,2026-05-23,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Dom Pedro I,219,Cambuci,Se,-23.566587,-46.610960,arquivo-final-2-trim-26
 arvore,resolvida,2026-05-24,2026-06-30,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Etiópia,112,Mooca,Mooca,-23.566512,-46.596624,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-24,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Lavras do Sul,400,Limao,Casa Verde-Limao-Cachoeirinha,-23.498722,-46.682029,arquivo-final-2-trim-26
+via,resolvida,2026-05-25,2026-06-03,Tapa-buraco,Rua Jaguaribe,571,Consolacao,Se,-23.541675,-46.653439,arquivo-final-2-trim-26
 via,recebida,2026-05-25,,Tapa-buraco,Avenida Sapopemba,15275,Sao Rafael,Sao Mateus,-23.621863,-46.465699,arquivo-final-2-trim-26
 arvore,recebida,2026-05-26,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Frei Claude Alberville,857,Raposo Tavares,Butanta,-23.602933,-46.794616,arquivo-final-2-trim-26
 arvore,recebida,2026-05-26,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Baquirivu,218,Cidade Ademar,Cidade Ademar,-23.667402,-46.658564,arquivo-final-2-trim-26
-bueiro,resolvida,2026-05-26,2026-05-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Falcão Negro,190,Grajau,Capela Do Socorro,-23.746239,-46.662368,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-26,2026-07-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Torre Da Lapela,15,Guaianases,Guaianases,-23.549175,-46.399770,arquivo-final-2-trim-26
-veiculo,resolvida,2026-05-26,2026-06-15,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,94,Raposo Tavares,Butanta,-23.589517,-46.762326,arquivo-final-2-trim-26
-arvore,resolvida,2026-05-27,2026-06-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Clara Mantelli,450,Socorro,Capela Do Socorro,-23.684987,-46.712133,arquivo-final-2-trim-26
-bueiro,resolvida,2026-05-27,2026-05-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Estrela De Belém,345,Sapopemba,Sapopemba,-23.600089,-46.499099,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-26,2026-05-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Falcão Negro,190,Grajau,Capela do Socorro,-23.746239,-46.662368,arquivo-final-2-trim-26
+calcada,resolvida,2026-05-26,2026-07-22,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Torre da Lapela,15,Guaianases,Guaianases,-23.549175,-46.399770,arquivo-final-2-trim-26
+arvore,resolvida,2026-05-27,2026-06-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Clara Mantelli,450,Socorro,Capela do Socorro,-23.684987,-46.712133,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-27,2026-06-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Jorge Pilli Netto,37,Jaragua,Pirituba-Jaragua,-23.449745,-46.711297,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-27,2026-05-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Estrela de Belém,345,Sapopemba,Sapopemba,-23.600089,-46.499099,arquivo-final-2-trim-26
+bueiro,resolvida,2026-05-27,2026-05-27,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Roque Petroni Júnior,1089,Santo Amaro,Santo Amaro,-23.626232,-46.688187,arquivo-final-2-trim-26
 calcada,resolvida,2026-05-27,2026-07-20,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Joaquim Barcelo,105,Tremembe,Jacana-Tremembe,-23.446953,-46.586101,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-27,2026-06-03,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Do Gasômetro,723,Bras,Mooca,-23.543286,-46.619242,arquivo-final-2-trim-26
-residuos,recebida,2026-05-27,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Delmar Soares,244,Mandaqui,Santana-Tucuruvi,-23.454603,-46.644303,arquivo-final-2-trim-26
+calcada,resolvida,2026-05-27,2026-06-03,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua do Gasômetro,723,Bras,Mooca,-23.543286,-46.619242,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-27,2026-05-29,Entulho e grandes objetos em via pública - solicitar remoção,Rua Alexandre de Miranda,230,Limao,Casa Verde-Limao-Cachoeirinha,-23.486618,-46.669411,arquivo-final-2-trim-26
 bueiro,resolvida,2026-05-28,2026-06-09,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Campo Maior,107,Vila Matilde,Penha,-23.534267,-46.501362,arquivo-final-2-trim-26
-residuos,recebida,2026-05-28,,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Professor Alípio De Barros,615,Jardim Helena,Sao Miguel,-23.487461,-46.415415,arquivo-final-2-trim-26
-residuos,recebida,2026-05-28,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Laurindo Sbampato,370,Vila Guilherme,Vila Maria-Vila Guilherme,-23.502381,-46.598960,arquivo-final-2-trim-26
-residuos,recebida,2026-05-28,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Antônio Lobo,193,Penha,Penha,-23.524652,-46.545280,arquivo-final-2-trim-26
 residuos,recebida,2026-05-28,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Centralina,586,Guaianases,Guaianases,-23.547794,-46.415182,arquivo-final-2-trim-26
-residuos,recebida,2026-05-28,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Eulália Assunção,106,Cambuci,Se,-23.562332,-46.622929,arquivo-final-2-trim-26
+veiculo,recebida,2026-05-28,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Adolfo Pinheiro,765,Santo Amaro,Santo Amaro,-23.646525,-46.701891,arquivo-final-2-trim-26
 bueiro,resolvida,2026-05-29,2026-06-02,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Amauri,306,Itaim Bibi,Pinheiros,-23.581333,-46.683490,arquivo-final-2-trim-26
 residuos,resolvida,2026-05-29,2026-06-03,Entulho e grandes objetos em via pública - solicitar remoção,Rua Maquinista Trigo,70,Vila Guilherme,Vila Maria-Vila Guilherme,-23.499402,-46.606252,arquivo-final-2-trim-26
-via,recebida,2026-05-29,,Tapa-buraco,Rua Gustavo Bacarisas,67,Grajau,Capela Do Socorro,-23.774669,-46.695087,arquivo-final-2-trim-26
-calcada,resolvida,2026-05-30,2026-06-25,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Manuel Bueno Da Fonseca,7,Itaim Paulista,Itaim Paulista,-23.494971,-46.388480,arquivo-final-2-trim-26
+residuos,resolvida,2026-05-29,2026-06-01,Entulho e grandes objetos em via pública - solicitar remoção,Rua Professor Nagib Elchmer,42,Itaim Bibi,Pinheiros,-23.597010,-46.684223,arquivo-final-2-trim-26
+via,recebida,2026-05-29,,Tapa-buraco,Rua Gustavo Bacarisas,67,Grajau,Capela do Socorro,-23.774669,-46.695087,arquivo-final-2-trim-26
+calcada,resolvida,2026-05-30,2026-06-25,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Manuel Bueno da Fonseca,7,Itaim Paulista,Itaim Paulista,-23.494971,-46.388480,arquivo-final-2-trim-26
 bueiro,resolvida,2026-06-01,2026-06-01,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Corgie Assad Abdalla,880,Vila Sonia,Butanta,-23.599473,-46.725622,arquivo-final-2-trim-26
-residuos,recebida,2026-06-01,,Entulho e grandes objetos em via pública - solicitar remoção,Rua José Leão Dos Santos,26,Vila Curuca,Itaim Paulista,-23.514753,-46.426164,arquivo-final-2-trim-26
-residuos,resolvida,2026-06-01,2026-06-01,Entulho e grandes objetos em via pública - solicitar remoção,Rua João Turriano,218,Jabaquara,Jabaquara,-23.651672,-46.639612,arquivo-final-2-trim-26
-veiculo,recebida,2026-06-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Leandro De Carvalho,81,Ipiranga,Se,-23.568535,-46.611962,arquivo-final-2-trim-26
+calcada,recebida,2026-06-01,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Caruanense,1,Grajau,Capela do Socorro,-23.774401,-46.699481,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-01,2026-06-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Professor Teodoro Braga,170,Freguesia do O,Freguesia-Brasilandia,-23.471051,-46.709601,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Leandro de Carvalho,81,Ipiranga,Se,-23.568535,-46.611962,arquivo-final-2-trim-26
 calcada,recebida,2026-06-02,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Caçador Narciso,216,Sao Miguel,Sao Miguel,-23.521901,-46.431097,arquivo-final-2-trim-26
-calcada,recebida,2026-06-03,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua São Leonardo,365,Freguesia Do O,Freguesia-Brasilandia,-23.485829,-46.693662,arquivo-final-2-trim-26
-residuos,recebida,2026-06-04,,Entulho e grandes objetos em via pública - solicitar remoção,Rua Antônio Sertório,127,Ponte Rasa,Ermelino Matarazzo,-23.515291,-46.495291,arquivo-final-2-trim-26
+calcada,recebida,2026-06-03,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua São Leonardo,365,Freguesia do O,Freguesia-Brasilandia,-23.485829,-46.693662,arquivo-final-2-trim-26
 via,resolvida,2026-06-05,2026-06-08,Tapa-buraco,Avenida Coca,331,Vila Curuca,Itaim Paulista,-23.501382,-46.427001,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-06,2026-06-08,Entulho e grandes objetos em via pública - solicitar remoção,Praça Barão de Ibirocaí,38,Jaguara,Lapa,-23.509050,-46.749108,arquivo-final-2-trim-26
 bueiro,resolvida,2026-06-07,2026-06-08,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Sílvio Esteves,227,Cidade Ademar,Cidade Ademar,-23.659717,-46.674539,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-07,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Aldo Gianini,375,Vila Curuca,Itaim Paulista,-23.518521,-46.428236,arquivo-final-2-trim-26
+arvore,resolvida,2026-06-08,2026-06-23,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Pirapozinho,108,Pirituba,Pirituba-Jaragua,-23.473804,-46.742625,arquivo-final-2-trim-26
 arvore,recebida,2026-06-08,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Gondarém,341,Cidade Lider,Itaquera,-23.561047,-46.497868,arquivo-final-2-trim-26
-residuos,resolvida,2026-06-08,2026-06-08,Entulho e grandes objetos em via pública - solicitar remoção,Rua Moacir Tavares De Paiva,130,Capao Redondo,Campo Limpo,-23.674529,-46.793781,arquivo-final-2-trim-26
-veiculo,resolvida,2026-06-08,2026-06-15,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,90,Raposo Tavares,Butanta,-23.589592,-46.762226,arquivo-final-2-trim-26
-bueiro,resolvida,2026-06-09,2026-06-12,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Domingos Tarroso,156,Cidade Dutra,Capela Do Socorro,-23.727273,-46.695261,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-08,2026-06-08,Entulho e grandes objetos em via pública - solicitar remoção,Rua Moacir Tavares de Paiva,130,Capao Redondo,Campo Limpo,-23.674529,-46.793781,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-09,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dominiciano Ribeiro,230,Parque do Carmo,Itaquera,-23.563505,-46.469758,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-10,2026-06-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Serpa Brandão,56,Vila Medeiros,Vila Maria-Vila Guilherme,-23.498430,-46.589477,arquivo-final-2-trim-26
 residuos,resolvida,2026-06-10,2026-06-12,Entulho e grandes objetos em via pública - solicitar remoção,Rua Camburiú,614,Lapa,Lapa,-23.536595,-46.708780,arquivo-final-2-trim-26
-arvore,recebida,2026-06-11,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Caraíbas,991,Perdizes,Lapa,-23.536002,-46.684775,arquivo-final-2-trim-26
-bueiro,recebida,2026-06-11,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Professor Doutor José Marques Da Cruz,146,Santo Amaro,Santo Amaro,-23.626122,-46.689026,arquivo-final-2-trim-26
-calcada,recebida,2026-06-11,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Ministro José Américo De Almeida,34,Sao Mateus,Sao Mateus,-23.605471,-46.487058,arquivo-final-2-trim-26
-bueiro,recebida,2026-06-12,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Estados Unidos,2134,Jardim Paulista,Pinheiros,-23.563128,-46.673396,arquivo-final-2-trim-26
-bueiro,resolvida,2026-06-14,2026-06-15,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Da Consolação,2215,Consolacao,Se,-23.554342,-46.660925,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-10,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Evangelina,538,Carrao,Aricanduva-Formosa-Carrao,-23.547762,-46.543327,arquivo-final-2-trim-26
+calcada,recebida,2026-06-11,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Ministro José Américo de Almeida,34,Sao Mateus,Sao Mateus,-23.605471,-46.487058,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-14,2026-06-15,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua da Consolação,2215,Consolacao,Se,-23.554342,-46.660925,arquivo-final-2-trim-26
 calcada,recebida,2026-06-14,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Sargento Jeter Augusto Pereira,100,Vila Maria,Vila Maria-Vila Guilherme,-23.511863,-46.566608,arquivo-final-2-trim-26
-calcada,recebida,2026-06-14,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Henrique Felipe Da Costa,681,Vila Guilherme,Vila Maria-Vila Guilherme,-23.517672,-46.607690,arquivo-final-2-trim-26
+calcada,recebida,2026-06-14,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Henrique Felipe da Costa,681,Vila Guilherme,Vila Maria-Vila Guilherme,-23.517672,-46.607690,arquivo-final-2-trim-26
 veiculo,resolvida,2026-06-14,2026-07-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Portão Preto,89,Sao Domingos,Pirituba-Jaragua,-23.495666,-46.744240,arquivo-final-2-trim-26
-arvore,resolvida,2026-06-15,2026-07-07,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Itapirapuã,259,Pinheiros,Pinheiros,-23.567992,-46.681746,arquivo-final-2-trim-26
 bueiro,recebida,2026-06-15,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Glicério,301,Se,Se,-23.555215,-46.628626,arquivo-final-2-trim-26
-arvore,recebida,2026-06-16,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Cavalo Marinho,364,Perus,Perus-Anhanguera,-23.409302,-46.736381,arquivo-final-2-trim-26
 arvore,resolvida,2026-06-16,2026-07-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Soror Maria Celeste,147,Brasilandia,Freguesia-Brasilandia,-23.476627,-46.689660,arquivo-final-2-trim-26
-bueiro,resolvida,2026-06-16,2026-06-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Doutor Dari Barcellos,67,Pedreira,Cidade Ademar,-23.709854,-46.656294,arquivo-final-2-trim-26
-calcada,resolvida,2026-06-16,2026-08-03,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Frank Martin,47,Socorro,Capela Do Socorro,-23.685573,-46.709797,arquivo-final-2-trim-26
-residuos,resolvida,2026-06-16,2026-06-17,Entulho e grandes objetos em via pública - solicitar remoção,Rua Romualdo De Sousa Brito,257,Vila Curuca,Itaim Paulista,-23.521253,-46.409320,arquivo-final-2-trim-26
+calcada,resolvida,2026-06-16,2026-08-03,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Frank Martin,47,Socorro,Capela do Socorro,-23.685573,-46.709797,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-16,2026-06-17,Entulho e grandes objetos em via pública - solicitar remoção,Rua Romualdo de Sousa Brito,257,Vila Curuca,Itaim Paulista,-23.521253,-46.409320,arquivo-final-2-trim-26
 veiculo,resolvida,2026-06-16,2026-07-22,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Fiandeiras,48,Itaim Bibi,Pinheiros,-23.596604,-46.674228,arquivo-final-2-trim-26
-arvore,resolvida,2026-06-17,2026-06-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Mendes Da Rocha,543,Vila Medeiros,Vila Maria-Vila Guilherme,-23.482193,-46.571103,arquivo-final-2-trim-26
+via,resolvida,2026-06-16,2026-06-23,Tapa-buraco,Rua Manoel Rodrigues,11,Vila Jacui,Sao Miguel,-23.507025,-46.468902,arquivo-final-2-trim-26
+arvore,resolvida,2026-06-17,2026-06-19,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Mendes da Rocha,543,Vila Medeiros,Vila Maria-Vila Guilherme,-23.482193,-46.571103,arquivo-final-2-trim-26
 bueiro,resolvida,2026-06-17,2026-06-20,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Duarte Antônio Mourão,289,Parelheiros,Parelheiros,-23.770260,-46.722610,arquivo-final-2-trim-26
 calcada,recebida,2026-06-17,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Custódio Vieira,26,Mandaqui,Santana-Tucuruvi,-23.471975,-46.649138,arquivo-final-2-trim-26
-calcada,resolvida,2026-06-17,2026-07-06,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Agenor De Barros,270,Ponte Rasa,Ermelino Matarazzo,-23.508400,-46.489202,arquivo-final-2-trim-26
-veiculo,resolvida,2026-06-18,2026-07-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Santana Do Rio Preto,197,Guaianases,Guaianases,-23.559527,-46.423370,arquivo-final-2-trim-26
+calcada,resolvida,2026-06-17,2026-07-06,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Agenor de Barros,270,Ponte Rasa,Ermelino Matarazzo,-23.508400,-46.489202,arquivo-final-2-trim-26
+veiculo,resolvida,2026-06-18,2026-07-27,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Santana do Rio Preto,197,Guaianases,Guaianases,-23.559527,-46.423370,arquivo-final-2-trim-26
 veiculo,resolvida,2026-06-18,2026-06-30,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,94,Raposo Tavares,Butanta,-23.589517,-46.762326,arquivo-final-2-trim-26
-veiculo,resolvida,2026-06-19,2026-07-15,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Círio De Nazaré,79,Lajeado,Guaianases,-23.544583,-46.396836,arquivo-final-2-trim-26
-residuos,resolvida,2026-06-20,2026-06-21,Entulho e grandes objetos em via pública - solicitar remoção,Rua André Bagi,33,Jaragua,Pirituba-Jaragua,-23.441687,-46.716425,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-19,2026-07-16,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Raul Adalberto de Campos,23,Alto de Pinheiros,Pinheiros,-23.544733,-46.699463,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-19,2026-06-19,Denunciar descarte irregular de entulho e outros resíduos em área pública,Avenida Jaceguava,2035,Parelheiros,Parelheiros,-23.773114,-46.737463,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-19,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua São Tibúrcio,289,Ponte Rasa,Ermelino Matarazzo,-23.517488,-46.494664,arquivo-final-2-trim-26
 residuos,resolvida,2026-06-20,2026-06-21,Entulho e grandes objetos em via pública - solicitar remoção,Rua Soldado Anésio Antão Ferreira,123,Vila Maria,Vila Maria-Vila Guilherme,-23.510418,-46.576840,arquivo-final-2-trim-26
 veiculo,recebida,2026-06-20,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Barian,90,Raposo Tavares,Butanta,-23.589592,-46.762226,arquivo-final-2-trim-26
-bueiro,resolvida,2026-06-22,2026-06-22,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada Do Jaguaré,2041,Raposo Tavares,Butanta,-23.594477,-46.763051,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-22,2026-06-22,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada do Jaguaré,2041,Raposo Tavares,Butanta,-23.594477,-46.763051,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-22,2026-06-22,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Conselheiro Furtado,280,Se,Se,-23.555366,-46.633268,arquivo-final-2-trim-26
 arvore,recebida,2026-06-24,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Doutor Olavo Egídio,1008,Santana,Santana-Tucuruvi,-23.500542,-46.616149,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-24,2026-06-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua do Gongorismo,50,Brasilandia,Freguesia-Brasilandia,-23.476931,-46.684652,arquivo-final-2-trim-26
+bueiro,resolvida,2026-06-24,2026-06-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Marginal Pinheiros,724,Vila Leopoldina,,-23.606593,-46.697006,arquivo-final-2-trim-26
 bueiro,resolvida,2026-06-24,2026-06-26,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Antônio Dellepiane,37,Sacoma,Ipiranga,-23.619892,-46.590351,arquivo-final-2-trim-26
-veiculo,resolvida,2026-06-24,2026-07-22,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Miguel Frias E Vasconcelos,1230,Jaguare,Lapa,-23.548704,-46.745759,arquivo-final-2-trim-26
+residuos,resolvida,2026-06-24,2026-06-25,Entulho e grandes objetos em via pública - solicitar remoção,Rua Groenlândia,1809,Jardim Paulista,Pinheiros,-23.569093,-46.677336,arquivo-final-2-trim-26
 via,recebida,2026-06-24,,Tapa-buraco,Rua Professor Azambuja Suzano,108,Cidade Ademar,Cidade Ademar,-23.681334,-46.664643,arquivo-final-2-trim-26
-calcada,resolvida,2026-06-25,2026-07-14,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Do Lavapés,419,Liberdade,Se,-23.561360,-46.628708,arquivo-final-2-trim-26
+calcada,resolvida,2026-06-25,2026-07-14,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua do Lavapés,419,Liberdade,Se,-23.561360,-46.628708,arquivo-final-2-trim-26
 calcada,resolvida,2026-06-25,2026-07-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Salim Farah Maluf,3656,Agua Rasa,Mooca,-23.561449,-46.576747,arquivo-final-2-trim-26
-veiculo,recebida,2026-06-25,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Baronesa De Bela Vista,638,Campo Belo,Santo Amaro,-23.623367,-46.662899,arquivo-final-2-trim-26
-via,resolvida,2026-06-25,2026-07-13,Tapa-buraco,Rua Professor Teófilo Carvalho,362,Vila Sonia,Butanta,-23.607289,-46.745033,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-25,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Baronesa de Bela Vista,638,Campo Belo,Santo Amaro,-23.623367,-46.662899,arquivo-final-2-trim-26
 residuos,resolvida,2026-06-26,2026-06-27,Entulho e grandes objetos em via pública - solicitar remoção,Rua Carlos Schumacker,199,Brasilandia,Freguesia-Brasilandia,-23.457590,-46.680041,arquivo-final-2-trim-26
 veiculo,resolvida,2026-06-26,2026-07-22,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Roberto Cieto,174,Jacana,Jacana-Tremembe,-23.452171,-46.576239,arquivo-final-2-trim-26
-calcada,resolvida,2026-06-27,2026-07-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Itaim,24,Itaim Paulista,Itaim Paulista,-23.493354,-46.389773,arquivo-final-2-trim-26
-residuos,resolvida,2026-06-28,2026-06-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Tucuxi,637,Itaquera,Itaquera,-23.538676,-46.468974,arquivo-final-2-trim-26
+via,resolvida,2026-06-26,2026-07-10,Tapa-buraco,Rua Renata Agondi,3,Itaim Paulista,Itaim Paulista,-23.502277,-46.380102,arquivo-final-2-trim-26
 bueiro,resolvida,2026-06-29,2026-07-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua José Falchi,132,Jardim Sao Luis,M Boi Mirim,-23.695321,-46.753961,arquivo-final-2-trim-26
-calcada,resolvida,2026-06-29,2026-07-15,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Paulo Guilguer Reimberg,2439,Grajau,Capela Do Socorro,-23.776294,-46.696388,arquivo-final-2-trim-26
+calcada,resolvida,2026-06-29,2026-07-15,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Paulo Guilguer Reimberg,2439,Grajau,Capela do Socorro,-23.776294,-46.696388,arquivo-final-2-trim-26
 residuos,resolvida,2026-06-29,2026-07-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua Felizardo Mendes,23,Vila Formosa,Aricanduva-Formosa-Carrao,-23.577538,-46.530181,arquivo-final-2-trim-26
+veiculo,recebida,2026-06-29,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida do Progresso,182,Iguatemi,Sao Mateus,-23.595872,-46.419589,arquivo-final-2-trim-26
 veiculo,recebida,2026-06-29,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Kansas,847,Itaim Bibi,Pinheiros,-23.604956,-46.683446,arquivo-final-2-trim-26
 calcada,resolvida,2026-07-01,2026-07-10,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Jucá,215,Cidade Tiradentes,Cidade Tiradentes,-23.594647,-46.414227,arquivo-final-3-trim-26
 calcada,recebida,2026-07-01,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Engenheiro Francisco Pitta Brito,18,Santo Amaro,Santo Amaro,-23.652613,-46.717074,arquivo-final-3-trim-26
 calcada,recebida,2026-07-01,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua João Fernandes Camisa Nova Júnior,590,Jardim Sao Luis,M Boi Mirim,-23.654294,-46.741120,arquivo-final-3-trim-26
-veiculo,em_atendimento,2026-07-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Coronel Bento Bicudo,1071,Pirituba,Pirituba-Jaragua,-23.504654,-46.707413,arquivo-final-3-trim-26
+veiculo,recebida,2026-07-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Nelson de Toledo Ferraz,45,Jardim Sao Luis,M Boi Mirim,-23.675001,-46.758392,arquivo-final-3-trim-26
 calcada,resolvida,2026-07-02,2026-09-29,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Tenente Luís Fernando Lobo,91,Sao Miguel,Sao Miguel,-23.492192,-46.442743,arquivo-final-3-trim-26
 veiculo,recebida,2026-07-02,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Paulo Carabet,47,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.476806,-46.661622,arquivo-final-3-trim-26
 bueiro,resolvida,2026-07-03,2026-07-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua José Gines,100,Itaim Paulista,Itaim Paulista,-23.485590,-46.377451,arquivo-final-3-trim-26
-bueiro,resolvida,2026-07-03,2026-07-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Antônio Do Campo,459,Pedreira,Cidade Ademar,-23.692691,-46.673167,arquivo-final-3-trim-26
+bueiro,resolvida,2026-07-03,2026-07-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Antônio do Campo,459,Pedreira,Cidade Ademar,-23.692691,-46.673167,arquivo-final-3-trim-26
 via,resolvida,2026-07-03,2026-07-06,Tapa-buraco,Rua Boracéa,176,Santa Cecilia,Se,-23.526279,-46.651530,arquivo-final-3-trim-26
-via,resolvida,2026-07-03,2026-07-29,Tapa-buraco,Rua Guilherme Valencia,140,Jose Bonifacio,Itaquera,-23.550295,-46.440542,arquivo-final-3-trim-26
-residuos,resolvida,2026-07-04,2026-07-25,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Fernando Mendes De Almeida,1250,Jaragua,Pirituba-Jaragua,-23.425888,-46.714064,arquivo-final-3-trim-26
-calcada,resolvida,2026-07-06,2026-07-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Deputado Cantídio Sampaio,1357,Brasilandia,Freguesia-Brasilandia,-23.466236,-46.679405,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-04,2026-07-25,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Fernando Mendes de Almeida,1250,Jaragua,Pirituba-Jaragua,-23.425888,-46.714064,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-04,2026-08-07,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Paes de Barros,1889,Mooca,Mooca,-23.567906,-46.589690,arquivo-final-3-trim-26
 calcada,recebida,2026-07-06,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Francisco Gouveia,15,Belem,Mooca,-23.548305,-46.588287,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-06,2026-07-22,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Tavares Bastos,302,Perdizes,Lapa,-23.534663,-46.685784,arquivo-final-3-trim-26
-calcada,recebida,2026-07-07,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Manoel Dos Santos Braga,579,Vila Jacui,Sao Miguel,-23.507218,-46.469415,arquivo-final-3-trim-26
-calcada,resolvida,2026-07-07,2026-07-21,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Frei Antônio De Guadalupe,321,Vila Prudente,Vila Prudente,-23.590188,-46.571933,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-07,2026-09-25,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Guaimbé,562,Mooca,Mooca,-23.565761,-46.595420,arquivo-final-3-trim-26
-veiculo,recebida,2026-07-07,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Vitória Do Mearim,271,Sao Lucas,Vila Prudente,-23.600015,-46.541026,arquivo-final-3-trim-26
-calcada,resolvida,2026-07-08,2026-07-13,"Guias, sarjetas e sarjetões - solicitar manutenção",Travessa Maria Da Conceição Silva,17,Cidade Ademar,Cidade Ademar,-23.675263,-46.651511,arquivo-final-3-trim-26
+arvore,resolvida,2026-07-07,2026-09-28,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Joaquim do Lago,212,Pedreira,Cidade Ademar,-23.694388,-46.661156,arquivo-final-3-trim-26
+calcada,recebida,2026-07-07,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Manoel dos Santos Braga,579,Vila Jacui,Sao Miguel,-23.507218,-46.469415,arquivo-final-3-trim-26
+calcada,resolvida,2026-07-07,2026-07-21,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Frei Antônio de Guadalupe,321,Vila Prudente,Vila Prudente,-23.590188,-46.571933,arquivo-final-3-trim-26
+veiculo,recebida,2026-07-07,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Vitória do Mearim,271,Sao Lucas,Vila Prudente,-23.600015,-46.541026,arquivo-final-3-trim-26
+calcada,resolvida,2026-07-08,2026-07-13,"Guias, sarjetas e sarjetões - solicitar manutenção",Travessa Maria da Conceição Silva,17,Cidade Ademar,Cidade Ademar,-23.675263,-46.651511,arquivo-final-3-trim-26
 veiculo,resolvida,2026-07-08,2026-07-23,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Seixal,19,Tremembe,Jacana-Tremembe,-23.425963,-46.582633,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-08,2026-08-03,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Gregório Tagle,301,Jaragua,Pirituba-Jaragua,-23.441066,-46.753885,arquivo-final-3-trim-26
+veiculo,recebida,2026-07-08,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Beatriz,263,Alto de Pinheiros,Pinheiros,-23.549825,-46.697462,arquivo-final-3-trim-26
 via,resolvida,2026-07-08,2026-07-10,Tapa-buraco,Travessa Girolamo Amati,22,Cidade Tiradentes,Cidade Tiradentes,-23.582872,-46.392109,arquivo-final-3-trim-26
 bueiro,resolvida,2026-07-09,2026-07-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Família Unida,20,Lajeado,Guaianases,-23.542144,-46.390509,arquivo-final-3-trim-26
 veiculo,resolvida,2026-07-09,2026-08-20,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua João Antônio Colombo,136,Jaragua,Pirituba-Jaragua,-23.451362,-46.748366,arquivo-final-3-trim-26
-residuos,resolvida,2026-07-11,2026-07-11,Entulho e grandes objetos em via pública - solicitar remoção,Rua Marquês De Lages,1676,Sacoma,Ipiranga,-23.625973,-46.602677,arquivo-final-3-trim-26
+calcada,recebida,2026-07-11,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Coronel Sezefredo Fagundes,535,Tucuruvi,Pirituba-Jaragua,-23.472808,-46.608217,arquivo-final-3-trim-26
 via,resolvida,2026-07-11,2026-07-13,Tapa-buraco,Rua Major Diogo,433,Republica,Se,-23.554911,-46.643023,arquivo-final-3-trim-26
+calcada,recebida,2026-07-13,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Mandiba,390,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.485831,-46.656852,arquivo-final-3-trim-26
+via,resolvida,2026-07-13,2026-07-14,Tapa-buraco,Travessa da Porteira,131,Parelheiros,Parelheiros,-23.814059,-46.706427,arquivo-final-3-trim-26
 arvore,resolvida,2026-07-14,2026-08-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Próspero Lopez,71,Raposo Tavares,Butanta,-23.598670,-46.795793,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-14,2026-07-14,Entulho e grandes objetos em via pública - solicitar remoção,Rua Roberto Valentino de Camargo,192,Butanta,Butanta,-23.584043,-46.741984,arquivo-final-3-trim-26
 veiculo,recebida,2026-07-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Fernando Renzo,65,Santana,Santana-Tucuruvi,-23.493558,-46.643884,arquivo-final-3-trim-26
-veiculo,recebida,2026-07-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Sete Barras,16,Freguesia Do O,Freguesia-Brasilandia,-23.499951,-46.705212,arquivo-final-3-trim-26
+veiculo,recebida,2026-07-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Sete Barras,16,Freguesia do O,Freguesia-Brasilandia,-23.499951,-46.705212,arquivo-final-3-trim-26
 veiculo,recebida,2026-07-14,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Venâncio Aires,342,Perdizes,Lapa,-23.528647,-46.680891,arquivo-final-3-trim-26
-calcada,recebida,2026-07-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Bento Gil De Oliveira,646,Itaim Paulista,Itaim Paulista,-23.505440,-46.386091,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-17,2026-08-26,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Professor Alberto Conte,49,Sacoma,Ipiranga,-23.616798,-46.602099,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-18,2026-08-03,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Capitão Jaime Da Silva,6,Pirituba,Pirituba-Jaragua,-23.476622,-46.716672,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-20,2026-09-10,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel Alves De Siqueira,51,Cidade Ademar,Cidade Ademar,-23.666377,-46.654341,arquivo-final-3-trim-26
-via,resolvida,2026-07-20,2026-07-21,Tapa-buraco,Rua Machado De Assis,56,Vila Mariana,Vila Mariana,-23.582369,-46.636969,arquivo-final-3-trim-26
+arvore,resolvida,2026-07-15,2026-07-21,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Coelho Barradas,90,Vila Prudente,Vila Prudente,-23.585535,-46.579356,arquivo-final-3-trim-26
+arvore,resolvida,2026-07-16,2026-08-10,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Angelo da Silva,90,Jaragua,Pirituba-Jaragua,-23.446034,-46.732672,arquivo-final-3-trim-26
+calcada,recebida,2026-07-16,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Bento Gil de Oliveira,646,Itaim Paulista,Itaim Paulista,-23.505440,-46.386091,arquivo-final-3-trim-26
+veiculo,resolvida,2026-07-18,2026-08-03,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Capitão Jaime da Silva,6,Pirituba,Pirituba-Jaragua,-23.476622,-46.716672,arquivo-final-3-trim-26
+veiculo,resolvida,2026-07-20,2026-09-10,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel Alves de Siqueira,51,Cidade Ademar,Cidade Ademar,-23.666377,-46.654341,arquivo-final-3-trim-26
 arvore,resolvida,2026-07-21,2026-09-02,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Vergueiro,2850,Vila Mariana,Vila Mariana,-23.585939,-46.636009,arquivo-final-3-trim-26
 residuos,resolvida,2026-07-21,2026-07-21,Entulho e grandes objetos em via pública - solicitar remoção,Viaduto Engenheiro Orlando Murgel,9300,Santa Cecilia,Se,-23.526137,-46.648973,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-21,2026-08-03,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Conselheiro Nébias,735,Santa Cecilia,Se,-23.536725,-46.645022,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-21,2026-10-06,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Alice Dos Santos Peixe,67,Pedreira,Cidade Ademar,-23.686808,-46.655881,arquivo-final-3-trim-26
-bueiro,resolvida,2026-07-22,2026-07-23,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Otaviano Alves De Lima,3600,Freguesia Do O,Superintendencia Das Usinas De Asfalto,-23.507347,-46.692366,arquivo-final-3-trim-26
+bueiro,resolvida,2026-07-22,2026-07-23,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Otaviano Alves de Lima,3600,Freguesia do O,,-23.507347,-46.692366,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-22,2026-07-24,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Imirim,2086,Mandaqui,Casa Verde-Limao-Cachoeirinha,-23.488335,-46.651518,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-22,2026-07-23,Entulho e grandes objetos em via pública - solicitar remoção,Rua Crato,112,Artur Alvim,Penha,-23.532786,-46.485115,arquivo-final-3-trim-26
 residuos,resolvida,2026-07-22,2026-07-24,Entulho e grandes objetos em via pública - solicitar remoção,Rua Tarabaí,14,Aricanduva,Aricanduva-Formosa-Carrao,-23.574356,-46.520016,arquivo-final-3-trim-26
 bueiro,resolvida,2026-07-23,2026-07-23,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Luís Mateus,2528,Cidade Tiradentes,Cidade Tiradentes,-23.563600,-46.418155,arquivo-final-3-trim-26
-via,resolvida,2026-07-23,2026-07-27,Tapa-buraco,Rua Cândida De Carvalho,475,Sao Miguel,Sao Miguel,-23.510347,-46.438950,arquivo-final-3-trim-26
+via,resolvida,2026-07-23,2026-07-27,Tapa-buraco,Rua Cândida de Carvalho,475,Sao Miguel,Sao Miguel,-23.510347,-46.438950,arquivo-final-3-trim-26
+via,resolvida,2026-07-23,2026-07-29,Tapa-buraco,Rua Benedito Araújo,91,Sao Mateus,Sao Mateus,-23.616715,-46.483271,arquivo-final-3-trim-26
 arvore,recebida,2026-07-24,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Pedro Bellegarde,208,Tatuape,Mooca,-23.538738,-46.558982,arquivo-final-3-trim-26
-via,recebida,2026-07-25,,Tapa-buraco,Rua Dos Patriotas,30,Ipiranga,Ipiranga,-23.582919,-46.600142,arquivo-final-3-trim-26
+via,recebida,2026-07-25,,Tapa-buraco,Rua dos Patriotas,30,Ipiranga,Ipiranga,-23.582919,-46.600142,arquivo-final-3-trim-26
 arvore,resolvida,2026-07-27,2026-07-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Capitão Francisco Lipi,130,Tucuruvi,Santana-Tucuruvi,-23.490750,-46.608933,arquivo-final-3-trim-26
-via,resolvida,2026-07-27,2026-08-05,Tapa-buraco,Rua Venceslau De Morais,64,Cidade Ademar,Cidade Ademar,-23.664538,-46.661057,arquivo-final-3-trim-26
-bueiro,recebida,2026-07-28,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Santo Amaro,4919,Campo Belo,Santo Amaro,-23.626101,-46.686824,arquivo-final-3-trim-26
+via,resolvida,2026-07-27,2026-08-05,Tapa-buraco,Rua Venceslau de Morais,64,Cidade Ademar,Cidade Ademar,-23.664538,-46.661057,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-28,2026-07-28,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Doutor Miguel de Campos Júnior,11,Marsilac,Parelheiros,-23.913314,-46.766421,arquivo-final-3-trim-26
 arvore,resolvida,2026-07-29,2026-08-10,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Imberé,816,Jardim Angela,M Boi Mirim,-23.723823,-46.763995,arquivo-final-3-trim-26
-bueiro,recebida,2026-07-29,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Monésia,34,Cidade Lider,Itaquera,-23.563657,-46.485590,arquivo-final-3-trim-26
-calcada,resolvida,2026-07-29,2026-08-19,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Liberato Luís Tavares,95,Jaragua,Pirituba-Jaragua,-23.447855,-46.727388,arquivo-final-3-trim-26
-veiculo,resolvida,2026-07-29,2026-08-12,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Expedito Ribeiro De Souza,414,Jaragua,Pirituba-Jaragua,-23.449601,-46.713196,arquivo-final-3-trim-26
-via,resolvida,2026-07-29,2026-07-30,Tapa-buraco,Rua Doutor Lafaiette De Sousa Camargo,117,Sacoma,Ipiranga,-23.638364,-46.607038,arquivo-final-3-trim-26
+via,resolvida,2026-07-29,2026-07-30,Tapa-buraco,Rua Doutor Lafaiette de Sousa Camargo,117,Sacoma,Ipiranga,-23.638364,-46.607038,arquivo-final-3-trim-26
+bueiro,resolvida,2026-07-30,2026-07-30,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Sapupira,423,Vila Jacui,Sao Miguel,-23.502835,-46.470733,arquivo-final-3-trim-26
 calcada,resolvida,2026-07-30,2026-08-07,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Aurora,909,Republica,Se,-23.542651,-46.644233,arquivo-final-3-trim-26
-arvore,recebida,2026-08-01,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Manuel Caldeira,634,Cidade Dutra,Capela Do Socorro,-23.720230,-46.691588,arquivo-final-3-trim-26
-via,recebida,2026-08-02,,Tapa-buraco,Rua Das Traíras,165,Pedreira,Cidade Ademar,-23.701953,-46.648571,arquivo-final-3-trim-26
-bueiro,resolvida,2026-08-03,2026-08-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada Da Ponte Alta,3,Marsilac,Parelheiros,-23.881463,-46.741529,arquivo-final-3-trim-26
-calcada,resolvida,2026-08-04,2026-08-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Da Graça,221,Bom Retiro,Se,-23.529284,-46.638923,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-05,2026-08-07,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Estrada Nossa Senhora Da Fonte,5713,Guaianases,Guaianases,-23.556715,-46.417299,arquivo-final-3-trim-26
-via,recebida,2026-08-05,,Tapa-buraco,Rua José Do Patrocínio,421,Vila Mariana,Vila Mariana,-23.579353,-46.632015,arquivo-final-3-trim-26
-bueiro,resolvida,2026-08-06,2026-08-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Ushikichi Kamiya,222,Tremembe,Jacana-Tremembe,-23.442340,-46.591008,arquivo-final-3-trim-26
+residuos,resolvida,2026-07-30,2026-07-30,Entulho e grandes objetos em via pública - solicitar remoção,Rua Agnelo Rodrigues de Mello,510,Ermelino Matarazzo,Ermelino Matarazzo,-23.496223,-46.490072,arquivo-final-3-trim-26
+veiculo,recebida,2026-07-30,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Evans,932,Penha,Penha,-23.530860,-46.526313,arquivo-final-3-trim-26
+bueiro,resolvida,2026-08-03,2026-08-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Estrada da Ponte Alta,3,Marsilac,Parelheiros,-23.881463,-46.741529,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-03,2026-08-04,Entulho e grandes objetos em via pública - solicitar remoção,Rua Coronel Emídio Piedade,622,Pari,Mooca,-23.528318,-46.610606,arquivo-final-3-trim-26
+calcada,resolvida,2026-08-04,2026-08-31,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua da Graça,221,Bom Retiro,Se,-23.529284,-46.638923,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-04,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dom Valentim,38,Vila Sonia,Butanta,-23.604349,-46.730671,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-05,2026-08-07,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Estrada Nossa Senhora da Fonte,5713,Guaianases,Guaianases,-23.556715,-46.417299,arquivo-final-3-trim-26
+via,recebida,2026-08-05,,Tapa-buraco,Rua José do Patrocínio,421,Vila Mariana,Vila Mariana,-23.579353,-46.632015,arquivo-final-3-trim-26
 via,resolvida,2026-08-06,2026-08-13,Tapa-buraco,Rua Muriri,282,Cangaiba,Penha,-23.502821,-46.512114,arquivo-final-3-trim-26
 residuos,resolvida,2026-08-08,2026-08-08,Entulho e grandes objetos em via pública - solicitar remoção,Rua Marquês Maricá,122,Sacoma,Ipiranga,-23.608328,-46.599278,arquivo-final-3-trim-26
-calcada,resolvida,2026-08-09,2026-08-13,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Benedito Sebastião De Faria,4,Sacoma,Ipiranga,-23.645914,-46.606732,arquivo-final-3-trim-26
+calcada,resolvida,2026-08-09,2026-08-13,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Benedito Sebastião de Faria,4,Sacoma,Ipiranga,-23.645914,-46.606732,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-09,2026-08-11,Entulho e grandes objetos em via pública - solicitar remoção,Rua Bartolomeu Dias,69,Carrao,Aricanduva-Formosa-Carrao,-23.553227,-46.547982,arquivo-final-3-trim-26
 via,resolvida,2026-08-09,2026-08-10,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Rua Siqueira Bueno,2065,Belem,Mooca,-23.553993,-46.583575,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-10,2026-09-21,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Do Aclamado,472,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.505202,-46.651038,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-10,2026-09-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Cabo Romeu Casagrande,386,Vila Maria,Vila Maria-Vila Guilherme,-23.516403,-46.565608,arquivo-final-3-trim-26
-arvore,recebida,2026-08-10,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Caititu,605,Itaquera,Itaquera,-23.531076,-46.469012,arquivo-final-3-trim-26
-bueiro,resolvida,2026-08-10,2026-08-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Antônio Do Campo,459,Pedreira,Cidade Ademar,-23.692691,-46.673167,arquivo-final-3-trim-26
-via,resolvida,2026-08-10,2026-08-11,Tapa-buraco,Rua Artur Ferreira De Abreu,310,Raposo Tavares,Butanta,-23.596134,-46.768339,arquivo-final-3-trim-26
-calcada,resolvida,2026-08-11,2026-08-20,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Bento Teobaldo Ferraz,119,Barra Funda,Lapa,-23.525469,-46.667420,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-10,2026-08-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Alfredo Sassi,237,Sao Mateus,Sao Mateus,-23.597980,-46.476913,arquivo-final-3-trim-26
+via,resolvida,2026-08-10,2026-08-11,Tapa-buraco,Rua Artur Ferreira de Abreu,310,Raposo Tavares,Butanta,-23.596134,-46.768339,arquivo-final-3-trim-26
 calcada,resolvida,2026-08-11,2026-08-21,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Campos Bicudo,173,Itaim Bibi,Pinheiros,-23.581192,-46.682498,arquivo-final-3-trim-26
 calcada,resolvida,2026-08-11,2026-09-14,"Guias, sarjetas e sarjetões - solicitar manutenção",Travessa Alcato,69,Jardim Angela,M Boi Mirim,-23.736418,-46.792039,arquivo-final-3-trim-26
-bueiro,recebida,2026-08-12,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Da Bica Cantareira,5,Tremembe,Jacana-Tremembe,-23.449381,-46.625635,arquivo-final-3-trim-26
 calcada,resolvida,2026-08-12,2026-08-20,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Bento Teobaldo Ferraz,119,Barra Funda,Lapa,-23.525469,-46.667420,arquivo-final-3-trim-26
+bueiro,resolvida,2026-08-13,2026-08-13,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua João Fioravante,86,Jardim Angela,M Boi Mirim,-23.692360,-46.770419,arquivo-final-3-trim-26
 calcada,recebida,2026-08-13,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Rochedo,47,Itaquera,Itaquera,-23.533309,-46.462130,arquivo-final-3-trim-26
 veiculo,recebida,2026-08-13,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Matias Taborda,39,Sao Domingos,Pirituba-Jaragua,-23.487820,-46.753021,arquivo-final-3-trim-26
-via,resolvida,2026-08-13,2026-08-26,Tapa-buraco,Rua Dionísio Lavranga,204,Cidade Ademar,Cidade Ademar,-23.685467,-46.667027,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-14,2026-08-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Das Perobas,178,Jabaquara,Jabaquara,-23.642213,-46.643606,arquivo-final-3-trim-26
+via,resolvida,2026-08-13,2026-08-13,Tapa-buraco,Rua Pedra Lavrada,670,Ermelino Matarazzo,Ermelino Matarazzo,-23.498000,-46.492720,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-14,2026-08-26,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua das Perobas,178,Jabaquara,Jabaquara,-23.642213,-46.643606,arquivo-final-3-trim-26
 calcada,resolvida,2026-08-14,2026-08-25,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Augusta,2530,Jardim Paulista,Pinheiros,-23.562951,-46.666127,arquivo-final-3-trim-26
 bueiro,recebida,2026-08-15,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Ragueb Chohfi,4710,Iguatemi,Sao Mateus,-23.595210,-46.440395,arquivo-final-3-trim-26
-calcada,resolvida,2026-08-15,2026-08-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Luiz Braz De Lara,23,Cidade Dutra,Capela Do Socorro,-23.743168,-46.710625,arquivo-final-3-trim-26
-residuos,recebida,2026-08-15,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Avenida Francesco Maria Melani,79,Cidade Ademar,Cidade Ademar,-23.692748,-46.639789,arquivo-final-3-trim-26
-residuos,recebida,2026-08-16,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Estrada De Itapecerica,1400,Jardim Sao Luis,M Boi Mirim,-23.646946,-46.747437,arquivo-final-3-trim-26
+calcada,resolvida,2026-08-15,2026-08-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Luiz Braz de Lara,23,Cidade Dutra,Capela do Socorro,-23.743168,-46.710625,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-16,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel de Deus,79,Vila Guilherme,Vila Maria-Vila Guilherme,-23.502039,-46.603393,arquivo-final-3-trim-26
 veiculo,recebida,2026-08-16,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Cachoeira Morena,662,Cidade Tiradentes,Cidade Tiradentes,-23.573077,-46.403112,arquivo-final-3-trim-26
 arvore,recebida,2026-08-17,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Sousa Coutinho,123,Sacoma,Ipiranga,-23.612036,-46.598917,arquivo-final-3-trim-26
-via,resolvida,2026-08-17,2026-08-17,Tapa-buraco,Rua Do Manifesto,1022,Ipiranga,Ipiranga,-23.582230,-46.601198,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-18,2026-08-25,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rebelo Da Silva,441,Artur Alvim,Penha,-23.527253,-46.479556,arquivo-final-3-trim-26
-arvore,recebida,2026-08-18,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Travessa Aningá-Do-Pará,5,Lajeado,Guaianases,-23.531161,-46.398382,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-18,2026-08-31,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Osvaldo De Andrade,119,Santo Amaro,Santo Amaro,-23.644096,-46.713584,arquivo-final-3-trim-26
+bueiro,resolvida,2026-08-17,2026-08-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Azevedo Júnior,185,Bras,Mooca,-23.550647,-46.623234,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-17,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dom João Guedes de Brito,247,Jaragua,Pirituba-Jaragua,-23.428095,-46.726470,arquivo-final-3-trim-26
+via,resolvida,2026-08-17,2026-08-17,Tapa-buraco,Rua do Manifesto,1022,Ipiranga,Ipiranga,-23.582230,-46.601198,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-18,2026-08-25,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Rebelo da Silva,441,Artur Alvim,Penha,-23.527253,-46.479556,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-19,2026-08-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Treze de Maio,1045,Bela Vista,Se,-23.562482,-46.645672,arquivo-final-3-trim-26
+bueiro,resolvida,2026-08-19,2026-08-19,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Bruno Bonetti,7,Parque do Carmo,Itaquera,-23.558392,-46.464356,arquivo-final-3-trim-26
 calcada,recebida,2026-08-19,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Monte Azul Paulista,15,Jaragua,Pirituba-Jaragua,-23.440433,-46.712113,arquivo-final-3-trim-26
-residuos,recebida,2026-08-19,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Santa Zélia,2,Jardim Angela,M Boi Mirim,-23.682682,-46.764997,arquivo-final-3-trim-26
-veiculo,resolvida,2026-08-19,2026-08-28,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ilha De Bali,156,Anhanguera,Perus-Anhanguera,-23.417493,-46.803860,arquivo-final-3-trim-26
+veiculo,resolvida,2026-08-19,2026-08-28,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Ilha de Bali,156,Anhanguera,Perus-Anhanguera,-23.417493,-46.803860,arquivo-final-3-trim-26
 via,resolvida,2026-08-19,2026-08-25,Tapa-buraco,Rua Filipe Lauri,369,Jose Bonifacio,Itaquera,-23.545690,-46.438987,arquivo-final-3-trim-26
-arvore,recebida,2026-08-22,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Marinau,26,Santo Amaro,Santo Amaro,-23.635069,-46.687973,arquivo-final-3-trim-26
+arvore,resolvida,2026-08-20,2026-09-07,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Estrada de Mogi das Cruzes,1600,Ponte Rasa,Ermelino Matarazzo,-23.515093,-46.487016,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-20,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel Francisco Alves,66,Tremembe,Jacana-Tremembe,-23.451216,-46.592330,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-21,2026-08-22,Entulho e grandes objetos em via pública - solicitar remoção,Rua Felipe de Gusmão,169,Alto de Pinheiros,Pinheiros,-23.544708,-46.696983,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-21,2026-08-25,Entulho e grandes objetos em via pública - solicitar remoção,Rua Papa Gregório Magno,133,Pedreira,Cidade Ademar,-23.692795,-46.653488,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-21,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Canhoba,40,Perus,Perus-Anhanguera,-23.407201,-46.743458,arquivo-final-3-trim-26
 calcada,resolvida,2026-08-22,2026-08-24,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua João Antunes Carvalho,190,Mandaqui,Santana-Tucuruvi,-23.481278,-46.642826,arquivo-final-3-trim-26
-residuos,recebida,2026-08-22,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Paulo Bifano Alves,174,Ermelino Matarazzo,Ermelino Matarazzo,-23.503399,-46.489556,arquivo-final-3-trim-26
-residuos,recebida,2026-08-22,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Engenheiro Hugo Takahashi,163,Raposo Tavares,Butanta,-23.602775,-46.784702,arquivo-final-3-trim-26
-bueiro,resolvida,2026-08-24,2026-08-25,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Nova Heliópolis,21,Sacoma,Ipiranga,-23.615981,-46.590714,arquivo-final-3-trim-26
+veiculo,recebida,2026-08-24,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida José Martins Lisboa,955,Jardim Helena,Sao Miguel,-23.481334,-46.414579,arquivo-final-3-trim-26
 via,recebida,2026-08-24,,Tapa-buraco,Rua Rodolfo Pereira Lima,438,Brasilandia,Freguesia-Brasilandia,-23.457350,-46.696769,arquivo-final-3-trim-26
-arvore,resolvida,2026-08-26,2026-09-04,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Ermelina Andrade Santos,221,Grajau,Capela Do Socorro,-23.748850,-46.694352,arquivo-final-3-trim-26
-residuos,recebida,2026-08-26,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Manuel Ramos Paiva,151,Belem,Mooca,-23.532459,-46.600419,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-25,2026-08-25,Entulho e grandes objetos em via pública - solicitar remoção,Rua Barra do Tibagi,121,Bom Retiro,Se,-23.522213,-46.639626,arquivo-final-3-trim-26
 via,resolvida,2026-08-26,2026-10-02,Tapa-buraco,Rua Francisco Pugliesse,188,Butanta,Butanta,-23.572597,-46.734468,arquivo-final-3-trim-26
 arvore,resolvida,2026-08-27,2026-08-28,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Demini,571,Penha,Penha,-23.529804,-46.531656,arquivo-final-3-trim-26
 calcada,recebida,2026-08-27,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Cajupiranga,01,Artur Alvim,Penha,-23.531163,-46.484438,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-27,2026-08-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Coronel Antônio Marcelo,146,Bras,Mooca,-23.544091,-46.608297,arquivo-final-3-trim-26
 veiculo,recebida,2026-08-27,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Atílio Piffer,120,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.513717,-46.660350,arquivo-final-3-trim-26
-via,resolvida,2026-08-27,2026-09-08,Tapa-buraco,Avenida Bagiru,265,Alto De Pinheiros,Pinheiros,-23.540281,-46.721523,arquivo-final-3-trim-26
-via,resolvida,2026-08-27,2026-08-31,Tapa-buraco,Rua Dos Mascarinos,35,Capao Redondo,Campo Limpo,-23.664491,-46.781069,arquivo-final-3-trim-26
+via,resolvida,2026-08-27,2026-09-08,Tapa-buraco,Avenida Bagiru,265,Alto de Pinheiros,Pinheiros,-23.540281,-46.721523,arquivo-final-3-trim-26
+via,resolvida,2026-08-27,2026-08-31,Tapa-buraco,Rua dos Mascarinos,35,Capao Redondo,Campo Limpo,-23.664491,-46.781069,arquivo-final-3-trim-26
 residuos,resolvida,2026-08-28,2026-08-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Leais Paulistanos,162,Ipiranga,Ipiranga,-23.578743,-46.607789,arquivo-final-3-trim-26
-residuos,recebida,2026-08-28,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Coronel Luís De Faria E Sousa,229,Jabaquara,Jabaquara,-23.652531,-46.638697,arquivo-final-3-trim-26
 veiculo,recebida,2026-08-28,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Doutor Pedro Jabur,137,Pirituba,Pirituba-Jaragua,-23.497219,-46.716723,arquivo-final-3-trim-26
 bueiro,resolvida,2026-08-29,2026-08-31,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Águas Virtuosas,1119,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.496512,-46.660030,arquivo-final-3-trim-26
 arvore,resolvida,2026-08-31,2026-09-09,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Maria Curupaiti,161,Santana,Santana-Tucuruvi,-23.505575,-46.640940,arquivo-final-3-trim-26
-veiculo,resolvida,2026-08-31,2026-09-17,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Doutor Assis Ribeiro,8472,Ermelino Matarazzo,Ermelino Matarazzo,-23.485162,-46.479144,arquivo-final-3-trim-26
-via,resolvida,2026-08-31,2026-09-01,Tapa-buraco,Rua Dezoito De Fevereiro,389,Vila Formosa,Aricanduva-Formosa-Carrao,-23.571970,-46.552266,arquivo-final-3-trim-26
-via,resolvida,2026-08-31,2026-09-01,Tapa-buraco,Rua Ari Dos Santos,126,Butanta,Butanta,-23.584214,-46.739578,arquivo-final-3-trim-26
+residuos,resolvida,2026-08-31,2026-09-01,Entulho e grandes objetos em via pública - solicitar remoção,Rua Conde de Avintes,10,Sao Rafael,Sao Mateus,-23.624544,-46.459290,arquivo-final-3-trim-26
+via,resolvida,2026-08-31,2026-09-01,Tapa-buraco,Rua Dezoito de Fevereiro,389,Vila Formosa,Aricanduva-Formosa-Carrao,-23.571970,-46.552266,arquivo-final-3-trim-26
 arvore,recebida,2026-09-01,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Miguel Maurício Ramalho,31,Pedreira,Cidade Ademar,-23.695894,-46.668446,arquivo-final-3-trim-26
-calcada,resolvida,2026-09-01,2026-09-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Das Alfazemas,88,Vila Prudente,Vila Prudente,-23.595556,-46.561583,arquivo-final-3-trim-26
+calcada,recebida,2026-09-01,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Virgínia Ferni,641,Jose Bonifacio,Itaquera,-23.544253,-46.439540,arquivo-final-3-trim-26
+veiculo,recebida,2026-09-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Itacolomi,456,Consolacao,Se,-23.547949,-46.657241,arquivo-final-3-trim-26
 veiculo,recebida,2026-09-01,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Solidês,63,Cursino,Ipiranga,-23.612465,-46.620677,arquivo-final-3-trim-26
 calcada,resolvida,2026-09-02,2026-10-01,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Periquito,137,Moema,Vila Mariana,-23.598680,-46.672692,arquivo-final-3-trim-26
 residuos,resolvida,2026-09-02,2026-09-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Pedro Maciel,259,Vila Jacui,Sao Miguel,-23.506015,-46.467100,arquivo-final-3-trim-26
 residuos,resolvida,2026-09-02,2026-09-02,Entulho e grandes objetos em via pública - solicitar remoção,Rua Moisés Valério Franco,140,Campo Grande,Santo Amaro,-23.688464,-46.685322,arquivo-final-3-trim-26
-veiculo,resolvida,2026-09-02,2026-09-08,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Manuel Carrão,1,Socorro,Capela Do Socorro,-23.671191,-46.723935,arquivo-final-3-trim-26
-residuos,recebida,2026-09-03,,Entulho e grandes objetos em via pública - solicitar remoção,Avenida Elísio Teixeira Leite,5000,Brasilandia,Freguesia-Brasilandia,-23.459494,-46.715255,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-03,2026-09-03,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Melo Freire,55,Tatuape,Mooca,-23.537417,-46.559213,arquivo-final-3-trim-26
+residuos,resolvida,2026-09-03,2026-09-05,Entulho e grandes objetos em via pública - solicitar remoção,Rua Domingos Fasolari,80,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.513864,-46.654125,arquivo-final-3-trim-26
 veiculo,recebida,2026-09-03,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Maria Silvina Tavares,159,Jardim Angela,M Boi Mirim,-23.690187,-46.778133,arquivo-final-3-trim-26
 via,resolvida,2026-09-03,2026-09-09,Tapa-buraco,Rua Leão Xiii,166,Casa Verde,Casa Verde-Limao-Cachoeirinha,-23.503262,-46.644714,arquivo-final-3-trim-26
 calcada,recebida,2026-09-04,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Jataíba,14,Jacana,Jacana-Tremembe,-23.455965,-46.576430,arquivo-final-3-trim-26
 residuos,resolvida,2026-09-04,2026-09-05,Entulho e grandes objetos em via pública - solicitar remoção,Rua Paramu,500,Vila Prudente,Vila Prudente,-23.595726,-46.567084,arquivo-final-3-trim-26
 veiculo,recebida,2026-09-04,,Solicitar remoção de veículo/carcaça abandonado na via pública,Avenida Hugo Ítalo Merigo,1152,Brasilandia,Freguesia-Brasilandia,-23.446521,-46.700066,arquivo-final-3-trim-26
-bueiro,recebida,2026-09-05,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Onófrio Milano,500,Jaguare,Lapa,-23.544726,-46.740623,arquivo-final-3-trim-26
-residuos,recebida,2026-09-05,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Pascal,437,Campo Belo,Santo Amaro,-23.617097,-46.676096,arquivo-final-3-trim-26
-residuos,recebida,2026-09-06,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Conde De São Joaquim,57,Bela Vista,Se,-23.556691,-46.638271,arquivo-final-3-trim-26
 veiculo,resolvida,2026-09-07,2026-09-25,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Cristianópolis,138,Mooca,Mooca,-23.572960,-46.584250,arquivo-final-3-trim-26
-arvore,resolvida,2026-09-08,2026-09-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Teodoro Bernardo Do Nascimento,405,Vila Curuca,Itaim Paulista,-23.523597,-46.409276,arquivo-final-3-trim-26
+arvore,resolvida,2026-09-08,2026-09-24,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Teodoro Bernardo do Nascimento,405,Vila Curuca,Itaim Paulista,-23.523597,-46.409276,arquivo-final-3-trim-26
 calcada,resolvida,2026-09-08,2026-09-15,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Nagasaki,118,Vila Maria,Vila Maria-Vila Guilherme,-23.503327,-46.581390,arquivo-final-3-trim-26
-residuos,recebida,2026-09-08,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Peritiba,16,Cangaiba,Penha,-23.503718,-46.513888,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-09,2026-09-16,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Rebouças,2942,Pinheiros,Pinheiros,-23.569367,-46.687902,arquivo-final-3-trim-26
+veiculo,recebida,2026-09-08,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Madagascar,16,Vila Formosa,Aricanduva-Formosa-Carrao,-23.579876,-46.531442,arquivo-final-3-trim-26
 calcada,recebida,2026-09-09,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Ramiz Galvão,839,Vila Medeiros,Vila Maria-Vila Guilherme,-23.482785,-46.577520,arquivo-final-3-trim-26
-veiculo,recebida,2026-09-09,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Doutor Lafaiette De Sousa Camargo,135,Sacoma,Ipiranga,-23.638249,-46.607014,arquivo-final-3-trim-26
+veiculo,recebida,2026-09-09,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Doutor Lafaiette de Sousa Camargo,135,Sacoma,Ipiranga,-23.638249,-46.607014,arquivo-final-3-trim-26
 via,resolvida,2026-09-09,2026-09-10,Tapa-buraco,Rua Serrana Fluminense,498,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.454539,-46.670610,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-10,2026-09-10,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Serra Do Apodi,12,Jardim Helena,Sao Miguel,-23.481718,-46.410264,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-10,2026-09-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Duarte De Azevedo,351,Santana,Santana-Tucuruvi,-23.500920,-46.622507,arquivo-final-3-trim-26
-bueiro,recebida,2026-09-10,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Ibiraporã,162,Vila Sonia,Butanta,-23.603496,-46.743077,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-10,2026-09-10,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Serra do Apodi,12,Jardim Helena,Sao Miguel,-23.481718,-46.410264,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-10,2026-09-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Duarte de Azevedo,351,Santana,Santana-Tucuruvi,-23.500920,-46.622507,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-11,2026-09-11,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Botuporã,21,Itaquera,Itaquera,-23.543497,-46.447416,arquivo-final-3-trim-26
-via,recebida,2026-09-11,,Tapa-buraco,Avenida República Do Líbano,4271,Moema,Vila Mariana,-23.599831,-46.659070,arquivo-final-3-trim-26
-calcada,recebida,2026-09-13,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Vereador João De Luca,1619,Jabaquara,Cidade Ademar,-23.656788,-46.664955,arquivo-final-3-trim-26
+via,resolvida,2026-09-11,2026-09-15,Tapa-buraco,Avenida Senador José Ermírio de Moraes,1995,Tremembe,Jacana-Tremembe,-23.440464,-46.616240,arquivo-final-3-trim-26
+calcada,recebida,2026-09-13,,"Guias, sarjetas e sarjetões - solicitar manutenção",Avenida Vereador João de Luca,1619,Jabaquara,Cidade Ademar,-23.656788,-46.664955,arquivo-final-3-trim-26
+arvore,resolvida,2026-09-14,2026-09-17,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Minerva,90,Perdizes,Lapa,-23.533105,-46.672361,arquivo-final-3-trim-26
+arvore,resolvida,2026-09-14,2026-09-23,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Alexandre Fernandes,213,Sapopemba,Sapopemba,-23.600347,-46.511406,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-14,2026-09-16,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Gurinhém,15,Vila Guilherme,Vila Maria-Vila Guilherme,-23.498990,-46.595731,arquivo-final-3-trim-26
-calcada,resolvida,2026-09-14,2026-09-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Professor Cardozo De Melo Neto,1059,Pedreira,Cidade Ademar,-23.696684,-46.636129,arquivo-final-3-trim-26
+calcada,resolvida,2026-09-14,2026-09-23,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Professor Cardozo de Melo Neto,1059,Pedreira,Cidade Ademar,-23.696684,-46.636129,arquivo-final-3-trim-26
+calcada,recebida,2026-09-14,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Mandacaru,27,Jardim Angela,M Boi Mirim,-23.728350,-46.758270,arquivo-final-3-trim-26
 residuos,resolvida,2026-09-14,2026-09-16,Entulho e grandes objetos em via pública - solicitar remoção,Rua Waldemar Mancini,139,Itaquera,Itaquera,-23.547653,-46.460052,arquivo-final-3-trim-26
-via,recebida,2026-09-14,,Tapa-buraco em faixa exclusiva ou corredor de ônibus,Avenida Morumbi,6560,Vila Andrade,Campo Limpo,-23.617455,-46.707131,arquivo-final-3-trim-26
-arvore,recebida,2026-09-15,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Gonçalves De Magalhães,153,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.470140,-46.668357,arquivo-final-3-trim-26
+arvore,recebida,2026-09-15,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Gonçalves de Magalhães,153,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.470140,-46.668357,arquivo-final-3-trim-26
 arvore,resolvida,2026-09-15,2026-09-17,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Doutor José Artur Nova,352,Jardim Helena,Sao Miguel,-23.475129,-46.424956,arquivo-final-3-trim-26
-calcada,resolvida,2026-09-15,2026-09-17,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Quipá,5363,Campo Limpo,Campo Limpo,-23.621549,-46.758070,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-16,2026-09-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Rio Alto Araguaia,59,Anhanguera,Perus-Anhanguera,-23.432118,-46.764069,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-16,2026-09-18,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua José Rebonato,55,Jacana,Jacana-Tremembe,-23.470049,-46.581671,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-16,2026-09-16,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Modelo,255,Sao Miguel,Sao Miguel,-23.525723,-46.438792,arquivo-final-3-trim-26
-residuos,recebida,2026-09-16,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Sobral Júnior,120,Vila Maria,Vila Maria-Vila Guilherme,-23.506664,-46.585456,arquivo-final-3-trim-26
+residuos,resolvida,2026-09-16,2026-09-23,Entulho e grandes objetos em via pública - solicitar remoção,Rua Doutor Bento Teobaldo Ferraz,271,Barra Funda,Lapa,-23.523882,-46.667672,arquivo-final-3-trim-26
+via,resolvida,2026-09-16,2026-09-21,Tapa-buraco,Viaduto Dona Paulina,23,Se,Se,-23.551836,-46.635690,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-17,2026-09-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Antônio Diogo,100,Penha,Penha,-23.528997,-46.492670,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-17,2026-09-17,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Arroio Itapevi,185,Cidade Tiradentes,Cidade Tiradentes,-23.581857,-46.413404,arquivo-final-3-trim-26
-via,resolvida,2026-09-17,2026-09-21,Tapa-buraco,Estrada Do Gramado,2500,Marsilac,Parelheiros,-23.915856,-46.769643,arquivo-final-3-trim-26
+via,resolvida,2026-09-17,2026-10-06,Tapa-buraco,Avenida Cândido Portinari,164,Jaguara,Lapa,-23.507803,-46.748508,arquivo-final-3-trim-26
+via,resolvida,2026-09-17,2026-09-21,Tapa-buraco,Estrada do Gramado,2500,Marsilac,Parelheiros,-23.915856,-46.769643,arquivo-final-3-trim-26
 arvore,recebida,2026-09-18,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Artur Bernardes,650,Agua Rasa,Mooca,-23.568507,-46.561126,arquivo-final-3-trim-26
-arvore,recebida,2026-09-18,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Itaipu,276,Saude,Vila Mariana,-23.612167,-46.641250,arquivo-final-3-trim-26
 calcada,recebida,2026-09-18,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Gerhardt Holtz,313,Vila Curuca,Itaim Paulista,-23.499709,-46.409527,arquivo-final-3-trim-26
 calcada,resolvida,2026-09-18,2026-09-29,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Pretória,1221,Vila Formosa,Aricanduva-Formosa-Carrao,-23.563297,-46.544845,arquivo-final-3-trim-26
 calcada,recebida,2026-09-18,,"Guias, sarjetas e sarjetões - solicitar manutenção",Travessa Vânia,14,Iguatemi,Sao Mateus,-23.612272,-46.435717,arquivo-final-3-trim-26
-residuos,recebida,2026-09-18,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Batalha Reis,35,Capao Redondo,Campo Limpo,-23.683031,-46.787398,arquivo-final-3-trim-26
-via,recebida,2026-09-18,,Tapa-buraco,Rua Atuaí,852,Penha,Penha,-23.529536,-46.529035,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-19,2026-09-21,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Jurubim,885,Sao Domingos,Pirituba-Jaragua,-23.483986,-46.753756,arquivo-final-3-trim-26
 via,recebida,2026-09-19,,Tapa-buraco,Rua Coronel Donato,354,Vila Matilde,Penha,-23.541246,-46.527359,arquivo-final-3-trim-26
 via,resolvida,2026-09-19,2026-09-21,Tapa-buraco,Avenida Luiz Gushiken,606,Jardim Sao Luis,M Boi Mirim,-23.670230,-46.740711,arquivo-final-3-trim-26
-calcada,recebida,2026-09-20,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Rio Grande Do Sul,173,Cidade Ademar,Cidade Ademar,-23.672449,-46.644395,arquivo-final-3-trim-26
+calcada,recebida,2026-09-20,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Rio Grande do Sul,173,Cidade Ademar,Cidade Ademar,-23.672449,-46.644395,arquivo-final-3-trim-26
 veiculo,resolvida,2026-09-20,2026-09-29,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Celeste,161,Belem,Mooca,-23.547612,-46.588603,arquivo-final-3-trim-26
-via,recebida,2026-09-20,,Tapa-buraco,Rua Antônio De Oliveira,31,Santo Amaro,Santo Amaro,-23.631832,-46.707100,arquivo-final-3-trim-26
+via,recebida,2026-09-20,,Tapa-buraco,Rua Antônio de Oliveira,31,Santo Amaro,Santo Amaro,-23.631832,-46.707100,arquivo-final-3-trim-26
 arvore,resolvida,2026-09-21,2026-10-01,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Moisés José Pereira,38,Itaim Paulista,Itaim Paulista,-23.495140,-46.395305,arquivo-final-3-trim-26
 arvore,recebida,2026-09-21,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Fábio Barbosa Lima,267,Capao Redondo,Campo Limpo,-23.662842,-46.791278,arquivo-final-3-trim-26
 bueiro,recebida,2026-09-21,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Travessa Maria Pinto Labiapari,386,Itaquera,Itaquera,-23.515980,-46.451619,arquivo-final-3-trim-26
 via,resolvida,2026-09-21,2026-09-24,Tapa-buraco,Rua Baltazar Barbosa,206,Sao Rafael,Sao Mateus,-23.619398,-46.476735,arquivo-final-3-trim-26
-via,recebida,2026-09-21,,Tapa-buraco,Rua Doutor Maurício De Lacerda,767,Saude,Vila Mariana,-23.624969,-46.631888,arquivo-final-3-trim-26
-via,recebida,2026-09-21,,Tapa-buraco,Rua Antonino De Matos,89,Jardim Sao Luis,M Boi Mirim,-23.645162,-46.740113,arquivo-final-3-trim-26
-via,recebida,2026-09-21,,Tapa-buraco,Rua Rio Paraguaçu,111,Cidade Dutra,Capela Do Socorro,-23.689253,-46.696681,arquivo-final-3-trim-26
-bueiro,recebida,2026-09-22,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Doutor Vidal Reis,23,Vila Maria,Vila Maria-Vila Guilherme,-23.522895,-46.565239,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-22,2026-09-22,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Uhland,583,Sao Lucas,Vila Prudente,-23.590035,-46.538218,arquivo-final-3-trim-26
+via,recebida,2026-09-21,,Tapa-buraco,Rua Antonino de Matos,89,Jardim Sao Luis,M Boi Mirim,-23.645162,-46.740113,arquivo-final-3-trim-26
+via,recebida,2026-09-21,,Tapa-buraco,Rua Rio Paraguaçu,111,Cidade Dutra,Capela do Socorro,-23.689253,-46.696681,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-23,2026-09-26,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Capichanã,464,Ipiranga,Ipiranga,-23.608413,-46.608858,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-23,2026-09-24,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Avenida Pedro Severino Junior,98,Jabaquara,Jabaquara,-23.632397,-46.644267,arquivo-final-3-trim-26
+calcada,recebida,2026-09-23,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Heitor Penteado,2168,Perdizes,Lapa,-23.541076,-46.696860,arquivo-final-3-trim-26
+calcada,recebida,2026-09-23,,"Guias, sarjetas e sarjetões - solicitar manutenção",Praça Panamericana,217,Alto de Pinheiros,Pinheiros,-23.554185,-46.710094,arquivo-final-3-trim-26
+veiculo,recebida,2026-09-23,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Dom Cavati,21,Lajeado,Guaianases,-23.534309,-46.412735,arquivo-final-3-trim-26
 via,recebida,2026-09-23,,Tapa-buraco,Rua Professor João Arruda,407,Perdizes,Lapa,-23.541835,-46.675364,arquivo-final-3-trim-26
 via,recebida,2026-09-23,,Tapa-buraco,Travessa Alvise Vivarini,32,Iguatemi,Sao Mateus,-23.615859,-46.416607,arquivo-final-3-trim-26
 via,resolvida,2026-09-23,2026-09-25,Tapa-buraco,Rua Deputado João Sussumu Hirata,2193,Vila Andrade,Campo Limpo,-23.625316,-46.734025,arquivo-final-3-trim-26
-arvore,recebida,2026-09-24,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Aguiar De Castro,22,Vila Sonia,Butanta,-23.585274,-46.726838,arquivo-final-3-trim-26
 veiculo,recebida,2026-09-24,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Felício Atalla,213,Cidade Ademar,Cidade Ademar,-23.668808,-46.671135,arquivo-final-3-trim-26
 via,recebida,2026-09-24,,Tapa-buraco,Rua Monte Pascal,181,Lapa,Lapa,-23.519654,-46.723201,arquivo-final-3-trim-26
-arvore,recebida,2026-09-25,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Pierre Legros,15,Jardim Angela,M Boi Mirim,-23.678085,-46.762858,arquivo-final-3-trim-26
-bueiro,recebida,2026-09-25,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Coronel Julião De Moura Negrão,12,Perus,Perus-Anhanguera,-23.409836,-46.761998,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-25,2026-09-28,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Túnel Noite Ilustrada,343,Perdizes,Lapa,-23.555143,-46.668279,arquivo-final-3-trim-26
 calcada,recebida,2026-09-25,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua João Marchiori,371,Vila Matilde,Penha,-23.539737,-46.511661,arquivo-final-3-trim-26
 calcada,resolvida,2026-09-25,2026-09-30,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Groenlândia,961,Pinheiros,Pinheiros,-23.575317,-46.672310,arquivo-final-3-trim-26
-via,resolvida,2026-09-25,2026-09-26,Tapa-buraco,Rua Luiz Macário De Castro,146,Cachoeirinha,Casa Verde-Limao-Cachoeirinha,-23.464743,-46.666281,arquivo-final-3-trim-26
 via,recebida,2026-09-25,,Tapa-buraco,Rua Joaquim Floriano,717,Itaim Bibi,Pinheiros,-23.585308,-46.676918,arquivo-final-3-trim-26
+via,resolvida,2026-09-26,2026-10-02,Tapa-buraco,Praça Professor Mário Autuori,343,Saude,Vila Mariana,-23.628591,-46.639073,arquivo-final-3-trim-26
 bueiro,resolvida,2026-09-27,2026-09-28,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Alameda Lorena,189,Jardim Paulista,Pinheiros,-23.572526,-46.656923,arquivo-final-3-trim-26
 arvore,recebida,2026-09-28,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Ubaíra,75,Moema,Vila Mariana,-23.606481,-46.674579,arquivo-final-3-trim-26
 calcada,recebida,2026-09-28,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Sérgio Tomás,9,Bom Retiro,Se,-23.520728,-46.644028,arquivo-final-3-trim-26
 residuos,resolvida,2026-09-28,2026-09-28,Entulho e grandes objetos em via pública - solicitar remoção,Rua Luís Rosseti,496,Sao Mateus,Sao Mateus,-23.601648,-46.475208,arquivo-final-3-trim-26
 veiculo,recebida,2026-09-28,,Solicitar remoção de veículo/carcaça abandonado na via pública,Rua Vianópolis,520,Vila Maria,Vila Maria-Vila Guilherme,-23.505068,-46.582476,arquivo-final-3-trim-26
-bueiro,resolvida,2026-09-29,2026-09-29,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Agenor De Barros,211,Ponte Rasa,Ermelino Matarazzo,-23.508711,-46.489878,arquivo-final-3-trim-26
+bueiro,resolvida,2026-09-29,2026-09-29,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Agenor de Barros,211,Ponte Rasa,Ermelino Matarazzo,-23.508711,-46.489878,arquivo-final-3-trim-26
+calcada,recebida,2026-09-29,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Alves de Almeida,841,Vila Formosa,Aricanduva-Formosa-Carrao,-23.572504,-46.538474,arquivo-final-3-trim-26
 calcada,recebida,2026-09-29,,"Guias, sarjetas e sarjetões - solicitar manutenção",Rua Fidélis Papini,493,Vila Prudente,Vila Prudente,-23.580609,-46.577838,arquivo-final-3-trim-26
-via,recebida,2026-09-29,,Tapa-buraco,Rua Tibúrcio De Sousa,832,Itaim Paulista,Itaim Paulista,-23.504468,-46.396608,arquivo-final-3-trim-26
-via,recebida,2026-09-29,,Tapa-buraco,Rua São Carlos Do Pinhal,690,Bela Vista,Se,-23.559831,-46.656251,arquivo-final-3-trim-26
-via,recebida,2026-09-29,,Tapa-buraco,Estrada Do M'Boi Mirim,7815,Jardim Angela,M Boi Mirim,-23.710192,-46.783214,arquivo-final-3-trim-26
+via,recebida,2026-09-29,,Tapa-buraco,Rua Tibúrcio de Sousa,832,Itaim Paulista,Itaim Paulista,-23.504468,-46.396608,arquivo-final-3-trim-26
+via,recebida,2026-09-29,,Tapa-buraco,Rua São Carlos do Pinhal,690,Bela Vista,Se,-23.559831,-46.656251,arquivo-final-3-trim-26
 arvore,recebida,2026-09-30,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Rua Sobral Júnior,221,Vila Maria,Vila Maria-Vila Guilherme,-23.506423,-46.586674,arquivo-final-3-trim-26
-arvore,recebida,2026-09-30,,Árvore – Solicitar avaliação em calçadas e praças para fins de poda ou remoção,Avenida Engenheiro Eusébio Stevaux,1159,Campo Grande,Santo Amaro,-23.675825,-46.695974,arquivo-final-3-trim-26
-bueiro,recebida,2026-09-30,,"Solicitar limpeza de bueiros, boca de lobo e poços de visita",Rua Leme E Alvarenga,198,Vila Curuca,Itaim Paulista,-23.522937,-46.401367,arquivo-final-3-trim-26
-residuos,recebida,2026-09-30,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Doutor João Batista De Lacerda,640,Mooca,Mooca,-23.551794,-46.587414,arquivo-final-3-trim-26
-residuos,recebida,2026-09-30,,Denunciar descarte irregular de entulho e outros resíduos em área pública,Rua Doutor Jorge Canaan,72,Campo Grande,Santo Amaro,-23.676294,-46.692553,arquivo-final-3-trim-26

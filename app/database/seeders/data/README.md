@@ -31,9 +31,30 @@ python -I scripts/amostra_sp156.py app/database/seeders/data/sp156-amostra.csv \
   Iluminação pública não aparece nos dados abertos do SP156 e fica sem amostra.
 - Status: `Finalizada` → `resolvida`, `Aberto` → `recebida`, `Em Andamento` →
   `em_atendimento`. Canceladas ficam de fora.
-- Sorteio com semente fixa (156), cota por status (50% finalizadas, 35%
-  abertas, 15% em andamento, completando quando faltam) e prioridade para
-  distritos diferentes.
+- Sorteio com semente fixa (156): 100 chamados por serviço, **estratificados
+  por status na proporção real de cada serviço** (método dos maiores restos) e,
+  dentro de cada estrato, com prioridade para distritos diferentes.
+- Limpeza: números prediais acima de 25.000 (erro de digitação na fonte) ficam
+  vazios; "Superintendência das Usinas de Asfalto" (órgão, não território) não
+  é usada como subprefeitura; preposições em minúsculo ("Freguesia do O").
+
+## População × amostra
+
+O script também gera `sp156-amostra-populacao.csv`, o retrato da população
+filtrada (jan–set/2026, com coordenadas, sem canceladas):
+
+| Serviço | Volume | Abertos (pop.) | Abertos (amostra) | Mediana (dias) | p75 (dias) | Prazo no app |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Entulho (`residuos`) | 121.225 | 2,3% | 2 | 1 | 2 | 5 |
+| Buraco (`via`) | 83.439 | 28,2% | 28 | 7 | 19 | 7 |
+| Árvore (`arvore`) | 56.020 | 21,1% | 21 | 17 | 39 | 30 |
+| Veículo (`veiculo`) | 34.287 | 73,8% | 74 | 36 | 61 | 30 |
+| Guias e sarjetas (`calcada`) | 24.655 | 49,1% | 49 | 21 | 51 | 20 |
+| Bueiro (`bueiro`) | 18.469 | 8,5% | 9 | 1 | 5 | 7 |
+
+"Em Andamento" praticamente não existe na fonte (3 registros), por isso não
+aparece na amostra. Mediana e p75 são de dias até a finalização, só dos
+finalizados.
 
 ## Limitações
 
@@ -41,7 +62,11 @@ python -I scripts/amostra_sp156.py app/database/seeders/data/sp156-amostra.csv \
 - Não há data de início do atendimento nem horário: a etapa "em atendimento"
   aparece como "Data não informada" e as datas são só o dia.
 - O SP156 não publica prazos. O prazo (SLA) vem do catálogo fictício da Cidade
-  Alfa, calibrado pelas medianas reais da amostra.
+  Alfa, escolhido pela equipe olhando a distribuição real acima (sem uma regra
+  única): por isso o "% no prazo" mede o serviço contra essa meta, não contra
+  um prazo oficial.
+- O resultado geral de `/indicadores` dá o mesmo peso (100) a cada serviço; o
+  volume real é muito diferente entre eles (tabela acima).
 
 ## Data de corte
 

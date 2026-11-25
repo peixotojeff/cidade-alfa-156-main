@@ -19,7 +19,7 @@ return [
         '2026-3' => '2026-10-08',
     ],
     'servicos' => [
-        // 'dias' é o prazo (SLA) definido pela Cidade Alfa — fictício, calibrado pelos tempos reais
+        // 'dias' é o prazo (SLA) definido pela Cidade Alfa — fictício, escolhido olhando os tempos reais
         // de resolução da amostra do SP156 (ver DESIGN.md e database/seeders/data/README.md).
         'via' => ['nome' => 'Buraco na via', 'secretaria' => 'Obras', 'dias' => 7, 'icone' => 'cone', 'exemplo' => 'Buraco, afundamento ou asfalto solto'],
         'residuos' => ['nome' => 'Entulho e descarte irregular', 'secretaria' => 'Limpeza Urbana', 'dias' => 5, 'icone' => 'folha', 'exemplo' => 'Entulho, lixo ou móveis largados na rua'],

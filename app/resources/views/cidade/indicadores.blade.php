@@ -89,7 +89,7 @@
     <ul class="muted lista-notas">
         <li><strong>Prazos:</strong> a Cidade Alfa é fictícia e usa os dados de São Paulo como referência. Os prazos de cada serviço foram definidos pela equipe olhando os tempos reais do SP156, que não publica prazos oficiais.</li>
         <li><strong>Abertos e atrasados:</strong> o status dos chamados do SP156 é o da data em que cada planilha foi extraída (06/08/2026 para jan–jun e 08/10/2026 para jul–set). O atraso deles é medido nessa data, não hoje.</li>
-        <li><strong>Amostra:</strong> são 100 chamados por serviço. Os números por serviço são comparáveis entre si; o resultado geral dá o mesmo peso a cada serviço e não reflete o volume real de pedidos.</li>
+        <li><strong>Amostra:</strong> são 100 chamados por serviço, sorteados na proporção real de abertos e resolvidos de cada serviço no SP156 (de 2% de abertos em entulho a 74% em veículo abandonado). O resultado geral dá o mesmo peso a cada serviço e não reflete o volume real de pedidos.</li>
         <li><strong>Tempo típico:</strong> é a mediana dos chamados já resolvidos. Os que continuam abertos tendem a demorar mais e não entram nessa conta.</li>
         <li><strong>Satisfação:</strong> vem só das avaliações de quem abriu chamados neste app. Os chamados do SP156 não recebem avaliação.</li>
         <li><strong>Iluminação pública</strong> não aparece nos dados abertos do SP156, por isso não tem amostra.</li>
