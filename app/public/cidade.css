@@ -365,6 +365,8 @@ button:disabled { cursor: progress; opacity: .7; transform: none; }
 .paginacao { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--e4); margin-top: var(--e5); }
 .paginacao .botao { min-height: 48px; font-size: 18px; }
 .desativado { opacity: .5; pointer-events: none; }
+.dados-demo { margin-top: var(--e7); display: grid; gap: var(--e3); }
+.dados-demo h2, .dados-demo p { margin: 0; }
 
 /* ---------- Rodapé ---------- */
 .rodape { border-top: 1px solid var(--outline); background: var(--surface); color: var(--ink-muted); font-size: 16px; padding: var(--e5) 0; }

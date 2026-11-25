@@ -105,6 +105,16 @@ class DemandaController extends Controller
         ]);
     }
 
+    /** Carrega (ou recarrega) a amostra do SP156. Idempotente: só substitui origem = 'sp156'. */
+    public function importarSp156(Request $request)
+    {
+        $this->somenteDemo($request);
+        (new \Database\Seeders\Sp156Seeder)->run();
+        $total = Demanda::where('origem', \App\Support\Sp156Amostra::ORIGEM)->count();
+
+        return redirect()->route('secretaria')->with('aviso', "Amostra do SP156 carregada: {$total} chamados reais.");
+    }
+
     public function indicadores()
     {
         return view('cidade.indicadores', ['indicadores' => Indicadores::calcular()]);

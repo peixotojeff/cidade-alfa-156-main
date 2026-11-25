@@ -15,4 +15,5 @@ Route::get('/indicadores', [DemandaController::class, 'indicadores'])->name('ind
 Route::middleware('throttle:60,1')->group(function () {
     Route::get('/secretaria', [DemandaController::class, 'secretaria'])->name('secretaria');
     Route::post('/secretaria/{protocolo}/status', [DemandaController::class, 'atualizar'])->name('atualizar');
+    Route::post('/secretaria/amostra-sp156', [DemandaController::class, 'importarSp156'])->name('importar-sp156');
 });

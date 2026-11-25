@@ -120,4 +120,13 @@
         @endif
     </nav>
 @endif
+
+<section class="cartao dados-demo" aria-labelledby="dados-demo">
+    <h2 id="dados-demo">Dados de demonstração</h2>
+    <p class="muted">Recarrega a amostra de 600 chamados reais dos dados abertos do SP156. Só os registros vindos do SP156 são substituídos; chamados abertos no app não são alterados.</p>
+    <form method="post" action="{{ route('importar-sp156') }}">
+        @csrf
+        <button class="botao botao-secundario" type="submit">@include('cidade.icone', ['nome' => 'grafico', 'tamanho' => 20]) Recarregar amostra do SP156</button>
+    </form>
+</section>
 @endsection

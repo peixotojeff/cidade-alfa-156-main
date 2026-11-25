@@ -105,6 +105,18 @@ class DemandaTest extends TestCase
         $this->get('/secretaria?situacao=atrasados')->assertSee('ALFA-0000000000000003')->assertDontSee('ALFA-0000000000000004');
     }
 
+    public function test_recarga_da_amostra_pela_secretaria_exige_acesso(): void
+    {
+        config(['cidade.demo' => false, 'cidade.secretaria' => ['usuario' => 'gestor', 'senha' => 'segredo-forte']]);
+        $remoto = ['REMOTE_ADDR' => '192.0.2.20'];
+        $this->withServerVariables($remoto)->post('/secretaria/amostra-sp156')->assertUnauthorized();
+        $this->assertSame(0, \App\Models\Demanda::count());
+
+        $this->withServerVariables($remoto + ['PHP_AUTH_USER' => 'gestor', 'PHP_AUTH_PW' => 'segredo-forte'])
+            ->post('/secretaria/amostra-sp156')->assertRedirect('/secretaria')->assertSessionHas('aviso');
+        $this->assertSame(600, \App\Models\Demanda::where('origem', 'sp156')->count());
+    }
+
     public function test_secretaria_publicada_exige_senha(): void
     {
         config(['cidade.demo' => false, 'cidade.secretaria' => ['usuario' => 'gestor', 'senha' => 'segredo-forte']]);

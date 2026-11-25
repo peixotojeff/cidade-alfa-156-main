@@ -8,7 +8,7 @@
     <title>@yield('titulo') · Cidade Alfa 156+</title>
     <link rel="preload" href="{{ asset('fonts/atkinson-hyperlegible-latin-400-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ asset('fonts/hubot-sans-latin-700-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=6">
+    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=7">
     @stack('head')
 </head>
 <body>
