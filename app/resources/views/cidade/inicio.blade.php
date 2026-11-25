@@ -1,54 +1,57 @@
 @extends('cidade.layout')
-@section('titulo', 'Abrir chamado')
-@push('head')
-<link rel="stylesheet" href="{{ asset('leaflet/leaflet.css') }}">
-<script defer src="{{ asset('leaflet/leaflet.js') }}"></script>
-<script defer src="{{ asset('cidade.js') }}"></script>
-@endpush
+@section('titulo', 'Início')
 @section('conteudo')
-<div class="intro">
+<section class="hero">
     <p class="rotulo">Serviços municipais · Demonstração</p>
-    <h1>Abra um chamado</h1>
-    <p>Informe o problema, marque onde ele aconteceu e acompanhe a resposta pelo protocolo.</p>
-</div>
-<div class="colunas">
-    <form class="cartao pilha" method="post" action="{{ route('abrir') }}">
-        @csrf
-        <label for="servico">Tipo de serviço</label>
-        <select id="servico" name="servico" required>
-            <option value="">Selecione</option>
-            @foreach($servicos as $codigo => $item)
-                <option value="{{ $codigo }}" data-dias="{{ $item['dias'] }}" @selected(old('servico') === $codigo)>{{ $item['nome'] }}</option>
-            @endforeach
-        </select>
-        <small id="prazo-previsto" aria-live="polite">O prazo depende do serviço escolhido.</small>
-        @error('servico')<p class="erro" role="alert">{{ $message }}</p>@enderror
-        <label for="descricao">O que aconteceu?</label>
-        <textarea id="descricao" name="descricao" rows="3" maxlength="1200" required placeholder="Ex.: poste apagado perto da praça fictícia">{{ old('descricao') }}</textarea>
-        @error('descricao')<p class="erro" role="alert">{{ $message }}</p>@enderror
-        <fieldset class="pilha">
-            <legend>Local do problema</legend>
-            <p class="muted">Toque no mapa ou use sua localização e ajuste o pin. Também é possível digitar as coordenadas.</p>
-            <div id="mapa" aria-label="Mapa para marcar o local do problema"></div>
-            <button class="secundario" type="button" id="localizar" hidden>Usar minha localização</button>
-            <p id="mapa-status" class="muted" aria-live="polite"></p>
-            <div class="coords">
-                <div><label for="latitude">Latitude</label><input id="latitude" name="latitude" type="number" step="any" min="-90" max="90" required value="{{ old('latitude') }}">@error('latitude')<p class="erro" role="alert">{{ $message }}</p>@enderror</div>
-                <div><label for="longitude">Longitude</label><input id="longitude" name="longitude" type="number" step="any" min="-180" max="180" required value="{{ old('longitude') }}">@error('longitude')<p class="erro" role="alert">{{ $message }}</p>@enderror</div>
-            </div>
-        </fieldset>
-        <button type="submit">Confirmar local e registrar</button>
-    </form>
-    <section id="consulta" class="cartao">
-        <h2>Acompanhar chamado</h2>
-        <p class="muted">Consulte o prazo e veja o que mudou usando seu protocolo.</p>
-        <form class="pilha" method="post" action="{{ route('consultar') }}">
-            @csrf
-            <label for="protocolo">Protocolo</label>
-            <input id="protocolo" name="protocolo" required maxlength="21" value="{{ old('protocolo') }}" placeholder="ALFA-…">
-            @error('protocolo')<p class="erro" role="alert">{{ $message }}</p>@enderror
-            <button type="submit" class="secundario">Consultar</button>
-        </form>
-    </section>
-</div>
+    <h1>Viu um problema na cidade? Conte para a gente.</h1>
+    <p class="texto-grande">Registre em poucos minutos, marque o local no mapa e acompanhe cada etapa pelo número de protocolo.</p>
+</section>
+
+<section class="secao" aria-labelledby="o-que-fazer">
+    <h2 id="o-que-fazer" class="visualmente-oculto">O que você quer fazer?</h2>
+    <div class="caminhos">
+        <a class="caminho caminho-primario" href="{{ route('novo') }}">
+            <span class="caminho-icone">@include('cidade.icone', ['nome' => 'pin', 'tamanho' => 32])</span>
+            <span class="caminho-texto"><strong>Abrir um chamado</strong><span>Informe o problema e onde ele está.</span></span>
+            @include('cidade.icone', ['nome' => 'seta', 'classe' => 'caminho-seta'])
+        </a>
+        <a class="caminho" href="{{ route('consulta') }}">
+            <span class="caminho-icone">@include('cidade.icone', ['nome' => 'lupa', 'tamanho' => 32])</span>
+            <span class="caminho-texto"><strong>Acompanhar um chamado</strong><span>Use o protocolo que você recebeu.</span></span>
+            @include('cidade.icone', ['nome' => 'seta', 'classe' => 'caminho-seta'])
+        </a>
+        <a class="caminho" href="{{ route('indicadores') }}">
+            <span class="caminho-icone">@include('cidade.icone', ['nome' => 'grafico', 'tamanho' => 32])</span>
+            <span class="caminho-texto"><strong>Ver os prazos</strong><span>Quanto a prefeitura resolve dentro do prazo.</span></span>
+            @include('cidade.icone', ['nome' => 'seta', 'classe' => 'caminho-seta'])
+        </a>
+    </div>
+</section>
+
+<section class="secao" aria-labelledby="servicos">
+    <h2 id="servicos">Serviços disponíveis</h2>
+    <p class="muted">Cada serviço tem um prazo previsto de atendimento, contado em dias corridos.</p>
+    <ul class="grade-servicos">
+        @foreach($servicos as $codigo => $item)
+            <li class="cartao servico">
+                <span class="servico-icone">@include('cidade.icone', ['nome' => $item['icone'], 'tamanho' => 32])</span>
+                <h3>{{ $item['nome'] }}</h3>
+                <p class="muted">{{ $item['exemplo'] }}</p>
+                <p class="servico-meta">
+                    <span class="prazo">@include('cidade.icone', ['nome' => 'relogio', 'tamanho' => 20]) {{ $item['dias'] }} dias</span>
+                    <span class="muted">{{ $item['secretaria'] }}</span>
+                </p>
+            </li>
+        @endforeach
+    </ul>
+</section>
+
+<section class="secao" aria-labelledby="como-funciona">
+    <h2 id="como-funciona">Como funciona</h2>
+    <ol class="passos">
+        <li><span class="passo-numero" aria-hidden="true">1</span><div><strong>Conte o que aconteceu</strong><p class="muted">Escolha o serviço e descreva o problema.</p></div></li>
+        <li><span class="passo-numero" aria-hidden="true">2</span><div><strong>Marque o local</strong><p class="muted">Toque no mapa, use sua localização ou digite as coordenadas.</p></div></li>
+        <li><span class="passo-numero" aria-hidden="true">3</span><div><strong>Acompanhe pelo protocolo</strong><p class="muted">Veja quando a secretaria recebe, atende e resolve.</p></div></li>
+    </ol>
+</section>
 @endsection

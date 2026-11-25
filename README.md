@@ -16,6 +16,16 @@ No pacote de código-fonte, instale as dependências com `cd app && composer ins
 - O mapa usa Leaflet com imagens do OpenStreetMap; se as imagens falharem, ainda é possível digitar coordenadas fictícias. A geolocalização depende de permissão do navegador e origem segura (`localhost` ou HTTPS); para demonstrações use localização simulada.
 - Testes: na pasta `app`, rode `php vendor/bin/phpunit` ou, neste ambiente, `../.tooling/frankenphp-stable php-cli vendor/bin/phpunit` com `APP_KEY` definida com uma chave de teste aleatória.
 
+### Dados reais do SP156
+
+O protótipo traz uma amostra de 600 chamados reais dos dados abertos do SP156
+(Prefeitura de São Paulo, CC0, jan–set/2026), usada para os indicadores de prazo
+(`/indicadores`) e para a fila da secretaria. Origem, mapeamento e limitações:
+[`app/database/seeders/data/README.md`](app/database/seeders/data/README.md).
+
+- Local: `php artisan db:seed --class=Sp156Seeder`
+- Supabase: `php artisan cidade:sp156-sql amostra.sql` e executar o SQL gerado.
+
 ### Publicar no Vercel (container + Supabase)
 
 O Vercel não roda PHP nativamente. O `Dockerfile` da raiz empacota o Laravel com FrankenPHP, e o `vercel.json` declara esse container como serviço e manda todo o tráfego para ele. No projeto do Vercel, deixe o *Root Directory* vazio e o *Framework Preset* em **Services** (ou **Container**), sem overrides de build/output. O SQLite não persiste no Vercel, então o banco de produção é um Postgres do Supabase.

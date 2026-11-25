@@ -5,3 +5,6 @@
 /app/database/*.sqlite
 /app/database/*.sqlite-*
 /.vercel
+
+.vercel
+.env*

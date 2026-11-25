@@ -3,14 +3,8 @@
   const lon = document.querySelector('#longitude');
   const info = document.querySelector('#mapa-status');
   const locate = document.querySelector('#localizar');
-  const service = document.querySelector('#servico');
-  const sla = document.querySelector('#prazo-previsto');
-  const showSla = () => {
-    const dias = service.selectedOptions[0]?.dataset.dias;
-    sla.textContent = dias ? `Prazo previsto: ${dias} dias corridos.` : 'O prazo depende do serviço escolhido.';
-  };
-  service.addEventListener('change', showSla);
-  showSla();
+  const manual = document.querySelector('.coordenadas');
+  const openManual = () => { if (manual) manual.open = true; };
   let map, pin, revision = 0;
   const mark = (a, b, message, recenter = false) => {
     if (map) {
@@ -35,6 +29,7 @@
       maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).on('tileerror', () => {
       if (!info.textContent) info.textContent = 'Mapa-base indisponível. Você também pode digitar as coordenadas.';
+      openManual();
     }).addTo(map);
     map.on('click', ({latlng}) => {
       revision++;
@@ -42,6 +37,7 @@
       mark(point.lat, point.lng, 'Pin marcado. Confira antes de registrar.');
     });
   }
+  if (!map) openManual();
   const sync = () => {
     revision++;
     if (lat.value && lon.value && lat.validity.valid && lon.validity.valid) {
@@ -58,17 +54,34 @@
   locate.addEventListener('click', () => {
     if (!window.isSecureContext || !navigator.geolocation) {
       info.textContent = 'GPS indisponível. Marque no mapa ou digite as coordenadas.';
+      openManual();
       return;
     }
     const started = ++revision;
     locate.disabled = true;
     info.textContent = 'Buscando localização…';
-    navigator.geolocation.getCurrentPosition(({coords}) => {
+    const success = ({coords}) => {
       locate.disabled = false;
       if (revision === started) mark(coords.latitude, coords.longitude, `Localização estimada (precisão: ${Math.ceil(coords.accuracy)} m). Ajuste o pin se necessário.`, true);
-    }, () => {
+    };
+    const fail = (error) => {
       locate.disabled = false;
-      if (revision === started) info.textContent = 'Não foi possível localizar. Marque no mapa ou digite as coordenadas.';
-    }, {enableHighAccuracy: true, timeout: 10000, maximumAge: 0});
+      if (revision !== started) return;
+      const reasons = {
+        1: 'Sem permissão para usar sua localização. Libere o acesso no ícone de cadeado da barra de endereço ou marque no mapa.',
+        2: 'Seu aparelho não informou a localização. No computador, confira se a localização está ligada nas configurações do sistema, ou marque no mapa.',
+        3: 'A localização demorou demais para responder. Tente de novo ou marque no mapa.',
+      };
+      info.textContent = reasons[error?.code] || 'Não foi possível localizar. Marque no mapa ou digite as coordenadas.';
+      openManual();
+    };
+    // 1ª tentativa: alta precisão (GPS). Se o aparelho não tiver GPS ou demorar,
+    // tenta de novo com precisão normal (Wi-Fi/rede), que funciona na maioria dos computadores.
+    navigator.geolocation.getCurrentPosition(success, (error) => {
+      if (revision !== started) return;
+      if (error.code === error.PERMISSION_DENIED) return fail(error);
+      info.textContent = 'Ainda buscando, com precisão menor…';
+      navigator.geolocation.getCurrentPosition(success, fail, {enableHighAccuracy: false, timeout: 15000, maximumAge: 300000});
+    }, {enableHighAccuracy: true, timeout: 8000, maximumAge: 0});
   });
 })();
