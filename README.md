@@ -18,7 +18,7 @@ No pacote de código-fonte, instale as dependências com `cd app && composer ins
 
 ### Publicar no Vercel (container + Supabase)
 
-O Vercel não roda PHP nativamente. O `Dockerfile` da raiz empacota o Laravel com FrankenPHP, e o Vercel o detecta e usa o preset **Container**. O SQLite não persiste no Vercel, então o banco de produção é um Postgres do Supabase.
+O Vercel não roda PHP nativamente. O `Dockerfile` da raiz empacota o Laravel com FrankenPHP, e o `vercel.json` declara esse container como serviço e manda todo o tráfego para ele. No projeto do Vercel, deixe o *Root Directory* vazio e o *Framework Preset* em **Services** (ou **Container**), sem overrides de build/output. O SQLite não persiste no Vercel, então o banco de produção é um Postgres do Supabase.
 
 1. **Banco (Supabase).** Crie um projeto e, no *SQL Editor*, execute uma vez [`app/database/supabase/schema.sql`](app/database/supabase/schema.sql). Ele cria as tabelas, registra a migração e liga RLS para a Data API do Supabase não expor os chamados.
 2. **String de conexão.** Em *Connect → Session pooler*, copie a URI (`postgresql://postgres.<ref>:<senha>@aws-0-<região>.pooler.supabase.com:5432/postgres`) e acrescente `?sslmode=require`. Use o *session pooler* (porta 5432): ele aceita IPv4, e o *transaction pooler* (6543) quebra os prepared statements do PDO.
