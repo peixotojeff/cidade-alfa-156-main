@@ -10,6 +10,14 @@ return [
         'usuario' => env('SECRETARIA_USUARIO'),
         'senha' => env('SECRETARIA_SENHA'),
     ],
+    // Data de corte de cada planilha do SP156 (trimestre de abertura => última finalização
+    // registrada no arquivo). Os status "Aberto" valem para essa data, não para hoje: o
+    // atraso desses chamados é medido contra ela (ver Demanda::referenciaPrazo).
+    'sp156_corte' => [
+        '2026-1' => '2026-08-06',
+        '2026-2' => '2026-08-06',
+        '2026-3' => '2026-10-08',
+    ],
     'servicos' => [
         // 'dias' é o prazo (SLA) definido pela Cidade Alfa — fictício, calibrado pelos tempos reais
         // de resolução da amostra do SP156 (ver DESIGN.md e database/seeders/data/README.md).

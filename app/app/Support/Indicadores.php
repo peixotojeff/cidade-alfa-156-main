@@ -17,7 +17,7 @@ class Indicadores
     /** @return array{geral: array, servicos: array<string, array>} */
     public static function calcular(?Collection $demandas = null): array
     {
-        $demandas ??= Demanda::query()->reais()->get(['id', 'servico', 'status', 'prazo', 'created_at', 'updated_at', 'finalizada_em', 'avaliacao']);
+        $demandas ??= Demanda::query()->reais()->get(['id', 'servico', 'status', 'prazo', 'created_at', 'updated_at', 'finalizada_em', 'avaliacao', 'origem']);
         $agora = now();
         $porServico = [];
         foreach (config('cidade.servicos') as $codigo => $servico) {

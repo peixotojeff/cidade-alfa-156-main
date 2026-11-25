@@ -44,9 +44,51 @@ class Demanda extends Model
         'pessimo' => ['rotulo' => 'Péssimo', 'icone' => 'rosto-triste', 'tom' => 'coral'],
     ];
 
+    /** Só quem abriu o chamado no app avalia; chamados do SP156 não recebem avaliação. */
     public function podeSerAvaliada(): bool
     {
-        return $this->status === 'resolvida' && $this->avaliacao === null;
+        return $this->status === 'resolvida' && $this->avaliacao === null && $this->origem === 'cidadao';
+    }
+
+    /** Chamados do SP156 são um retrato dos dados abertos: somente leitura no protótipo. */
+    public function podeMudarStatus(): bool
+    {
+        return ! $this->veioDoSp156() && isset(self::PROXIMO[$this->status]);
+    }
+
+    /**
+     * Momento contra o qual o atraso é medido: agora, para chamados do app; a data de
+     * corte da planilha (fim do dia), para chamados do SP156 — o status deles é o da extração.
+     */
+    public function referenciaPrazo(?Carbon $agora = null): Carbon
+    {
+        if ($this->veioDoSp156() && ($corte = self::corteSp156($this->created_at))) {
+            return $corte;
+        }
+
+        return $agora ?? now();
+    }
+
+    public static function corteSp156(Carbon $abertura): ?Carbon
+    {
+        $data = config('cidade.sp156_corte')[$abertura->year.'-'.$abertura->quarter] ?? null;
+
+        return $data ? Carbon::parse($data)->endOfDay() : null;
+    }
+
+    /** Filtro SQL de "atrasados" coerente com referenciaPrazo (agora ou corte do SP156). */
+    public function scopeAtrasados($query)
+    {
+        return $query->where('status', '!=', 'resolvida')->where(function ($q) {
+            $q->where(fn ($a) => $a->where('origem', '!=', 'sp156')->where('prazo', '<', now()));
+            foreach (config('cidade.sp156_corte') as $trimestre => $data) {
+                [$ano, $tri] = array_map('intval', explode('-', $trimestre));
+                $inicio = Carbon::create($ano, ($tri - 1) * 3 + 1, 1)->startOfDay();
+                $q->orWhere(fn ($s) => $s->where('origem', 'sp156')
+                    ->where('created_at', '>=', $inicio)->where('created_at', '<', $inicio->copy()->addMonths(3))
+                    ->where('prazo', '<', Carbon::parse($data)->endOfDay()));
+            }
+        });
     }
 
     public function historico()
@@ -68,7 +110,7 @@ class Demanda extends Model
             return ($this->finalizada_em ?? $this->updated_at)->lte($this->prazo) ? 'resolvido_no_prazo' : 'resolvido_fora_do_prazo';
         }
 
-        return ($agora ?? now())->gt($this->prazo) ? 'atrasado' : 'no_prazo';
+        return $this->referenciaPrazo($agora)->gt($this->prazo) ? 'atrasado' : 'no_prazo';
     }
 
     /** Dias corridos entre a abertura e a resolução (null se ainda aberto). */

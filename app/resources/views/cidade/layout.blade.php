@@ -8,7 +8,7 @@
     <title>@yield('titulo') · Cidade Alfa 156+</title>
     <link rel="preload" href="{{ asset('fonts/atkinson-hyperlegible-latin-400-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ asset('fonts/hubot-sans-latin-700-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=9">
+    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=10">
     @stack('head')
 </head>
 <body>
@@ -43,7 +43,7 @@
     </header>
     <main id="conteudo" class="largura" tabindex="-1">@yield('conteudo')</main>
     <footer class="rodape">
-        <div class="largura">Protótipo acadêmico · Data Drivens · Use apenas dados fictícios.</div>
+        <div class="largura">Protótipo acadêmico · Data Drivens · Ao abrir um chamado, use apenas informações fictícias.</div>
     </footer>
 </body>
 </html>

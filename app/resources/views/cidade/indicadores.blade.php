@@ -4,7 +4,7 @@
 @section('conteudo')
 <div class="cabecalho-pagina">
     <p class="rotulo">Transparência</p>
-    <h1>A prefeitura está cumprindo os prazos?</h1>
+    <h1>Os prazos estão sendo cumpridos?</h1>
     <p class="texto-grande">Cada serviço tem um prazo de atendimento. Aqui você vê quantos chamados foram resolvidos dentro dele e quanto tempo levam.</p>
 </div>
 
@@ -17,12 +17,12 @@
     <li class="cartao kpi">
         <span class="kpi-rotulo">Tempo típico de resolução</span>
         <span class="kpi-numero mono">{{ $g['mediana_dias'] ?? '—' }}@if($g['mediana_dias'] !== null)<small>{{ $g['mediana_dias'] == 1 ? ' dia' : ' dias' }}</small>@endif</span>
-        <span class="muted">Metade dos chamados é resolvida em até esse tempo</span>
+        <span class="muted">Metade dos chamados resolvidos levou até esse tempo</span>
     </li>
     <li class="cartao kpi">
         <span class="kpi-rotulo">Abertos e atrasados</span>
         <span class="kpi-numero mono">{{ $g['atrasadas'] }}</span>
-        <span class="muted">de {{ $g['abertas'] }} chamados ainda abertos</span>
+        <span class="muted">de {{ $g['abertas'] }} chamados abertos · SP156 na data da extração</span>
     </li>
     <li class="cartao kpi">
         <span class="kpi-rotulo">Satisfação (NPA)</span>
@@ -86,8 +86,13 @@
     <p>Os indicadores juntam os chamados abertos neste protótipo e uma amostra de <strong>600 chamados reais</strong> dos
     <a href="https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156" rel="noopener">dados abertos do SP156</a>
     (Prefeitura de São Paulo, janeiro a setembro de 2026, licença CC0), sem dados pessoais.</p>
-    <p class="muted">Os prazos de cada serviço são definidos pela Cidade Alfa, uma cidade fictícia; o SP156 não publica prazos oficiais.
-    "Tempo típico" é a mediana: metade dos chamados é resolvida em até esse número de dias.
-    Os chamados do SP156 não têm avaliação ligada a eles; a satisfação vem só das avaliações feitas neste app.</p>
+    <ul class="muted lista-notas">
+        <li><strong>Prazos:</strong> a Cidade Alfa é fictícia e usa os dados de São Paulo como referência. Os prazos de cada serviço foram definidos pela equipe olhando os tempos reais do SP156, que não publica prazos oficiais.</li>
+        <li><strong>Abertos e atrasados:</strong> o status dos chamados do SP156 é o da data em que cada planilha foi extraída (06/08/2026 para jan–jun e 08/10/2026 para jul–set). O atraso deles é medido nessa data, não hoje.</li>
+        <li><strong>Amostra:</strong> são 100 chamados por serviço. Os números por serviço são comparáveis entre si; o resultado geral dá o mesmo peso a cada serviço e não reflete o volume real de pedidos.</li>
+        <li><strong>Tempo típico:</strong> é a mediana dos chamados já resolvidos. Os que continuam abertos tendem a demorar mais e não entram nessa conta.</li>
+        <li><strong>Satisfação:</strong> vem só das avaliações de quem abriu chamados neste app. Os chamados do SP156 não recebem avaliação.</li>
+        <li><strong>Iluminação pública</strong> não aparece nos dados abertos do SP156, por isso não tem amostra.</li>
+    </ul>
 </section>
 @endsection

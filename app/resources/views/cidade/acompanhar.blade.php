@@ -28,7 +28,7 @@
 @endif
 
 <div class="cabecalho-pagina">
-    <p class="rotulo">{{ $demanda->ehExemplo() ? 'Exemplo · chamado resolvido' : 'Seu chamado' }}</p>
+    <p class="rotulo">{{ $demanda->ehExemplo() ? 'Exemplo · chamado resolvido' : ($demanda->veioDoSp156() ? 'Chamado do SP156 · dados abertos' : 'Seu chamado') }}</p>
     <h1>{{ $servico['nome'] }}</h1>
     <p class="etiquetas">
         <span class="pilula pilula-{{ $visual['tom'] }}">@include('cidade.icone', ['nome' => $visual['icone'], 'tamanho' => 20]) {{ $etapas[$demanda->status] }}</span>
@@ -53,7 +53,7 @@
                         @if($evento = $quando->get($chave))
                             <span class="muted mono">{{ $formatar($evento->ocorrido_em) }}</span>
                             @if($evento->notificacao_simulada)
-                                <span class="aviso-enviado">@include('cidade.icone', ['nome' => 'sino', 'tamanho' => 20]) Aviso enviado ao cidadão</span>
+                                <span class="aviso-enviado">@include('cidade.icone', ['nome' => 'sino', 'tamanho' => 20]) Aviso ao cidadão (simulado)</span>
                             @endif
                         @elseif($estado === 'pendente')
                             <span class="muted">Ainda não aconteceu</span>
@@ -87,12 +87,12 @@
             <div><dt>Descrição</dt><dd class="texto-normal">{{ $demanda->descricao }}</dd></div>
         </dl>
         @if($demanda->veioDoSp156())
-            <p class="selo-fonte">@include('cidade.icone', ['nome' => 'grafico', 'tamanho' => 20]) <span>Chamado real dos <a href="https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156" rel="noopener">dados abertos do SP156</a>, sem dados pessoais.</span></p>
+            <p class="selo-fonte">@include('cidade.icone', ['nome' => 'grafico', 'tamanho' => 20]) <span>Chamado real dos <a href="https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156" rel="noopener">dados abertos do SP156</a>, sem dados pessoais. Mostra a situação na data da extração ({{ \App\Models\Demanda::corteSp156($demanda->created_at)?->format('d/m/Y') }}); é somente leitura e não recebe avaliação.</span></p>
         @endif
     </section>
 </div>
 
-@if($demanda->status === 'resolvida')
+@if($demanda->avaliacao || $demanda->podeSerAvaliada())
     <section id="avaliacao" class="cartao avaliacao" aria-labelledby="avaliacao-titulo">
         @if($demanda->avaliacao)
             @php $a = \App\Models\Demanda::AVALIACOES[$demanda->avaliacao]; @endphp

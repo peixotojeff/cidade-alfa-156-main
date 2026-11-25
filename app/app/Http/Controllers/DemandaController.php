@@ -65,7 +65,12 @@ class DemandaController extends Controller
             return redirect()->route('consulta')->withErrors(['protocolo' => 'Confira o protocolo: ele tem o formato ALFA- seguido de 16 letras e números.'])->withInput();
         }
 
-        return redirect()->route('acompanhar', strtoupper($valor));
+        $protocolo = strtoupper($valor);
+        if ($protocolo !== ChamadoExemplo::PROTOCOLO && ! Demanda::where('protocolo', $protocolo)->exists()) {
+            return redirect()->route('consulta')->withErrors(['protocolo' => 'Não encontramos um chamado com esse protocolo. Confira os 16 caracteres depois de ALFA-.'])->withInput();
+        }
+
+        return redirect()->route('acompanhar', $protocolo);
     }
 
     public function acompanhar(string $protocolo)
@@ -88,7 +93,7 @@ class DemandaController extends Controller
             ['avaliacao.*' => 'Escolha Excelente, Bom ou Péssimo.'],
         );
         $demanda = $this->buscar($protocolo);
-        $gravou = Demanda::whereKey($demanda->id)->where('status', 'resolvida')->whereNull('avaliacao')
+        $gravou = Demanda::whereKey($demanda->id)->where('origem', 'cidadao')->where('status', 'resolvida')->whereNull('avaliacao')
             ->update(['avaliacao' => $dados['avaliacao'], 'avaliada_em' => now()]);
         $volta = redirect()->route('acompanhar', $demanda->protocolo)->withFragment('avaliacao');
 
@@ -108,7 +113,7 @@ class DemandaController extends Controller
         $consulta = Demanda::query()->reais()
             ->when($filtros['servico'], fn ($q, $s) => $q->where('servico', $s))
             ->when($filtros['situacao'] === 'abertos', fn ($q) => $q->where('status', '!=', 'resolvida'))
-            ->when($filtros['situacao'] === 'atrasados', fn ($q) => $q->where('status', '!=', 'resolvida')->where('prazo', '<', now()))
+            ->when($filtros['situacao'] === 'atrasados', fn ($q) => $q->atrasados())
             ->when($filtros['situacao'] === 'resolvidos', fn ($q) => $q->where('status', 'resolvida'));
         $consulta = $filtros['situacao'] === 'resolvidos' || $filtros['situacao'] === 'todos'
             ? $consulta->latest('created_at')->latest('id')
@@ -158,8 +163,9 @@ class DemandaController extends Controller
         DB::transaction(function () use ($protocolo, $dados) {
             $demanda = $this->buscar($protocolo);
             $novo = $dados['status'];
+            abort_if($demanda->veioDoSp156(), 409, 'Chamados do SP156 são somente leitura neste protótipo.');
             abort_unless((Demanda::PROXIMO[$demanda->status] ?? null) === $novo, 409, 'Status já atualizado ou transição inválida.');
-            $mudou = Demanda::whereKey($demanda->id)->where('status', $demanda->status)
+            $mudou = Demanda::whereKey($demanda->id)->where('status', $demanda->status)->where('origem', '!=', 'sp156')
                 ->update(['status' => $novo] + ($novo === 'resolvida' ? ['finalizada_em' => now()] : []));
             abort_unless($mudou === 1, 409, 'Status já atualizado.');
             $demanda->registrarEvento($novo, true);

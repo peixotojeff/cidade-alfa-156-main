@@ -404,6 +404,9 @@ button:disabled { cursor: progress; opacity: .7; transform: none; }
 .distribuicao-coral .medidor-trilho span { background: var(--coral); }
 .distribuicao-coral .icone { color: #DC2626; }
 .vazio-curto { margin: var(--e4) 0; color: var(--ink-muted); }
+.lista-notas { max-width: 52rem; margin: 0; padding-left: 1.2em; display: grid; gap: var(--e2); }
+.lista-notas strong { color: var(--ink); }
+.pilula-nota { font-weight: 400; opacity: .85; }
 .dados-demo { margin-top: var(--e7); display: grid; gap: var(--e3); }
 .dados-demo h2, .dados-demo p { margin: 0; }
 

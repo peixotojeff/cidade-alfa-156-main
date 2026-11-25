@@ -43,6 +43,15 @@ python -I scripts/amostra_sp156.py app/database/seeders/data/sp156-amostra.csv \
 - O SP156 não publica prazos. O prazo (SLA) vem do catálogo fictício da Cidade
   Alfa, calibrado pelas medianas reais da amostra.
 
+## Data de corte
+
+O status de cada chamado é o da data em que a planilha foi extraída: a última
+finalização registrada em cada arquivo é **06/08/2026** (1º e 2º trimestres,
+reextraídos juntos) e **08/10/2026** (3º trimestre). O app mede o atraso dos
+chamados do SP156 nessas datas (`config/cidade.php` › `sp156_corte`), e não
+hoje. Por isso esses chamados são somente leitura no app: não mudam de status
+nem recebem avaliação.
+
 ## Carregar
 
 ```bash

@@ -45,7 +45,7 @@ class DemandaTest extends TestCase
         $this->get('/secretaria')->assertNotFound();
         config(['cidade.demo' => true]);
         $this->withServerVariables(['REMOTE_ADDR' => '192.0.2.20'])->get('/secretaria')->assertNotFound();
-        $this->get('/acompanhar/ALFA-0000000000000000')->assertNotFound();
+        $this->get('/acompanhar/ALFA-0000000000000000')->assertNotFound()->assertSee('Não encontramos esta página');
     }
 
     public function test_cada_objetivo_tem_sua_pagina_e_o_menu_marca_a_atual(): void
@@ -54,7 +54,36 @@ class DemandaTest extends TestCase
         $this->get('/chamados/novo')->assertOk()->assertSee('Qual é o problema?')->assertSee('name="servico"', false);
         $this->get('/acompanhar')->assertOk()->assertSee('Como está o seu chamado?');
         $this->post('/consultar', ['protocolo' => 'errado'])->assertRedirect('/acompanhar')->assertSessionHasErrors('protocolo');
-        $this->post('/consultar', ['protocolo' => 'alfa-0123456789abcdef'])->assertRedirect('/acompanhar/ALFA-0123456789ABCDEF');
+        // Formato válido mas inexistente: volta para a consulta com orientação (sem 404).
+        $this->post('/consultar', ['protocolo' => 'alfa-0123456789abcdef'])->assertRedirect('/acompanhar')->assertSessionHasErrors('protocolo');
+        $protocolo = basename($this->post('/chamados', $this->dados())->headers->get('Location'));
+        $this->post('/consultar', ['protocolo' => strtolower($protocolo)])->assertRedirect("/acompanhar/$protocolo");
+    }
+
+    public function test_chamados_do_sp156_sao_somente_leitura_e_medidos_na_data_de_corte(): void
+    {
+        $this->seed(\Database\Seeders\Sp156Seeder::class);
+        config(['cidade.demo' => true]);
+        $aberto = \App\Models\Demanda::where('origem', 'sp156')->where('status', 'recebida')->orderBy('created_at')->first();
+        $resolvido = \App\Models\Demanda::where('origem', 'sp156')->where('status', 'resolvida')->first();
+
+        // Sem avaliação e sem mudança de status.
+        $this->get('/acompanhar/'.$resolvido->protocolo)->assertSee('Chamado do SP156')->assertDontSee('Como foi o atendimento?');
+        $this->post('/acompanhar/'.$resolvido->protocolo.'/avaliacao', ['avaliacao' => 'excelente'])->assertSessionHasErrors('avaliacao');
+        $this->post('/secretaria/'.$aberto->protocolo.'/status', ['status' => 'em_atendimento'])->assertStatus(409);
+        $this->assertSame('recebida', $aberto->fresh()->status);
+
+        // Atraso medido na data de corte da planilha, não hoje.
+        $corte = \App\Models\Demanda::corteSp156($aberto->created_at);
+        $this->assertTrue($aberto->referenciaPrazo()->equalTo($corte));
+        $recente = \App\Models\Demanda::forceCreate(['protocolo' => 'ALFA-00000000000000CD', 'servico' => 'arvore', 'descricao' => 'x', 'latitude' => 0, 'longitude' => 0,
+            'status' => 'recebida', 'origem' => 'sp156', 'created_at' => '2026-09-28', 'prazo' => '2026-10-28']);
+        $this->assertSame('no_prazo', $recente->situacaoPrazo(), 'Prazo após o corte (08/10) não conta como atrasado.');
+        $this->get('/secretaria?situacao=atrasados&servico=arvore')->assertDontSee('ALFA-00000000000000CD');
+        $this->get('/acompanhar/ALFA-00000000000000CD')->assertSee('em 08/10/2026');
+
+        $g = \App\Support\Indicadores::calcular()['geral'];
+        $this->assertLessThan($g['abertas'], $g['atrasadas']);
     }
 
     public function test_confirma_registro_ao_abrir_chamado(): void
@@ -124,7 +153,7 @@ class DemandaTest extends TestCase
 
         $this->get($url)->assertOk()
             ->assertSee('Chamado de exemplo')
-            ->assertSeeInOrder(['Recebida', '16/11/2026 08:42', 'Em atendimento', '17/11/2026 10:15', 'Aviso enviado ao cidadão', 'Resolvida', '20/11/2026 16:30'])
+            ->assertSeeInOrder(['Recebida', '16/11/2026 08:42', 'Em atendimento', '17/11/2026 10:15', 'Aviso ao cidadão (simulado)', 'Resolvida', '20/11/2026 16:30'])
             ->assertSee('Resolvido no prazo · 4 dias')
             ->assertSee('Resolvido 3 dias antes do prazo')
             ->assertDontSee('Data não informada');
@@ -134,7 +163,7 @@ class DemandaTest extends TestCase
         $this->get($url);
         $this->assertSame($id, \App\Models\Demanda::firstWhere('protocolo', \App\Support\ChamadoExemplo::PROTOCOLO)->id);
         \Illuminate\Support\Facades\DB::table('historico_status')->where('demanda_id', $id)->delete();
-        $this->get($url)->assertSee('Aviso enviado ao cidadão');
+        $this->get($url)->assertSee('Aviso ao cidadão (simulado)');
 
         // Fora dos indicadores e da fila.
         $this->assertSame(0, \App\Support\Indicadores::calcular()['geral']['total']);
