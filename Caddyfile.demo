@@ -1,0 +1,10 @@
+{
+    admin off
+    auto_https off
+    frankenphp
+}
+http://127.0.0.1:8156 {
+    bind 127.0.0.1
+    root * public
+    php_server
+}

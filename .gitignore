@@ -1,0 +1,7 @@
+/.tooling/
+/cidade-alfa-156-prototipo.zip
+/app/.env.*
+!/app/.env.example
+/app/database/*.sqlite
+/app/database/*.sqlite-*
+/.vercel
