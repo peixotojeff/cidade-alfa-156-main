@@ -24,6 +24,11 @@
         <span class="kpi-numero mono">{{ $g['atrasadas'] }}</span>
         <span class="muted">de {{ $g['abertas'] }} chamados ainda abertos</span>
     </li>
+    <li class="cartao kpi">
+        <span class="kpi-rotulo">Satisfação (NPA)</span>
+        <span class="kpi-numero mono">{{ $g['npa'] === null ? '—' : ($g['npa'] > 0 ? '+' : '').$g['npa'] }}</span>
+        <span class="muted">{{ $g['avaliadas'] ? $g['avaliadas'].' '.($g['avaliadas'] === 1 ? 'avaliação' : 'avaliações').' de cidadãos' : 'Ainda sem avaliações' }}</span>
+    </li>
 </ul>
 
 <section class="secao" aria-labelledby="por-servico">
@@ -37,6 +42,7 @@
                     <th scope="col">Resolvidos no prazo</th>
                     <th scope="col">Tempo típico</th>
                     <th scope="col">Abertos atrasados</th>
+                    <th scope="col">NPA</th>
                 </tr>
             </thead>
             <tbody>
@@ -47,11 +53,32 @@
                     <td>@include('cidade._medidor', ['pct' => $s['pct_no_prazo']])@if($s['resolvidas'])<span class="muted pequeno">{{ $s['resolvidas_no_prazo'] }} de {{ $s['resolvidas'] }} resolvidos</span>@endif</td>
                     <td class="mono">{{ $s['mediana_dias'] === null ? '—' : $s['mediana_dias'].($s['mediana_dias'] == 1 ? ' dia' : ' dias') }}</td>
                     <td class="mono">{{ $s['atrasadas'] }} <span class="muted">de {{ $s['abertas'] }}</span></td>
+                    <td class="mono">@if($s['npa'] === null)<span class="muted">—</span>@else{{ ($s['npa'] > 0 ? '+' : '').$s['npa'] }} <span class="muted pequeno">{{ $s['avaliadas'] }} {{ $s['avaliadas'] === 1 ? 'avaliação' : 'avaliações' }}</span>@endif</td>
                 </tr>
             @endforeach
             </tbody>
         </table>
     </div>
+</section>
+
+<section class="secao" aria-labelledby="satisfacao">
+    <h2 id="satisfacao">Satisfação do cidadão</h2>
+    <p class="muted">Depois que o chamado é resolvido, quem abriu pode avaliar o atendimento uma vez: Excelente, Bom ou Péssimo.</p>
+    @if($g['avaliadas'])
+        <ul class="distribuicao" aria-label="Distribuição das avaliações">
+            @foreach(\App\Models\Demanda::AVALIACOES as $chave => $a)
+                @php $n = $g['avaliacoes'][$chave]; $pct = (int) round($n / $g['avaliadas'] * 100); @endphp
+                <li class="distribuicao-item distribuicao-{{ $a['tom'] }}">
+                    <span class="distribuicao-rotulo">@include('cidade.icone', ['nome' => $a['icone'], 'tamanho' => 20]) {{ $a['rotulo'] }}</span>
+                    <span class="medidor-trilho" aria-hidden="true"><span style="--valor: {{ $pct }}%"></span></span>
+                    <span class="mono">{{ $pct }}% <span class="muted">({{ $n }})</span></span>
+                </li>
+            @endforeach
+        </ul>
+    @else
+        <p class="cartao vazio-curto">Ainda não há avaliações. Elas aparecem aqui assim que cidadãos avaliarem chamados resolvidos.</p>
+    @endif
+    <p class="muted pequeno">NPA = % de avaliações Excelente − % de avaliações Péssimo. Vai de −100 a +100; "Bom" conta como neutro.</p>
 </section>
 
 <section class="secao nota-fonte" aria-labelledby="sobre-dados">
@@ -60,6 +87,7 @@
     <a href="https://dados.prefeitura.sp.gov.br/dataset/dados-do-sp156" rel="noopener">dados abertos do SP156</a>
     (Prefeitura de São Paulo, janeiro a setembro de 2026, licença CC0), sem dados pessoais.</p>
     <p class="muted">Os prazos de cada serviço são definidos pela Cidade Alfa, uma cidade fictícia; o SP156 não publica prazos oficiais.
-    "Tempo típico" é a mediana: metade dos chamados é resolvida em até esse número de dias.</p>
+    "Tempo típico" é a mediana: metade dos chamados é resolvida em até esse número de dias.
+    Os chamados do SP156 não têm avaliação ligada a eles; a satisfação vem só das avaliações feitas neste app.</p>
 </section>
 @endsection

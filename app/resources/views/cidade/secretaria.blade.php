@@ -12,6 +12,13 @@
     <p>{{ $simuladas }} {{ $simuladas === 1 ? 'notificação simulada' : 'notificações simuladas' }}. Nenhuma mensagem real é enviada.</p>
 </div>
 
+@if(\App\Support\AcessoSecretaria::aberta())
+    <div class="alerta alerta-info" role="note">
+        @include('cidade.icone', ['nome' => 'lampada'])
+        <p><strong>Modo demonstração:</strong> este painel está aberto, sem login, para quem quiser testar o fluxo da secretaria. Para voltar ao estado original dos dados do SP156, use "Recarregar amostra do SP156" no fim da página.</p>
+    </div>
+@endif
+
 @if(session('aviso'))
     <div class="alerta alerta-sucesso" role="status">@include('cidade.icone', ['nome' => 'check'])<p>{{ session('aviso') }}</p></div>
 @endif
@@ -82,6 +89,10 @@
             <div><dt>Prazo</dt><dd class="mono">{{ $demanda->prazo->format('d/m/Y') }}</dd></div>
             <div><dt>Local</dt><dd>{{ $demanda->endereco() ?? $demanda->latitude.', '.$demanda->longitude }}</dd></div>
             @if($demanda->veioDoSp156())<div><dt>Origem</dt><dd>Dados abertos SP156</dd></div>@endif
+            @if($demanda->avaliacao)
+                @php $a = \App\Models\Demanda::AVALIACOES[$demanda->avaliacao]; @endphp
+                <div><dt>Avaliação do cidadão</dt><dd><span class="pilula pilula-{{ $a['tom'] }}">@include('cidade.icone', ['nome' => $a['icone'], 'tamanho' => 20]) {{ $a['rotulo'] }}</span></dd></div>
+            @endif
         </dl>
         @if($destino = \App\Models\Demanda::PROXIMO[$demanda->status] ?? null)
             <form method="post" action="{{ route('atualizar', $demanda->protocolo) }}">

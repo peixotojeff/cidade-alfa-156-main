@@ -96,6 +96,18 @@ Toda tela que mostra um chamado mostra também a situação do prazo:
 No medidor de resolutividade, a cor segue a faixa: Leaf a partir de 80%, Sun de
 50% a 79% e Coral abaixo de 50%, sempre com o percentual escrito ao lado.
 
+## Avaliação do atendimento (NPA)
+
+Depois de resolvido, o chamado mostra "Como foi o atendimento?" com três
+botões grandes (rosto + texto, nunca só cor): Excelente (Leaf), Bom (Sky) e
+Péssimo (Coral). Uma avaliação por chamado; depois aparece a etiqueta com a
+escolha e a data.
+
+**NPA = % Excelente − % Péssimo**, de −100 a +100 ("Bom" é neutro). Aparece em
+`/indicadores` (geral e por serviço) com a fórmula escrita na página. Chamados
+do SP156 não têm avaliação; o chamado de exemplo (`ALFA-0000000000000156`) vem
+avaliado como Excelente e fica fora dos indicadores.
+
 ## Tom de voz
 
 Siga a seção *Voice and Tone* do Skylearn, trocando a criança pelo cidadão:

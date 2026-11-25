@@ -10,6 +10,7 @@ Route::post('/chamados', [DemandaController::class, 'abrir'])->name('abrir');
 Route::get('/acompanhar', [DemandaController::class, 'consulta'])->name('consulta');
 Route::post('/consultar', [DemandaController::class, 'consultar'])->name('consultar');
 Route::get('/acompanhar/{protocolo}', [DemandaController::class, 'acompanhar'])->name('acompanhar');
+Route::post('/acompanhar/{protocolo}/avaliacao', [DemandaController::class, 'avaliar'])->middleware('throttle:20,1')->name('avaliar');
 Route::get('/indicadores', [DemandaController::class, 'indicadores'])->name('indicadores');
 
 Route::middleware('throttle:60,1')->group(function () {

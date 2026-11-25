@@ -12,7 +12,7 @@ Código em `app/`, com Laravel 12, Blade e SQLite. Abra um chamado fictício, in
 
 No pacote de código-fonte, instale as dependências com `cd app && composer install`. Use PHP 8.4.1 ou posterior com as extensões SQLite (`pdo_sqlite`), `mbstring` e XML e volte à raiz do projeto. Rode `bash rodar-demo.sh` e abra `http://127.0.0.1:8156`. No ambiente em que o protótipo foi construído as dependências estão instaladas e o script usa um PHP isolado. O launcher só migra `app/database/demo.sqlite`; o banco e a chave de sessão são gerados localmente e não fazem parte do pacote.
 
-- `/secretaria` é uma tela de demonstração, sem autenticação: o script a habilita só em loopback. **Não a coloque atrás de proxy ou túnel público**, nem use dados reais.
+- `/secretaria` é uma tela de demonstração. Localmente, o script a habilita só em loopback. Na versão publicada ela fica aberta sem login (`SECRETARIA_ABERTA=true`): qualquer pessoa com o link pode avançar status e recarregar a amostra do SP156. Use apenas dados fictícios. Para proteger com senha, remova essa variável e defina `SECRETARIA_USUARIO`/`SECRETARIA_SENHA`.
 - O mapa usa Leaflet com imagens do OpenStreetMap; se as imagens falharem, ainda é possível digitar coordenadas fictícias. A geolocalização depende de permissão do navegador e origem segura (`localhost` ou HTTPS); para demonstrações use localização simulada.
 - Testes: na pasta `app`, rode `php vendor/bin/phpunit` ou, neste ambiente, `../.tooling/frankenphp-stable php-cli vendor/bin/phpunit` com `APP_KEY` definida com uma chave de teste aleatória.
 
@@ -39,7 +39,8 @@ O Vercel não roda PHP nativamente. O `Dockerfile` da raiz empacota o Laravel co
    | `APP_KEY` | saída de `php artisan key:generate --show`; mantenha fixa |
    | `APP_URL` | URL pública, ex.: `https://cidade-alfa.vercel.app` |
    | `DB_URL` | URI do passo 2 |
-   | `SECRETARIA_USUARIO` / `SECRETARIA_SENHA` | credenciais da `/secretaria` (Basic Auth); sem elas, a tela fica em 404 |
+   | `SECRETARIA_ABERTA` | `true` abre a `/secretaria` sem login (modo demonstração, usado na versão publicada) |
+   | `SECRETARIA_USUARIO` / `SECRETARIA_SENHA` | sem `SECRETARIA_ABERTA`, protegem a `/secretaria` com Basic Auth; sem nenhum dos dois, a tela fica em 404 |
 
    O `Dockerfile` já define `APP_ENV=production`, `APP_DEBUG=false`, `DB_CONNECTION=pgsql`, sessão em cookie criptografado e `CIDADE_DEMO=false`. **Nunca defina `CIDADE_DEMO=true` no Vercel.**
 4. **Deploy.** Faça push ou rode `vercel deploy --prod`. Depois de mudar variáveis, refaça o deploy.

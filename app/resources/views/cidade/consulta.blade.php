@@ -22,4 +22,13 @@
 </section>
 
 <p class="nota">Ainda não tem um protocolo? <a href="{{ route('novo') }}">Abra um chamado</a>.</p>
+
+<a class="caminho cartao-estreito exemplo-link" href="{{ route('acompanhar', \App\Support\ChamadoExemplo::PROTOCOLO) }}">
+    <span class="caminho-icone">@include('cidade.icone', ['nome' => 'check', 'tamanho' => 32])</span>
+    <span class="caminho-texto">
+        <strong>Ver um chamado de exemplo</strong>
+        <span>Buraco na via resolvido em 4 dias, com aviso em cada etapa. Protocolo <span class="mono">{{ \App\Support\ChamadoExemplo::PROTOCOLO }}</span>.</span>
+    </span>
+    @include('cidade.icone', ['nome' => 'seta', 'classe' => 'caminho-seta'])
+</a>
 @endsection

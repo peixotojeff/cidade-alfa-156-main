@@ -18,6 +18,10 @@
         'gota' => '<path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/>',
         'guia' => '<path d="M3 17h18"/><path d="M3 13h7l2 4"/><path d="M14 13h7"/><path d="M6 9h12"/>',
         'grafico' => '<path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M3 20h18"/>',
+        'sino' => '<path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z"/><path d="M10.3 20a2 2 0 0 0 3.4 0"/>',
+        'rosto-feliz' => '<circle cx="12" cy="12" r="9"/><path d="M7.5 13.5s1.5 3 4.5 3 4.5-3 4.5-3"/><path d="M9 9.5h.01M15 9.5h.01"/>',
+        'rosto-ok' => '<circle cx="12" cy="12" r="9"/><path d="M9 15c.8.6 1.8 1 3 1s2.2-.4 3-1"/><path d="M9 9.5h.01M15 9.5h.01"/>',
+        'rosto-triste' => '<circle cx="12" cy="12" r="9"/><path d="M8.5 16.5s1.3-2 3.5-2 3.5 2 3.5 2"/><path d="M9 9.5h.01M15 9.5h.01"/>',
         'seta' => '<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',
         'mira' => '<circle cx="12" cy="12" r="7"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="1.5"/>',
     ];

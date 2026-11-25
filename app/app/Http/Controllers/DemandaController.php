@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Demanda;
 use App\Support\AcessoSecretaria;
+use App\Support\ChamadoExemplo;
 use App\Support\Indicadores;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -69,13 +70,31 @@ class DemandaController extends Controller
 
     public function acompanhar(string $protocolo)
     {
-        $demanda = $this->buscar($protocolo);
+        // O exemplo é criado (ou restaurado) na primeira visita, igual no local e em produção.
+        $demanda = $protocolo === ChamadoExemplo::PROTOCOLO ? ChamadoExemplo::obter() : $this->buscar($protocolo);
 
         return response()->view('cidade.acompanhar', [
             'demanda' => $demanda,
             'servico' => config('cidade.servicos')[$demanda->servico],
             'historico' => $demanda->historico()->orderBy('id')->get(),
         ])->header('Cache-Control', 'private, no-store')->header('Referrer-Policy', 'no-referrer');
+    }
+
+    /** Avaliação do cidadão: só depois de resolvido e uma única vez. */
+    public function avaliar(Request $request, string $protocolo)
+    {
+        $dados = $request->validate(
+            ['avaliacao' => ['required', 'string', Rule::in(array_keys(Demanda::AVALIACOES))]],
+            ['avaliacao.*' => 'Escolha Excelente, Bom ou Péssimo.'],
+        );
+        $demanda = $this->buscar($protocolo);
+        $gravou = Demanda::whereKey($demanda->id)->where('status', 'resolvida')->whereNull('avaliacao')
+            ->update(['avaliacao' => $dados['avaliacao'], 'avaliada_em' => now()]);
+        $volta = redirect()->route('acompanhar', $demanda->protocolo)->withFragment('avaliacao');
+
+        return $gravou === 1
+            ? $volta->with('avaliado', true)
+            : $volta->withErrors(['avaliacao' => 'Este chamado já foi avaliado ou ainda não foi resolvido.']);
     }
 
     public function secretaria(Request $request)
@@ -86,7 +105,7 @@ class DemandaController extends Controller
         $filtros = $this->filtrosFila($request);
 
         // Fila de trabalho: por padrão, os abertos com o prazo mais próximo (ou mais estourado) primeiro.
-        $consulta = Demanda::query()
+        $consulta = Demanda::query()->reais()
             ->when($filtros['servico'], fn ($q, $s) => $q->where('servico', $s))
             ->when($filtros['situacao'] === 'abertos', fn ($q) => $q->where('status', '!=', 'resolvida'))
             ->when($filtros['situacao'] === 'atrasados', fn ($q) => $q->where('status', '!=', 'resolvida')->where('prazo', '<', now()))
@@ -99,7 +118,7 @@ class DemandaController extends Controller
             'demandas' => $consulta->paginate(15)->withQueryString(),
             'filtros' => $filtros,
             'indicadores' => Indicadores::calcular(),
-            'contagem' => Demanda::query()->selectRaw('status, count(*) as total')->groupBy('status')->pluck('total', 'status'),
+            'contagem' => Demanda::query()->reais()->selectRaw('status, count(*) as total')->groupBy('status')->pluck('total', 'status'),
             'servicos' => $servicos,
             'simuladas' => DB::table('historico_status')->where('notificacao_simulada', true)->count(),
         ]);

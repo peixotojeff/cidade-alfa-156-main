@@ -2,8 +2,11 @@
 
 return [
     'demo' => env('CIDADE_DEMO', false),
-    // Acesso à /secretaria fora do loopback (HTTP Basic Auth). Vazio = desativada.
+    // Acesso à /secretaria fora do loopback.
+    // - aberta=true: painel sem login (só para demonstração).
+    // - senão, HTTP Basic Auth com usuário e senha; vazio = desativada (404).
     'secretaria' => [
+        'aberta' => filter_var(env('SECRETARIA_ABERTA', false), FILTER_VALIDATE_BOOL),
         'usuario' => env('SECRETARIA_USUARIO'),
         'senha' => env('SECRETARIA_SENHA'),
     ],

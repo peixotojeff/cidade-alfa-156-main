@@ -117,6 +117,74 @@ class DemandaTest extends TestCase
         $this->assertSame(600, \App\Models\Demanda::where('origem', 'sp156')->count());
     }
 
+    public function test_chamado_de_exemplo_mostra_o_fluxo_completo(): void
+    {
+        $url = '/acompanhar/'.\App\Support\ChamadoExemplo::PROTOCOLO;
+        $this->get('/acompanhar')->assertSee($url, false);
+
+        $this->get($url)->assertOk()
+            ->assertSee('Chamado de exemplo')
+            ->assertSeeInOrder(['Recebida', '16/11/2026 08:42', 'Em atendimento', '17/11/2026 10:15', 'Aviso enviado ao cidadão', 'Resolvida', '20/11/2026 16:30'])
+            ->assertSee('Resolvido no prazo · 4 dias')
+            ->assertSee('Resolvido 3 dias antes do prazo')
+            ->assertDontSee('Data não informada');
+
+        // Não regrava a cada visita; restaura se for apagado.
+        $id = \App\Models\Demanda::firstWhere('protocolo', \App\Support\ChamadoExemplo::PROTOCOLO)->id;
+        $this->get($url);
+        $this->assertSame($id, \App\Models\Demanda::firstWhere('protocolo', \App\Support\ChamadoExemplo::PROTOCOLO)->id);
+        \Illuminate\Support\Facades\DB::table('historico_status')->where('demanda_id', $id)->delete();
+        $this->get($url)->assertSee('Aviso enviado ao cidadão');
+
+        // Fora dos indicadores e da fila.
+        $this->assertSame(0, \App\Support\Indicadores::calcular()['geral']['total']);
+        config(['cidade.demo' => true]);
+        $this->get('/secretaria?situacao=todos')->assertDontSee(\App\Support\ChamadoExemplo::PROTOCOLO);
+    }
+
+    public function test_cidadao_avalia_uma_vez_depois_de_resolvido_e_entra_no_npa(): void
+    {
+        config(['cidade.demo' => true]);
+        $local = parse_url($this->post('/chamados', $this->dados())->headers->get('Location'), PHP_URL_PATH);
+        $protocolo = basename($local);
+
+        // Antes de resolver: sem formulário e sem gravação.
+        $this->get($local)->assertDontSee('Como foi o atendimento?');
+        $this->post("$local/avaliacao", ['avaliacao' => 'excelente'])->assertSessionHasErrors('avaliacao');
+        $this->assertNull(\App\Models\Demanda::firstWhere('protocolo', $protocolo)->avaliacao);
+
+        $this->post("/secretaria/$protocolo/status", ['status' => 'em_atendimento']);
+        $this->post("/secretaria/$protocolo/status", ['status' => 'resolvida']);
+        $this->get($local)->assertSee('Como foi o atendimento?')->assertSee('Péssimo');
+
+        $this->post("$local/avaliacao", ['avaliacao' => 'qualquer'])->assertSessionHasErrors('avaliacao');
+        $this->post("$local/avaliacao", ['avaliacao' => 'pessimo'])->assertRedirect("$local#avaliacao");
+        $this->get($local)->assertSee('Obrigado!')->assertSee('Avaliação do atendimento')->assertDontSee('Como foi o atendimento?');
+
+        // Uma vez só.
+        $this->post("$local/avaliacao", ['avaliacao' => 'excelente'])->assertSessionHasErrors('avaliacao');
+        $this->assertSame('pessimo', \App\Models\Demanda::firstWhere('protocolo', $protocolo)->avaliacao);
+
+        // NPA: 1 péssimo e 1 excelente -> 0; o exemplo não entra.
+        $outro = \App\Models\Demanda::forceCreate(['protocolo' => 'ALFA-00000000000000AB', 'servico' => 'via', 'descricao' => 'x', 'latitude' => 0, 'longitude' => 0,
+            'status' => 'resolvida', 'prazo' => now()->addDay(), 'finalizada_em' => now(), 'avaliacao' => 'excelente']);
+        $this->get('/acompanhar/'.\App\Support\ChamadoExemplo::PROTOCOLO)->assertSee('Excelente');
+        $g = \App\Support\Indicadores::calcular()['geral'];
+        $this->assertSame([2, 0, ['excelente' => 1, 'bom' => 0, 'pessimo' => 1]], [$g['avaliadas'], $g['npa'], $g['avaliacoes']]);
+        $this->get('/indicadores')->assertSee('Satisfação (NPA)')->assertSee('2 avaliações de cidadãos');
+    }
+
+    public function test_secretaria_aberta_para_demonstracao_dispensa_login(): void
+    {
+        config(['cidade.demo' => false, 'cidade.secretaria' => ['aberta' => true, 'usuario' => 'gestor', 'senha' => 'segredo-forte']]);
+        $remoto = ['REMOTE_ADDR' => '192.0.2.20'];
+        $this->withServerVariables($remoto)->get('/secretaria')->assertOk()->assertSee('Modo demonstração');
+        $this->withServerVariables($remoto)->get('/')->assertSee('/secretaria', false);
+
+        config(['cidade.secretaria.aberta' => false]);
+        $this->withServerVariables($remoto)->get('/secretaria')->assertUnauthorized();
+    }
+
     public function test_secretaria_publicada_exige_senha(): void
     {
         config(['cidade.demo' => false, 'cidade.secretaria' => ['usuario' => 'gestor', 'senha' => 'segredo-forte']]);

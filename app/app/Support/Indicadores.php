@@ -17,7 +17,7 @@ class Indicadores
     /** @return array{geral: array, servicos: array<string, array>} */
     public static function calcular(?Collection $demandas = null): array
     {
-        $demandas ??= Demanda::query()->get(['id', 'servico', 'status', 'prazo', 'created_at', 'updated_at', 'finalizada_em']);
+        $demandas ??= Demanda::query()->reais()->get(['id', 'servico', 'status', 'prazo', 'created_at', 'updated_at', 'finalizada_em', 'avaliacao']);
         $agora = now();
         $porServico = [];
         foreach (config('cidade.servicos') as $codigo => $servico) {
@@ -33,6 +33,8 @@ class Indicadores
         $abertas = $lote->where('status', '!=', 'resolvida');
         $noPrazo = $resolvidas->filter(fn (Demanda $d) => $d->situacaoPrazo($agora) === 'resolvido_no_prazo')->count();
         $dias = $resolvidas->map(fn (Demanda $d) => $d->diasAteResolver())->sort()->values();
+        $avaliacoes = $lote->whereNotNull('avaliacao')->countBy('avaliacao');
+        $avaliadas = $avaliacoes->sum();
 
         return [
             'total' => $lote->count(),
@@ -43,6 +45,11 @@ class Indicadores
             // Resolutividade no prazo: % das resolvidas que terminaram dentro do SLA.
             'pct_no_prazo' => $resolvidas->count() ? (int) round($noPrazo / $resolvidas->count() * 100) : null,
             'mediana_dias' => $dias->count() ? (int) round($dias->median()) : null,
+            // Satisfação: avaliações do cidadão após a resolução.
+            'avaliadas' => $avaliadas,
+            'avaliacoes' => collect(array_keys(Demanda::AVALIACOES))->mapWithKeys(fn ($k) => [$k => (int) ($avaliacoes[$k] ?? 0)])->all(),
+            // NPA = % Excelente − % Péssimo (de −100 a +100; "Bom" é neutro).
+            'npa' => $avaliadas ? (int) round((($avaliacoes['excelente'] ?? 0) - ($avaliacoes['pessimo'] ?? 0)) / $avaliadas * 100) : null,
         ];
     }
 }

@@ -8,14 +8,21 @@ use Illuminate\Http\Request;
  * Controla quem pode abrir a tela /secretaria.
  *
  * - Demonstração local: CIDADE_DEMO=true e requisição vinda de loopback.
- * - Publicação (ex.: Vercel): HTTP Basic Auth com SECRETARIA_USUARIO e SECRETARIA_SENHA.
- *   Sem senha configurada, a tela não existe (404).
+ * - Demonstração publicada: SECRETARIA_ABERTA=true abre o painel sem login.
+ * - Publicação protegida: HTTP Basic Auth com SECRETARIA_USUARIO e SECRETARIA_SENHA.
+ *   Sem nenhuma das opções, a tela não existe (404).
  */
 class AcessoSecretaria
 {
     public static function demoLocal(Request $request): bool
     {
         return config('cidade.demo') && in_array($request->server('REMOTE_ADDR'), ['127.0.0.1', '::1'], true);
+    }
+
+    /** Painel aberto sem login (SECRETARIA_ABERTA=true) — apenas para demonstração. */
+    public static function aberta(): bool
+    {
+        return (bool) config('cidade.secretaria.aberta');
     }
 
     public static function protegidaPorSenha(): bool
@@ -26,12 +33,12 @@ class AcessoSecretaria
     /** Indica se o link da secretaria deve aparecer no menu. */
     public static function visivel(Request $request): bool
     {
-        return self::demoLocal($request) || self::protegidaPorSenha();
+        return self::aberta() || self::demoLocal($request) || self::protegidaPorSenha();
     }
 
     public static function exigir(Request $request): void
     {
-        if (self::demoLocal($request)) {
+        if (self::aberta() || self::demoLocal($request)) {
             return;
         }
 

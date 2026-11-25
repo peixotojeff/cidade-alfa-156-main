@@ -15,7 +15,7 @@ class Demanda extends Model
 
     protected function casts(): array
     {
-        return ['prazo' => 'datetime', 'finalizada_em' => 'datetime'];
+        return ['prazo' => 'datetime', 'finalizada_em' => 'datetime', 'avaliada_em' => 'datetime'];
     }
 
     public const STATUS = ['recebida' => 'Recebida', 'em_atendimento' => 'Em atendimento', 'resolvida' => 'Resolvida'];
@@ -36,6 +36,18 @@ class Demanda extends Model
         'resolvido_no_prazo' => ['rotulo' => 'Resolvido no prazo', 'tom' => 'leaf', 'icone' => 'check'],
         'resolvido_fora_do_prazo' => ['rotulo' => 'Resolvido fora do prazo', 'tom' => 'sun', 'icone' => 'relogio'],
     ];
+
+    /** Avaliação do cidadão após a resolução (ver DESIGN.md › Avaliação). */
+    public const AVALIACOES = [
+        'excelente' => ['rotulo' => 'Excelente', 'icone' => 'rosto-feliz', 'tom' => 'leaf'],
+        'bom' => ['rotulo' => 'Bom', 'icone' => 'rosto-ok', 'tom' => 'sky'],
+        'pessimo' => ['rotulo' => 'Péssimo', 'icone' => 'rosto-triste', 'tom' => 'coral'],
+    ];
+
+    public function podeSerAvaliada(): bool
+    {
+        return $this->status === 'resolvida' && $this->avaliacao === null;
+    }
 
     public function historico()
     {
@@ -80,5 +92,28 @@ class Demanda extends Model
     public function veioDoSp156(): bool
     {
         return $this->origem === 'sp156';
+    }
+
+    public function ehExemplo(): bool
+    {
+        return $this->origem === \App\Support\ChamadoExemplo::ORIGEM;
+    }
+
+    /** Dias de folga entre a resolução e o prazo (positivo = resolvido antes). */
+    public function folgaDoPrazo(): ?int
+    {
+        if ($this->status !== 'resolvida') {
+            return null;
+        }
+
+        $fim = ($this->finalizada_em ?? $this->updated_at)->copy()->startOfDay();
+
+        return (int) $fim->diffInDays($this->prazo->copy()->startOfDay(), false);
+    }
+
+    /** Chamados reais (do app e do SP156), sem o exemplo de demonstração. */
+    public function scopeReais($query)
+    {
+        return $query->where('origem', '!=', \App\Support\ChamadoExemplo::ORIGEM);
     }
 }
