@@ -435,6 +435,13 @@ button:disabled { cursor: progress; opacity: .7; transform: none; }
 .conclusoes { grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); counter-reset: conclusao; }
 .conclusoes li::before { counter-increment: conclusao; content: counter(conclusao); display: inline-grid; place-items: center; flex: none; width: 40px; height: 40px; border-radius: var(--raio-pilula); background: var(--leaf-soft); color: var(--leaf-ink); font-family: var(--fonte-display); font-weight: 700; }
 
+/* ---------- Modelos (portfólio de ML) ---------- */
+.kpis + .principios { margin-top: var(--e6); }
+.principios h2 { margin-bottom: var(--e4); }
+.linha-destaque > * { background: var(--sky-soft); }
+.linha-destaque th { color: var(--sky-deep); }
+.texto-membros { font-size: 16px; line-height: 24px; color: var(--ink-muted); min-width: 22rem; }
+
 /* ---------- Rodapé ---------- */
 .rodape { border-top: 1px solid var(--outline); background: var(--surface); color: var(--ink-muted); font-size: 16px; padding: var(--e5) 0; }
 

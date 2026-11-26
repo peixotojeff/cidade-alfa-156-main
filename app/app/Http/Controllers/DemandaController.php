@@ -149,6 +149,16 @@ class DemandaController extends Controller
         return view('cidade.analise', ['eda' => $eda, 'notebook' => config('cidade.notebook_eda')]);
     }
 
+    /** Portfólio de ML: métricas e figuras geradas pelo notebook portfolio/ml_sp156.ipynb. */
+    public function modelos()
+    {
+        $arquivo = public_path('portfolio/metricas.json');
+        $ml = is_file($arquivo) ? json_decode(file_get_contents($arquivo), true) : null;
+        abort_unless(is_array($ml), 404);
+
+        return view('cidade.modelos', ['ml' => $ml, 'notebook' => config('cidade.notebook_ml')]);
+    }
+
     public function indicadores()
     {
         return view('cidade.indicadores', ['indicadores' => Indicadores::calcular()]);
