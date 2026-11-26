@@ -24,6 +24,17 @@ Daniel Lucas Etcheverry · Jefferson Rocha Peixoto · Sheila Bodin Ozorio
 | — | Portfólio de ML | Regressão, classificação, clusterização, anomalias | [`portfolio/`](portfolio) · [seção Portfólio](#portfólio-de-machine-learning) |
 | 5 | Modelagem analítica e visualização | Painéis e modelos | a fazer: a base da Fase 4 já traz os campos |
 
+## Documentação
+
+| Documento | Conteúdo |
+| --- | --- |
+| [`docs/adr/`](docs/adr/README.md) | Decisões de arquitetura: 16 aceitas e 11 propostas, com placar e dependências |
+| [`DESIGN.md`](DESIGN.md) | Identidade visual (Skylearn adaptado ao serviço público) |
+| [`fase4/README.md`](fase4/README.md) | Qualidade, higienização, atributos de SLA e achados da EDA do SP156 |
+| [`portfolio/README.md`](portfolio/README.md) | Portfólio de Machine Learning: dados, técnicas, métricas e limitações |
+| [`app/database/seeders/data/README.md`](app/database/seeders/data/README.md) | Origem, sorteio e limitações da amostra do SP156 usada no app |
+| [`docs/superpowers/specs/`](docs/superpowers/specs/2026-11-23-prototipo-design.md) | Escopo original do protótipo (2026-11-23) |
+
 ---
 
 ## Fase 4 — Exploração e preparação de dados
@@ -33,8 +44,8 @@ Ponte entre os dados persistidos (Fase 3) e os painéis da Fase 5. Detalhes em [
 | Pilar | O que foi feito |
 | --- | --- |
 | **Qualidade** | Diagnóstico de 1.525.907 chamados: 37% sem coordenada, 31% de linhas idênticas não deduplicáveis (a base aberta não tem protocolo), subprefeituras renomeadas no meio do ano, nomes sem acento |
-| **Higienização** | Nenhum chamado apagado sem motivo: problemas viram *flags* e cada decisão fica registrada ([tabela](fase4/saida/tabelas/limpeza_decisoes.csv)) |
-| **Engenharia de atributos** | `estouro_sla_dias`, `flag_cumpriu_sla`, `faixa_atendimento` (em 24h · no prazo · atraso leve · atraso crítico), outliers (Tukey), backlog crítico, calendário, `score_prioridade_comunidade` |
+| **Higienização** | Nenhum chamado apagado sem motivo: problemas viram *flags* e cada decisão fica registrada ([tabela](fase4/saida/tabelas/limpeza_decisoes.csv), [ADR-0014](docs/adr/0014-higienizacao-por-flags.md)) |
+| **Engenharia de atributos** | `estouro_sla_dias`, `flag_cumpriu_sla`, `faixa_atendimento` (em 24h · no prazo · atraso leve · atraso crítico), outliers (Tukey), backlog crítico, calendário, `score_prioridade_comunidade` ([ADR-0015](docs/adr/0015-score-prioridade-proxy.md)) |
 | **EDA** | Tempo por serviço (média × mediana), geografia, sazonalidade, canais e reclamações repetidas — 9 gráficos |
 
 **Principais achados**
