@@ -15,3 +15,9 @@ adaptado para serviço público. Antes de mexer em views Blade ou em
 - Nada de gamificação (estrelas, confete, mascote) — ver a tabela de adaptações.
 - Ícones ficam em `resources/views/cidade/icone.blade.php` (traço 2px, pontas
   arredondadas).
+
+## Decisões de arquitetura
+
+Registradas em [docs/adr/](docs/adr/README.md). Ao tomar uma decisão nova ou
+mudar uma existente, crie um ADR a partir do `0000-modelo.md` e atualize o
+placar do índice; não edite um ADR aceito, substitua-o.

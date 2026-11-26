@@ -2,7 +2,17 @@
 
 - **Projeto:** Cidade Alfa 156+ — Cidadania Digital na Cidade Alfa
 - **Equipe:** Data Drivens
-- **Última entrega informada pela equipe:** Fase 3.
+- **Última entrega:** Fase 4 — exploração e preparação de dados ([`fase4/`](fase4/README.md)).
+
+## Documentação
+
+| Documento | Conteúdo |
+| --- | --- |
+| [`docs/adr/`](docs/adr/README.md) | Decisões de arquitetura: 16 aceitas e 11 propostas, com placar e dependências |
+| [`DESIGN.md`](DESIGN.md) | Identidade visual (Skylearn adaptado ao serviço público) |
+| [`fase4/README.md`](fase4/README.md) | Qualidade, higienização, atributos de SLA e achados da EDA do SP156 |
+| [`app/database/seeders/data/README.md`](app/database/seeders/data/README.md) | Origem, sorteio e limitações da amostra do SP156 usada no app |
+| [`docs/superpowers/specs/`](docs/superpowers/specs/2026-11-23-prototipo-design.md) | Escopo original do protótipo (2026-11-23) |
 
 ## Protótipo funcional — Laravel
 
@@ -46,6 +56,15 @@ O Vercel não roda PHP nativamente. O `Dockerfile` da raiz empacota o Laravel co
 4. **Deploy.** Faça push ou rode `vercel deploy --prod`. Depois de mudar variáveis, refaça o deploy.
 
 Novas migrações não rodam no boot do container. Rode-as à parte, com `DB_URL` apontando para o Supabase: `php artisan migrate --force` (requer a extensão `pdo_pgsql`).
+
+## Fase 4 — Exploração e preparação de dados
+
+EDA de 1.525.907 chamados do SP156 (jan–set/2026): diagnóstico de qualidade,
+higienização por flags ([ADR-0014](docs/adr/0014-higienizacao-por-flags.md)),
+atributos de SLA e score de prioridade comunitária
+([ADR-0015](docs/adr/0015-score-prioridade-proxy.md)). Entregue como notebook
+para o Google Colab, pipeline reprodutível e a página `/analise` no app.
+Detalhes e números em [`fase4/README.md`](fase4/README.md).
 
 ## Fase 3 — Arquitetura de dados e Databricks
 
