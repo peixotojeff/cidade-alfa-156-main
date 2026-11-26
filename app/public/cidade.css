@@ -442,6 +442,29 @@ button:disabled { cursor: progress; opacity: .7; transform: none; }
 .linha-destaque th { color: var(--sky-deep); }
 .texto-membros { font-size: 16px; line-height: 24px; color: var(--ink-muted); min-width: 22rem; }
 
+/* Camadas de leitura para quem não é da área técnica */
+.resumo-gestor { margin-top: var(--e5); display: grid; gap: var(--e4); background: var(--surface-elevated); border-width: 2px; border-color: var(--sky-soft); }
+.resumo-gestor h2 { margin: 0; }
+.resumo-frases { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--e4) var(--e6); margin: 0; padding: 0; list-style: none; }
+.resumo-frases p { margin: var(--e1) 0 0; }
+.resumo-frase-titulo { display: inline-flex; align-items: center; gap: var(--e2); font-family: var(--fonte-display); font-weight: 700; font-size: 19px; color: var(--sky-deep); }
+.em-uma-frase { margin: var(--e4) 0 var(--e5); padding: var(--e4) var(--e5); border-left: 4px solid var(--sky-deep); border-radius: 0 var(--raio-campo) var(--raio-campo) 0; background: var(--sky-soft); font-size: 19px; line-height: 30px; max-width: 60rem; }
+.como-ler { max-width: 60rem; color: var(--ink-muted); }
+.como-ler strong:first-child { color: var(--ink); }
+.figura-analise figcaption .como-ler { margin: 0; }
+.termo { color: inherit; text-decoration: underline dotted var(--sky-deep); text-decoration-thickness: 2px; text-underline-offset: .22em; }
+.termo:hover { color: var(--sky-deep); }
+.cabecalho-ajuda { display: block; font-weight: 400; font-size: 16px; line-height: 22px; color: var(--ink-muted); }
+.cabecalho-ajuda .termo { color: var(--ink-muted); }
+.selo-melhor { display: inline-block; margin-left: var(--e2); padding: 0 var(--e2); border-radius: var(--raio-pilula); background: var(--sky-deep); color: #fff; font-size: 16px; font-weight: 700; vertical-align: middle; }
+.glossario { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--e5); margin-top: var(--e5); align-items: start; }
+.glossario h3 { margin-bottom: var(--e3); }
+.glossario dl { margin: 0; display: grid; gap: var(--e3); }
+.glossario-item { padding: var(--e2) var(--e3); border-radius: var(--raio-campo); scroll-margin-top: 96px; transition: background-color var(--duracao) ease; }
+.glossario-item dt { font-weight: 700; }
+.glossario-item dd { margin: var(--e1) 0 0; color: var(--ink-muted); }
+.glossario-item:target { background: var(--sun-soft); outline: 2px solid var(--sun); }
+
 /* ---------- Rodapé ---------- */
 .rodape { border-top: 1px solid var(--outline); background: var(--surface); color: var(--ink-muted); font-size: 16px; padding: var(--e5) 0; }
 

@@ -536,6 +536,8 @@ fig, ax = plt.subplots(figsize=(11, 5.5))
 ax.scatter(pts['dias'], pts['chamados'], s=6, color=COR['eixo'], alpha=.5, label='Coordenadas normais', rasterized=True)
 ax.scatter(suspeitos['dias'], suspeitos['chamados'], s=40, color=COR['alerta'], edgecolor=COR['fundo'], label='Suspeitas (Isolation Forest)')
 ax.set_xscale('log'); ax.set_yscale('log')
+inteiro = matplotlib.ticker.FuncFormatter(lambda x, _: br(f'{x:,.0f}'))   # 1, 10, 100 em vez de 10⁰, 10¹, 10²
+ax.xaxis.set_major_formatter(inteiro); ax.yaxis.set_major_formatter(inteiro)
 ax.set_xlabel('Dias distintos com chamado no ponto'); ax.set_ylabel('Chamados no ponto')
 ax.legend(loc='upper left'); ax.set_title('Coordenadas com padrão improvável: candidatas a geocodificação padrão')
 salvar(fig, '07_anomalias_coordenadas.png')
