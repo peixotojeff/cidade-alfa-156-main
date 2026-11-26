@@ -1,0 +1,134 @@
+{
+ "sklearn": "1.9.1",
+ "linhas": 317482,
+ "regressao": {
+  "modelos": [
+   {
+    "modelo": "Baseline (mediana do serviço)",
+    "MAE (dias)": 11.85,
+    "Erro mediano (dias)": 3.0,
+    "R² (escala log)": 0.472
+   },
+   {
+    "modelo": "Regressão Linear",
+    "MAE (dias)": 11.775,
+    "Erro mediano (dias)": 2.664,
+    "R² (escala log)": 0.508
+   },
+   {
+    "modelo": "Gradient Boosting",
+    "MAE (dias)": 10.049,
+    "Erro mediano (dias)": 2.205,
+    "R² (escala log)": 0.643
+   }
+  ],
+  "n_treino": 115441,
+  "n_teste": 28861,
+  "melhor": "Gradient Boosting",
+  "ganho_mae_pct": 15.2,
+  "r2_melhor": 0.643,
+  "importancia": {
+   "servico": 0.7168,
+   "prefeitura": 0.1158,
+   "mes": 0.094,
+   "dia_mes": 0.0519,
+   "lat": 0.0293
+  }
+ },
+ "classificacao": {
+  "modelos": [
+   {
+    "modelo": "Baseline (taxa do serviço)",
+    "ROC AUC": 0.775,
+    "PR AUC": 0.641,
+    "Precisão": 0.616,
+    "Recall": 0.725,
+    "F1": 0.666,
+    "Precisão no top 10% de risco": 0.83
+   },
+   {
+    "modelo": "Regressão Logística",
+    "ROC AUC": 0.781,
+    "PR AUC": 0.693,
+    "Precisão": 0.619,
+    "Recall": 0.712,
+    "F1": 0.662,
+    "Precisão no top 10% de risco": 0.825
+   },
+   {
+    "modelo": "Gradient Boosting",
+    "ROC AUC": 0.789,
+    "PR AUC": 0.711,
+    "Precisão": 0.613,
+    "Recall": 0.747,
+    "F1": 0.673,
+    "Precisão no top 10% de risco": 0.864
+   }
+  ],
+  "n_treino": 216299,
+  "n_teste": 95806,
+  "taxa_atraso_teste": 0.382,
+  "auc_melhor": 0.789,
+  "auc_baseline": 0.775,
+  "top10_melhor": 0.864
+ },
+ "clusterizacao": {
+  "k": 3,
+  "silhueta": 0.313,
+  "n_subprefeituras": 32,
+  "silhueta_por_k": {
+   "2": 0.424,
+   "3": 0.313,
+   "4": 0.311,
+   "5": 0.271,
+   "6": 0.284
+  },
+  "grupos": [
+   {
+    "grupo": "Ágeis",
+    "subprefeituras": 13,
+    "% no prazo": 79.5,
+    "mediana (dias)": 2.3,
+    "% abertos": 16.8,
+    "% celular": 36.9,
+    "carga média (7 dias)": 66.5,
+    "membros": "Aricanduva-Formosa-Carrão, Capela do Socorro, Cidade Tiradentes, Ermelino Matarazzo, Guaianases, Itaim Paulista, Jabaquara, Jaçanã-Tremembé, Mooca, Perus-Anhanguera, São Miguel, Sé, Vila Maria-Vila Guilherme"
+   },
+   {
+    "grupo": "Intermediárias",
+    "subprefeituras": 15,
+    "% no prazo": 75.8,
+    "mediana (dias)": 2.5,
+    "% abertos": 24.9,
+    "% celular": 37.9,
+    "carga média (7 dias)": 75.4,
+    "membros": "Campo Limpo, Casa Verde-Limão-Cachoeirinha, Cidade Ademar, Freguesia-Brasilândia, Ipiranga, Itaquera, M'Boi Mirim, Parelheiros, Penha, Pirituba-Jaraguá, Santana-Tucuruvi, Santo Amaro, Sapopemba, São Mateus, Vila Prudente"
+   },
+   {
+    "grupo": "Lentas",
+    "subprefeituras": 4,
+    "% no prazo": 64.9,
+    "mediana (dias)": 7.2,
+    "% abertos": 26.0,
+    "% celular": 40.0,
+    "carga média (7 dias)": 74.9,
+    "membros": "Butantã, Lapa, Pinheiros, Vila Mariana"
+   }
+  ],
+  "dbscan": {
+   "focos": 40,
+   "pct_chamados_em_focos": 5.0,
+   "maior_foco": 210
+  }
+ },
+ "anomalias": {
+  "dias_analisados": 245,
+  "dias_anomalos": 19,
+  "feriados_no_periodo": 8,
+  "feriados_detectados": 8,
+  "concordancia_z_iso": 7,
+  "pontos_analisados": 61136,
+  "pontos_suspeitos": 62,
+  "chamados_em_pontos_suspeitos": 4167
+ }
+}

@@ -224,6 +224,15 @@ class DemandaTest extends TestCase
             ->assertSee('aria-current="page"', false);
     }
 
+    public function test_pagina_de_modelos_mostra_as_quatro_tecnicas(): void
+    {
+        $this->get('/modelos')->assertOk()
+            ->assertSeeInOrder(['Regressão', 'Classificação', 'Clusterização', 'Anomalias'])
+            ->assertSee('colab.research.google.com/github/', false)
+            ->assertSee('portfolio/figuras/03_classificacao.png', false)
+            ->assertSee('Gradient Boosting');
+    }
+
     public function test_secretaria_publicada_exige_senha(): void
     {
         config(['cidade.demo' => false, 'cidade.secretaria' => ['usuario' => 'gestor', 'senha' => 'segredo-forte']]);

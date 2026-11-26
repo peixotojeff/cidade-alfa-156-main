@@ -5,3 +5,4 @@ pyarrow>=22
 nbclient
 ipykernel
 nbformat
+scikit-learn

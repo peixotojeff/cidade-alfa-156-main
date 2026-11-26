@@ -8,7 +8,7 @@
     <title>@yield('titulo') · Cidade Alfa 156+</title>
     <link rel="preload" href="{{ asset('fonts/atkinson-hyperlegible-latin-400-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ asset('fonts/hubot-sans-latin-700-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=11">
+    <link rel="stylesheet" href="{{ asset('cidade.css') }}?v=13">
     @stack('head')
 </head>
 <body>
@@ -20,6 +20,7 @@
             ['rota' => 'consulta', 'ativo' => ['consulta', 'acompanhar'], 'rotulo' => 'Acompanhar', 'icone' => 'lupa'],
             ['rota' => 'indicadores', 'ativo' => ['indicadores'], 'rotulo' => 'Indicadores', 'icone' => 'grafico'],
             ['rota' => 'analise', 'ativo' => ['analise'], 'rotulo' => 'Análise', 'icone' => 'camadas'],
+            ['rota' => 'modelos', 'ativo' => ['modelos'], 'rotulo' => 'Modelos', 'icone' => 'codigo'],
         ];
         if (\App\Support\AcessoSecretaria::visivel(request())) {
             $menu[] = ['rota' => 'secretaria', 'ativo' => ['secretaria'], 'rotulo' => 'Secretaria', 'icone' => 'lista'];

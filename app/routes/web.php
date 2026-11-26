@@ -13,6 +13,7 @@ Route::get('/acompanhar/{protocolo}', [DemandaController::class, 'acompanhar'])-
 Route::post('/acompanhar/{protocolo}/avaliacao', [DemandaController::class, 'avaliar'])->middleware('throttle:20,1')->name('avaliar');
 Route::get('/indicadores', [DemandaController::class, 'indicadores'])->name('indicadores');
 Route::get('/analise', [DemandaController::class, 'analise'])->name('analise');
+Route::get('/modelos', [DemandaController::class, 'modelos'])->name('modelos');
 
 Route::middleware('throttle:60,1')->group(function () {
     Route::get('/secretaria', [DemandaController::class, 'secretaria'])->name('secretaria');
