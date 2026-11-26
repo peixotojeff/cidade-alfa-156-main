@@ -214,6 +214,16 @@ class DemandaTest extends TestCase
         $this->withServerVariables($remoto)->get('/secretaria')->assertUnauthorized();
     }
 
+    public function test_pagina_de_analise_mostra_o_passo_a_passo_da_eda(): void
+    {
+        $this->get('/analise')->assertOk()
+            ->assertSee('Como analisamos')
+            ->assertSeeInOrder(['Coletar', 'Diagnosticar a qualidade', 'Higienizar', 'Criar atributos', 'Explorar', 'Fase 5'])
+            ->assertSee('colab.research.google.com/github/', false)
+            ->assertSee('fase4/figuras/01_tempo_atendimento_por_servico.png', false)
+            ->assertSee('aria-current="page"', false);
+    }
+
     public function test_secretaria_publicada_exige_senha(): void
     {
         config(['cidade.demo' => false, 'cidade.secretaria' => ['usuario' => 'gestor', 'senha' => 'segredo-forte']]);

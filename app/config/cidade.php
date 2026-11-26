@@ -10,6 +10,9 @@ return [
         'usuario' => env('SECRETARIA_USUARIO'),
         'senha' => env('SECRETARIA_SENHA'),
     ],
+    // Notebook da Fase 4 (EDA) no GitHub: base dos links "Abrir no Colab" e "Ver no GitHub".
+    'notebook_eda' => 'peixotojeff/cidade-alfa-156-main/blob/main/fase4/eda_sp156.ipynb',
+
     // Data de corte de cada planilha do SP156 (trimestre de abertura => última finalização
     // registrada no arquivo). Os status "Aberto" valem para essa data, não para hoje: o
     // atraso desses chamados é medido contra ela (ver Demanda::referenciaPrazo).

@@ -1,0 +1,193 @@
+{
+ "gerado_em": "2026-11-26",
+ "linhas_brutas": 1525907,
+ "linhas_base_sla": 317482,
+ "arquivos": 3,
+ "periodo": "jan–set/2026",
+ "qualidade": {
+  "sem_coordenadas": 564810,
+  "coordenadas_fora_do_municipio": 2355,
+  "duplicatas_exatas_todas_colunas": 481162,
+  "finalizada_sem_data_finalizacao": 4596,
+  "sem_data_abertura": 0,
+  "finalizacao_antes_da_abertura": 0
+ },
+ "status": {
+  "finalizada": 1313488,
+  "aberta": 192000,
+  "em_andamento": 12478,
+  "cancelada": 7940,
+  "em_aprovacao": 1
+ },
+ "decisoes_limpeza": [
+  {
+   "etapa": "Finalizada sem data de finalização",
+   "linhas_afetadas": 4596,
+   "decisao": "mantido; fora do tempo de atendimento"
+  },
+  {
+   "etapa": "Coordenada ausente ou fora do município",
+   "linhas_afetadas": 567165,
+   "decisao": "coordenada anulada; registro mantido (flag_coord_valida=0)"
+  },
+  {
+   "etapa": "Número predial inválido (não numérico ou > 25.000)",
+   "linhas_afetadas": 912,
+   "decisao": "número anulado"
+  },
+  {
+   "etapa": "Subprefeitura com nome antigo (Perus; Casa Verde-Cachoeirinha)",
+   "linhas_afetadas": 5280,
+   "decisao": "unificada no nome atual (Perus-Anhanguera; Casa Verde-Limão-Cachoeirinha)"
+  },
+  {
+   "etapa": "Prefeitura operacional que não é território (órgão ou \"não encontrada\")",
+   "linhas_afetadas": 4266,
+   "decisao": "anulada; contagem por valor em qualidade_prefeituras_invalidas.csv"
+  },
+  {
+   "etapa": "Duplicata provável (mesmo serviço, dia e ponto)",
+   "linhas_afetadas": 110053,
+   "decisao": "mantida na base limpa com flag; excluída das métricas de SLA"
+  }
+ ],
+ "sla_geral": {
+  "finalizados": 247409,
+  "pct_no_prazo": 75.5,
+  "mediana_dias": 2.0,
+  "abertos_na_corte": 70073,
+  "abertos_atrasados_na_corte": 64696,
+  "backlog_mais_100_dias": 26742
+ },
+ "outliers_tempo": 15880,
+ "com_repeticao_pct": 4.7,
+ "max_repeticoes": 73,
+ "tempo_por_servico": [
+  {
+   "servico": "Limpeza de bueiro",
+   "finalizados": 16159,
+   "media": 4.9,
+   "mediana": 1.0,
+   "desvio_padrao": 8.2,
+   "p90": 18.0,
+   "sla_dias": 7,
+   "pct_no_prazo": 80.2,
+   "pct_abertos": 8.5
+  },
+  {
+   "servico": "Entulho e descarte irregular",
+   "finalizados": 112355,
+   "media": 2.0,
+   "mediana": 1.0,
+   "desvio_padrao": 4.1,
+   "p90": 4.0,
+   "sla_dias": 5,
+   "pct_no_prazo": 94.9,
+   "pct_abertos": 2.4
+  },
+  {
+   "servico": "Buraco na via",
+   "finalizados": 56625,
+   "media": 14.7,
+   "mediana": 7.0,
+   "desvio_padrao": 20.3,
+   "p90": 41.0,
+   "sla_dias": 7,
+   "pct_no_prazo": 50.7,
+   "pct_abertos": 27.6
+  },
+  {
+   "servico": "Poda ou remoção de árvore",
+   "finalizados": 42709,
+   "media": 27.4,
+   "mediana": 17.0,
+   "desvio_padrao": 29.6,
+   "p90": 68.0,
+   "sla_dias": 30,
+   "pct_no_prazo": 68.8,
+   "pct_abertos": 20.7
+  },
+  {
+   "servico": "Guias e sarjetas",
+   "finalizados": 12005,
+   "media": 34.8,
+   "mediana": 21.0,
+   "desvio_padrao": 37.6,
+   "p90": 83.0,
+   "sla_dias": 20,
+   "pct_no_prazo": 49.7,
+   "pct_abertos": 48.4
+  },
+  {
+   "servico": "Veículo abandonado",
+   "finalizados": 7556,
+   "media": 46.4,
+   "mediana": 36.0,
+   "desvio_padrao": 37.3,
+   "p90": 99.0,
+   "sla_dias": 30,
+   "pct_no_prazo": 41.5,
+   "pct_abertos": 74.3
+  }
+ ],
+ "duplicatas_por_servico": [
+  {
+   "servico": "Veículo abandonado",
+   "chamados": 34971,
+   "duplicatas": 4958,
+   "pct_duplicatas": 14.2
+  },
+  {
+   "servico": "Buraco na via",
+   "chamados": 83902,
+   "duplicatas": 5300,
+   "pct_duplicatas": 6.3
+  },
+  {
+   "servico": "Guias e sarjetas",
+   "chamados": 24736,
+   "duplicatas": 1384,
+   "pct_duplicatas": 5.6
+  },
+  {
+   "servico": "Entulho e descarte irregular",
+   "chamados": 121808,
+   "duplicatas": 6212,
+   "pct_duplicatas": 5.1
+  },
+  {
+   "servico": "Limpeza de bueiro",
+   "chamados": 18529,
+   "duplicatas": 815,
+   "pct_duplicatas": 4.4
+  },
+  {
+   "servico": "Poda ou remoção de árvore",
+   "chamados": 56170,
+   "duplicatas": 2173,
+   "pct_duplicatas": 3.9
+  }
+ ],
+ "prazo_prefeitura": {
+  "melhor": "Jabaquara",
+  "melhor_pct": 86.7,
+  "pior": "Vila Mariana",
+  "pior_pct": 60.4
+ },
+ "fim_de_semana_pct": 15.6,
+ "canais_pct": {
+  "PORTAL": 48.7,
+  "CRM": 32.0,
+  "MOBILE": 12.8,
+  "INTEGRACAO": 3.3,
+  "CHATBOT": 3.1,
+  "RESOLUCAO": 0.0
+ },
+ "top_prefeituras": {
+  "Sé": 98154,
+  "Mooca": 68747,
+  "Butantã": 44790,
+  "Itaquera": 40446,
+  "Capela do Socorro": 38988
+ }
+}

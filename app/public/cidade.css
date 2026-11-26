@@ -410,6 +410,31 @@ button:disabled { cursor: progress; opacity: .7; transform: none; }
 .dados-demo { margin-top: var(--e7); display: grid; gap: var(--e3); }
 .dados-demo h2, .dados-demo p { margin: 0; }
 
+/* ---------- Análise de dados (Fase 4) ---------- */
+.botoes { display: flex; flex-wrap: wrap; gap: var(--e3); margin-top: var(--e5); }
+.camadas { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--e4); margin: 0 0 var(--e7); padding: 0; list-style: none; counter-reset: camada; }
+.camada { position: relative; display: grid; gap: var(--e1); padding: var(--e5); border-radius: var(--raio-cartao); background: var(--sky-soft); }
+.camada strong { font-size: 32px; line-height: 40px; color: var(--ink); }
+.camada-nome { font-weight: 700; color: var(--sky-deep); }
+.camada:nth-child(2) { background: var(--surface-sunken); }
+.camada:nth-child(2) .camada-nome { color: var(--ink-muted); }
+.camada:nth-child(3) { background: var(--sun-soft); }
+.camada:nth-child(3) .camada-nome { color: #92400E; }
+.etapa-analise > h2 { display: flex; align-items: center; gap: var(--e3); }
+.etapa-analise > p { max-width: 52rem; }
+.etapa-analise .resumo, .etapa-analise .kpis, .etapa-analise .tabela-rolagem { margin-top: var(--e5); }
+.atributos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--e4); margin: var(--e5) 0 0; }
+.atributos .cartao { display: grid; gap: var(--e2); }
+.atributos dt { font-weight: 500; color: var(--sky-deep); }
+.atributos dd { margin: 0; }
+.subtitulo-analise { margin-top: var(--e7); }
+.figura-analise { margin: var(--e5) 0 0; display: grid; gap: var(--e4); }
+.figura-analise figcaption h3 { margin-bottom: var(--e2); }
+.figura-analise figcaption p { margin: 0; max-width: 52rem; color: var(--ink-muted); }
+.figura-analise img { display: block; width: 100%; height: auto; border-radius: var(--raio-campo); border: 1px solid var(--outline); background: var(--surface-elevated); }
+.conclusoes { grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); counter-reset: conclusao; }
+.conclusoes li::before { counter-increment: conclusao; content: counter(conclusao); display: inline-grid; place-items: center; flex: none; width: 40px; height: 40px; border-radius: var(--raio-pilula); background: var(--leaf-soft); color: var(--leaf-ink); font-family: var(--fonte-display); font-weight: 700; }
+
 /* ---------- Rodapé ---------- */
 .rodape { border-top: 1px solid var(--outline); background: var(--surface); color: var(--ink-muted); font-size: 16px; padding: var(--e5) 0; }
 

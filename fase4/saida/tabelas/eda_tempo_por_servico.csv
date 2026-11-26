@@ -1,0 +1,7 @@
+servico_app,servico,finalizados,media,media_winsorizada_p99,mediana,desvio_padrao,p90,p99,maximo,outliers_tukey,sla_dias,pct_no_prazo,abertos_na_corte,pct_abertos,backlog_mais_100_dias
+bueiro,Limpeza de bueiro,16159,4.9,4.8,1.0,8.2,18.0,30.0,135.0,2338,7,80.2,1505,8.5,704
+residuos,Entulho e descarte irregular,112355,2.0,1.9,1.0,4.1,4.0,20.0,145.0,5742,5,94.9,2754,2.4,843
+via,Buraco na via,56625,14.7,14.4,7.0,20.3,41.0,89.0,216.0,4653,7,50.7,21547,27.6,9016
+arvore,Poda ou remoção de árvore,42709,27.4,27.2,17.0,29.6,68.0,137.0,216.0,2220,30,68.8,11159,20.7,3703
+calcada,Guias e sarjetas,12005,34.8,34.6,21.0,37.6,83.0,172.0,215.0,579,20,49.7,11270,48.4,4598
+veiculo,Veículo abandonado,7556,46.4,46.2,36.0,37.3,99.0,173.0,213.0,348,30,41.5,21838,74.3,7878

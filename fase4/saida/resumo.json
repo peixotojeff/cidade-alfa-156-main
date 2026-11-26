@@ -1,0 +1,94 @@
+{
+  "linhas_brutas": 1525907,
+  "linhas_limpas": 1525907,
+  "linhas_base_sla": 317482,
+  "qualidade": {
+    "linhas": 1525907,
+    "sem_data_abertura": 0,
+    "finalizacao_antes_da_abertura": 0,
+    "finalizada_sem_data_finalizacao": 4596,
+    "aberta_com_data_finalizacao": 0,
+    "status_vazio_ou_desconhecido": 0,
+    "sem_coordenadas": 564810,
+    "coordenadas_fora_do_municipio": 2355,
+    "duplicatas_exatas_todas_colunas": 481162,
+    "status": {
+      "finalizada": 1313488,
+      "aberta": 192000,
+      "em_andamento": 12478,
+      "cancelada": 7940,
+      "em_aprovacao": 1
+    }
+  },
+  "decisoes_limpeza": [
+    {
+      "etapa": "Data de abertura ausente",
+      "linhas_afetadas": 0,
+      "decisao": "descartado (sem abertura não há como medir prazo)"
+    },
+    {
+      "etapa": "Status vazio ou desconhecido",
+      "linhas_afetadas": 0,
+      "decisao": "mantido como \"outro\"; fora das métricas de SLA"
+    },
+    {
+      "etapa": "Finalização antes da abertura",
+      "linhas_afetadas": 0,
+      "decisao": "data de finalização anulada"
+    },
+    {
+      "etapa": "Finalizada sem data de finalização",
+      "linhas_afetadas": 4596,
+      "decisao": "mantido; fora do tempo de atendimento"
+    },
+    {
+      "etapa": "Coordenada ausente ou fora do município",
+      "linhas_afetadas": 567165,
+      "decisao": "coordenada anulada; registro mantido (flag_coord_valida=0)"
+    },
+    {
+      "etapa": "Número predial inválido (não numérico ou > 25.000)",
+      "linhas_afetadas": 912,
+      "decisao": "número anulado"
+    },
+    {
+      "etapa": "Subprefeitura com nome antigo (Perus; Casa Verde-Cachoeirinha)",
+      "linhas_afetadas": 5280,
+      "decisao": "unificada no nome atual (Perus-Anhanguera; Casa Verde-Limão-Cachoeirinha)"
+    },
+    {
+      "etapa": "Prefeitura operacional que não é território (órgão ou \"não encontrada\")",
+      "linhas_afetadas": 4266,
+      "decisao": "anulada; contagem por valor em qualidade_prefeituras_invalidas.csv"
+    },
+    {
+      "etapa": "Duplicata provável (mesmo serviço, dia e ponto)",
+      "linhas_afetadas": 110053,
+      "decisao": "mantida na base limpa com flag; excluída das métricas de SLA"
+    }
+  ],
+  "sla_geral": {
+    "finalizados": 247409,
+    "pct_no_prazo": 75.5,
+    "mediana_dias": 2.0,
+    "abertos_na_corte": 70073,
+    "abertos_atrasados_na_corte": 64696,
+    "backlog_mais_100_dias": 26742
+  },
+  "fim_de_semana_pct": 15.6,
+  "canais_pct": {
+    "PORTAL": 48.7,
+    "CRM": 32.0,
+    "MOBILE": 12.8,
+    "INTEGRACAO": 3.3,
+    "CHATBOT": 3.1,
+    "RESOLUCAO": 0.0
+  },
+  "top_prefeituras": {
+    "Sé": 98154,
+    "Mooca": 68747,
+    "Butantã": 44790,
+    "Itaquera": 40446,
+    "Capela do Socorro": 38988
+  }
+}

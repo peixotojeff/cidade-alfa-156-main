@@ -10,3 +10,6 @@
 .env*
 __pycache__/
 *.pyc
+/fase4/.venv/
+/fase4/saida/dados/
+/fase4/_exec/

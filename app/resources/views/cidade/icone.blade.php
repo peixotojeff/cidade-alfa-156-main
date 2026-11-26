@@ -22,6 +22,8 @@
         'rosto-feliz' => '<circle cx="12" cy="12" r="9"/><path d="M7.5 13.5s1.5 3 4.5 3 4.5-3 4.5-3"/><path d="M9 9.5h.01M15 9.5h.01"/>',
         'rosto-ok' => '<circle cx="12" cy="12" r="9"/><path d="M9 15c.8.6 1.8 1 3 1s2.2-.4 3-1"/><path d="M9 9.5h.01M15 9.5h.01"/>',
         'rosto-triste' => '<circle cx="12" cy="12" r="9"/><path d="M8.5 16.5s1.3-2 3.5-2 3.5 2 3.5 2"/><path d="M9 9.5h.01M15 9.5h.01"/>',
+        'camadas' => '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 17.5l9 4.5 9-4.5"/>',
+        'codigo' => '<path d="M8 8l-4 4 4 4"/><path d="M16 8l4 4-4 4"/><path d="M13.5 5l-3 14"/>',
         'seta' => '<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',
         'mira' => '<circle cx="12" cy="12" r="7"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="1.5"/>',
     ];

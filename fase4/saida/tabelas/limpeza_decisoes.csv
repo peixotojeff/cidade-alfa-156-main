@@ -1,0 +1,10 @@
+etapa,linhas_afetadas,decisao
+Data de abertura ausente,0,descartado (sem abertura não há como medir prazo)
+Status vazio ou desconhecido,0,"mantido como ""outro""; fora das métricas de SLA"
+Finalização antes da abertura,0,data de finalização anulada
+Finalizada sem data de finalização,4596,mantido; fora do tempo de atendimento
+Coordenada ausente ou fora do município,567165,coordenada anulada; registro mantido (flag_coord_valida=0)
+Número predial inválido (não numérico ou > 25.000),912,número anulado
+Subprefeitura com nome antigo (Perus; Casa Verde-Cachoeirinha),5280,unificada no nome atual (Perus-Anhanguera; Casa Verde-Limão-Cachoeirinha)
+"Prefeitura operacional que não é território (órgão ou ""não encontrada"")",4266,anulada; contagem por valor em qualidade_prefeituras_invalidas.csv
+"Duplicata provável (mesmo serviço, dia e ponto)",110053,mantida na base limpa com flag; excluída das métricas de SLA

@@ -139,6 +139,16 @@ class DemandaController extends Controller
         return redirect()->route('secretaria')->with('aviso', "Amostra do SP156 carregada: {$total} chamados reais.");
     }
 
+    /** Fase 4: passo a passo da EDA (números e figuras gerados por fase4/pipeline_fase4.py). */
+    public function analise()
+    {
+        $arquivo = public_path('fase4/eda.json');
+        $eda = is_file($arquivo) ? json_decode(file_get_contents($arquivo), true) : null;
+        abort_unless(is_array($eda), 404);
+
+        return view('cidade.analise', ['eda' => $eda, 'notebook' => config('cidade.notebook_eda')]);
+    }
+
     public function indicadores()
     {
         return view('cidade.indicadores', ['indicadores' => Indicadores::calcular()]);
